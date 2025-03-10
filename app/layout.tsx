@@ -7,7 +7,7 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
-  title: "APC Finance IA",
+  title: "OrganicReach",
   description: "OrganicReach",
   icons: {
     icon: "/favicon.ico",
