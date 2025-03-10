@@ -3,14 +3,13 @@ import Navbar from "../_components/navbar";
 import Footer from "../_components/footer";
 
 const About = () => {
-    return ( 
+  return (
+    <>
+      <Navbar />
+      <UnderConstruction />
+      <Footer />
+    </>
+  );
+};
 
-        <>
-        < Navbar />
-        <UnderConstruction />
-        <Footer />
-        </>
-     );
-}
- 
 export default About;

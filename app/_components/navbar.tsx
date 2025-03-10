@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <nav className="flex justify-between bg-stone-50 px-8 pt-5 pb-3">
+    <nav className="flex justify-between bg-stone-50 px-8 pt-5 pb-3 font-bold">
       {/* ESQUERDA */}
       <div >
         <Image src="/logo.png" width={150} height={90} alt={"Logo APCNet"} />

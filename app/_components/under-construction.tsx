@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { useEffect } from "react";
 import gsap from "gsap";
@@ -35,8 +35,7 @@ const UnderConstruction = () => {
       </p>
       <h1 className="mt-8 text-3xl font-bold pb-3">Page Under Construction</h1>
       <p className="text-lime-800">
-      Page Under Construction
-      We are working to bring you something amazing!!!
+        Page Under Construction We are working to bring you something amazing!!!
       </p>
     </div>
   );
