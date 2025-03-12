@@ -2,16 +2,9 @@
 
 import Image from "next/image";
 import { Facebook, Instagram } from "lucide-react";
-import { useState } from "react";
 import DashboardSummary from "./dashboard-summary";
 
 const Content = () => {
-  const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
-
-  const toggleFaq = (index: number) => {
-    setExpandedFaq(expandedFaq === index ? null : index);
-  };
-
   return (
     <div className="container mx-auto px-4 py-16">
       <h1 className="text-6xl font-serif mb-4">OrganicReach</h1>
