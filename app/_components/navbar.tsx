@@ -19,7 +19,7 @@ const Navbar = () => {
             src="/logo.png"
             width={150}
             height={90}
-            alt="Logo APCNet"
+            alt="Organic Reach Rewards"
             className="cursor-pointer"
           />
         </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
           src="/logo.png"
           width={150}
           height={90}
-          alt="Logo APCNet"
+          alt="Organic Reach Rewards"
           className="hidden md:block"
         />
       </div>
@@ -54,22 +54,6 @@ const Navbar = () => {
             } block md:inline-block py-2 px-4`}
           >
             Home
-          </Link>
-          <Link
-            href="/about"
-            className={`${
-              pathname == "/about" ? "text-lime-700" : "text-gray-500"
-            } block md:inline-block py-2 px-4`}
-          >
-            About
-          </Link>
-          <Link
-            href="/contact"
-            className={`${
-              pathname == "/contact" ? "text-lime-700" : "text-gray-500"
-            } block md:inline-block py-2 px-4`}
-          >
-            Contact Us
           </Link>
         </div>
 

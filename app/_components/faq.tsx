@@ -3,9 +3,9 @@ import { useState } from "react";
 
 const faqItems = [
   {
-    question: "What is OrganicReach?",
+    question: "What is Organic Reach Rewards?",
     answer:
-      "OrganicReach is a micro SaaS that helps businesses grow naturally by rewarding customers for social media engagement.",
+      "Organic Reach Rewards is a micro SaaS that helps businesses grow naturally by rewarding customers for social media engagement.",
   },
   {
     question: "How does it work?",
@@ -15,17 +15,17 @@ const faqItems = [
   {
     question: "Why is this better than traditional loyalty programs?",
     answer:
-      "Unlike physical cards or apps, OrganicReach integrates seamlessly with social media, requiring no extra downloads or manual tracking.",
+      "Unlike physical cards or apps, Organic Reach Rewards integrates seamlessly with social media, requiring no extra downloads or manual tracking.",
   },
   {
-    question: "How much does OrganicReach cost?",
+    question: "How much does Organic Reach Rewards cost?",
     answer:
-      "OrganicReach offers a premium plan at $10/month, including advanced features and business customization options.",
+      "Organic Reach Rewards offers a premium plan at $10/month, including advanced features and business customization options.",
   },
   {
-    question: "Which businesses can use OrganicReach?",
+    question: "Which businesses can use Organic Reach Rewards?",
     answer:
-      "Any business that benefits from customer engagement, such as cafes, gyms, salons, and restaurants, can integrate OrganicReach to grow organically.",
+      "Any business that benefits from customer engagement, such as cafes, gyms, salons, and restaurants, can integrate Organic Reach Rewards to grow organically.",
   },
 ];
 
@@ -54,7 +54,7 @@ const FaqItems = () => {
             >
               {faq.question}
               <div
-                className={`flex items-center justify-center h-8 w-8 rounded-full bg-yellow-300 transition-transform duration-300 ${
+                className={`flex items-center justify-center h-8 w-8 rounded-full bg-gray-500 transition-transform duration-300 ${
                   expandedFaq === index ? "rotate-45" : "rotate-0"
                 }`}
               >
@@ -74,7 +74,9 @@ const FaqItems = () => {
             </button>
             <div
               className={`mt-2 text-gray-600 transition-all duration-300 ${
-                expandedFaq === index ? "max-h-40 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+                expandedFaq === index
+                  ? "max-h-40 opacity-100"
+                  : "max-h-0 opacity-0 overflow-hidden"
               }`}
             >
               {faq.answer}

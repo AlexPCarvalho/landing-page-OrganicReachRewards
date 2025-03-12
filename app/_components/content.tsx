@@ -7,16 +7,17 @@ import DashboardSummary from "./dashboard-summary";
 const Content = () => {
   return (
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-4xl sm:text-6xl font-serif mb-6 text-center sm:text-left">
-        OrganicReach
+      <h1 className="text-5xl sm:text-8xl font-serif mb-6 text-center sm:text-left">
+        Organic Reach <br /> Rewards
       </h1>
 
       <div className="mt-16 flex justify-end pb-10">
         <div className="flex-col">
           <div className="flex items-center mb-4">
             <div>
-              <p className="font-medium">
-                OrganicReach connects brands and customers through social media.
+              <p className="text-2xl">
+                Organic Reach Rewards connects brands and customers through
+                social media.
               </p>
               <p className="text-gray-600">
                 By tagging the location in Instagram or Facebook posts,
@@ -42,8 +43,10 @@ const Content = () => {
               >
                 <Facebook />
               </a>
-              </div>
-            <div className="ml-4 "><ArrowDownLeft /></div>
+            </div>
+            <div className="ml-4 ">
+              <ArrowDownLeft />
+            </div>
           </div>
         </div>
       </div>
