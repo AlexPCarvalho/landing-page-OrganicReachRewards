@@ -37,12 +37,12 @@ const FaqItems = () => {
   };
 
   return (
-    <section className="py-16 rounded-3xl px-6 md:px-12 bg-gray-100">
-      <h2 className="text-3xl font-bold mb-8 text-center">
-        Frequently asked questions
+    <section className="py-12 px-4 sm:px-6 md:px-12 rounded-3xl bg-gray-100">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center">
+        Frequently Asked Questions
       </h2>
-      <p className="text-center mb-12 max-w-2xl mx-auto text-gray-600">
-       We have given answars to the most popular questions below
+      <p className="text-center mb-8 max-w-xl mx-auto text-gray-600">
+        We have answered the most popular questions below.
       </p>
 
       <div className="max-w-3xl mx-auto divide-y">
@@ -50,12 +50,12 @@ const FaqItems = () => {
           <div key={index} className="py-4">
             <button
               onClick={() => toggleFaq(index)}
-              className="flex justify-between items-center w-full text-left font-medium text-lg"
+              className="flex justify-between items-center w-full text-left font-medium text-base sm:text-lg py-3"
             >
               {faq.question}
               <div
-                className={`flex items-center justify-center h-8 w-8 rounded-full bg-yellow-300 transition-transform ${
-                  expandedFaq === index ? "rotate-45" : ""
+                className={`flex items-center justify-center h-8 w-8 rounded-full bg-yellow-300 transition-transform duration-300 ${
+                  expandedFaq === index ? "rotate-45" : "rotate-0"
                 }`}
               >
                 <svg
@@ -72,9 +72,13 @@ const FaqItems = () => {
                 </svg>
               </div>
             </button>
-            {expandedFaq === index && (
-              <div className="mt-2 text-gray-600">{faq.answer}</div>
-            )}
+            <div
+              className={`mt-2 text-gray-600 transition-all duration-300 ${
+                expandedFaq === index ? "max-h-40 opacity-100" : "max-h-0 opacity-0 overflow-hidden"
+              }`}
+            >
+              {faq.answer}
+            </div>
           </div>
         ))}
       </div>
