@@ -3,7 +3,7 @@ import { Instagram, Facebook, Send } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black">
+    <footer className="bg-stone-950">
       <div className="flex flex-col sm:flex-row justify-between border-b border-solid border-stone-700 font-bold p-4 sm:p-8 text-center sm:text-left">
         <div className="text-lime-900 text-base flex flex-col items-center sm:items-start mb-4 sm:mb-0">
           <Image src="/logo.png" width={120} height={70} alt="Logo APCNet" />
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center p-4">
+      <div className="text-center text-white p-4">
         <h1>© 2025 OrganicReach. All rights reserved.</h1>
       </div>
     </footer>

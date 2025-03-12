@@ -54,13 +54,27 @@ const Content = () => {
       <DashboardSummary />
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 sm:px-6 md:px-12 py-12">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-center md:text-left">
-          Selling more to loyal customers costs less than attracting new buyers.
-        </h2>
-        <p className="text-gray-600 text-center md:text-left">
-          A strong base of recurring customers is a clear sign that your
-          products or services are winning them over.
-        </p>
+        <div className="flex flex-col justify-center text-center md:text-left order-2 md:order-1">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+            Selling more to loyal customers costs less than attracting new
+            buyers.
+          </h2>
+          <p className="text-gray-600">
+            A strong community of returning customers is a testament to the
+            quality of your products or services. Recognizing their loyalty not
+            only deepens their connection with your brand but also transforms
+            them into dedicated supporters.
+          </p>
+        </div>
+        <div className="flex justify-center order-1 md:order-2">
+          <Image
+            src="/selling.jpg"
+            width={400}
+            height={400}
+            alt="Selling"
+            className="rounded-3xl w-full max-w-[400px] h-auto"
+          />
+        </div>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 rounded-3xl px-4 sm:px-6 md:px-12 py-12 bg-gray-100">
@@ -78,8 +92,10 @@ const Content = () => {
             Loyalty strengthens business credibility.
           </h2>
           <p className="text-gray-600">
-            Having a base of returning customers shows that your brand is
-            trusted and valued.
+            A consistent flow of repeat customers is clear evidence that your
+            brand inspires trust and delivers real value. Fostering these
+            lasting relationships ensures sustainable growth and long-term
+            success.
           </p>
         </div>
       </section>
@@ -90,8 +106,10 @@ const Content = () => {
             Engagement drives real results.
           </h2>
           <p className="text-gray-600">
-            Loyal customers not only return but also become promoters of your
-            brand, sharing positive reviews and boosting your reach.
+            Dedicated customers do more than just return, they actively share
+            their experiences, amplify your brand’s visibility, and attract new
+            buyers through authentic recommendations, reinforcing your
+            credibility.
           </p>
         </div>
         <div className="flex justify-center order-1 md:order-2">

@@ -54,7 +54,7 @@ const FaqItems = () => {
             >
               {faq.question}
               <div
-                className={`flex items-center justify-center h-8 w-8 rounded-full bg-gray-500 transition-transform duration-300 ${
+                className={`flex items-center justify-center h-8 w-8 rounded-full bg-gray-200 transition-transform duration-300 ${
                   expandedFaq === index ? "rotate-45" : "rotate-0"
                 }`}
               >
