@@ -3,7 +3,7 @@ import { Instagram, Facebook, Send } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-stone-50 ">
+    <footer className="bg-gray-100">
       <div className="flex justify-between border-b border-solid border-stone-700 font-bold">
         <div className="px-8 pt-5 pb-4 text-lime-900 text-1xl">
           <>

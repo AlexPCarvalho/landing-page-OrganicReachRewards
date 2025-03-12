@@ -1,4 +1,6 @@
 import Content from "../_components/content";
+
+import FaqItems from "../_components/faq";
 import Footer from "../_components/footer";
 import Navbar from "../_components/navbar";
 
@@ -6,7 +8,10 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <Content />
+      <div className="container mx-auto px-4 py-16">
+        <Content />
+      <FaqItems />
+      </div>
       <Footer />
     </>
   );
