@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
 
         {/* BOTÕES SIGN IN / SIGN UP (No mobile dentro do menu, no desktop à direita) */}
-        <div className="flex flex-col md:hidden items-center gap-4 mt-4">
+        <div className="flex flex-col md:hidden items-center  gap-4 mt-4">
           <Link href="/signIn" className="text-lime-700 font-bold">
             Sign In
           </Link>

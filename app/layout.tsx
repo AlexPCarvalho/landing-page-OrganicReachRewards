@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Mulish } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 
-const mulish = Mulish({
-  subsets: ["latin-ext"],
+const libreBaskerville = Libre_Baskerville({
+  subsets: ["latin"],
+  weight: ["400", "700"], // Adicionando pesos normal e bold
 });
 
 export const metadata: Metadata = {
@@ -21,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${mulish.className} dark antialiased`}>{children}</body>
+      <body className={`${libreBaskerville.className} dark antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

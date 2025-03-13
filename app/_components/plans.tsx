@@ -42,15 +42,15 @@ const plans = [
 
 const Plans = () => {
   return (
-    <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-24">
-      <h2 className="text-center text-3xl font-bold text-gray-900">
+    <div className=" py-16 px-6 md:px-12 lg:px-24">
+      <h2 className="text-center text-3xl font-bold text-lime-900">
         Explore Plans
       </h2>
-      <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="mt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {plans.map((plan, index) => (
           <div
             key={index}
-            className=" shadow-lg rounded-lg p-6 flex flex-col justify-between"
+            className=" bg-gray-100 shadow-lg rounded-lg p-6 flex flex-col justify-between"
           >
             <div>
               <h3 className="text-xl font-bold text-gray-900">{plan.name}</h3>
@@ -67,7 +67,7 @@ const Plans = () => {
               {plan.contactLink ? (
                 <Link
                   href={plan.contactLink}
-                  className="text-lime-700 hover:underline"
+                  className="text-lime-900 hover:underline"
                 >
                   {plan.price}
                 </Link>

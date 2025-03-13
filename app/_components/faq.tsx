@@ -37,7 +37,7 @@ const FaqItems = () => {
   };
 
   return (
-    <section className="py-12 px-4 sm:px-6 md:px-12 rounded-3xl bg-gray-100">
+    <section className="py-12 px-4 sm:px-6 md:px-12 rounded-3xl bg-gray-100 pb-">
       <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center">
         Frequently Asked Questions
       </h2>
