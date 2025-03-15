@@ -8,8 +8,9 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "OrganicReach",
-  description: "OrganicReach",
+  title: "Organic Reach Rewards",
+  description:
+    "Organic Reach Rewards is an innovative micro SaaS that transforms customers into authentic advocates for brands and establishments. The platform encourages users to share their experiences on social media in exchange for exclusive rewards, helping businesses grow organically and authentically.",
   icons: {
     icon: "/favicon.ico",
   },
