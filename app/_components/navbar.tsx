@@ -3,11 +3,9 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
-  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -40,14 +38,11 @@ const Navbar = () => {
         {menuOpen ? <X size={28} /> : <Menu size={28} />}
       </button>
 
-      
       <div
         className={`${
           menuOpen ? "flex" : "hidden"
         } md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-stone-50 md:bg-transparent shadow-md md:shadow-none p-5 md:p-0 md:items-center md:gap-10 md:flex-1 md:justify-center`}
       >
-
-        
         <div className="flex flex-col md:hidden items-center  gap-4 mt-4">
           <Link href="/signIn" className="text-lime-700 font-bold">
             Sign In
@@ -61,7 +56,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      
       <div className="hidden md:flex items-center gap-6">
         <Link href="/signIn" className="text-lime-700 font-bold">
           Sign In
