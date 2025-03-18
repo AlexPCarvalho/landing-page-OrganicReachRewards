@@ -11,8 +11,9 @@ const plans = [
       "Up to 500 people/month",
       "Configure your own rules for rewards",
       "Access to metrics dashboard",
+      "Free per 6 months",
     ],
-    price: "Free for the first 6 months, then: $10",
+    price: "$ 10",
   },
   {
     name: "Pro",
@@ -24,7 +25,7 @@ const plans = [
       "Custom metrics",
       "Tailored reports in your inbox",
     ],
-    price: "Free for the first 6 months, then: $30",
+    price: "$ 30",
   },
   {
     name: "Enterprise",
@@ -36,26 +37,26 @@ const plans = [
       "Connects with API to generate rewards in your loyalty program",
     ],
     price: "Contact us",
-    contactLink: "/contact", // Adicionando link para a página de contato
+    contactLink: "/contact", 
   },
 ];
 
 const Plans = () => {
   return (
-    <div className=" py-16 px-6 md:px-12 lg:px-24">
-      <h2 className="text-center text-3xl font-bold text-lime-900">
+    <div className=" py-16 mt-5 px-6 md:px-12 lg:px-24">
+      <h2 className="text-center text-4xl font-bold text-lime-900">
         Explore Plans
       </h2>
-      <div className="mt-8  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="mt-15 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-20">
         {plans.map((plan, index) => (
           <div
             key={index}
             className=" bg-gray-100 shadow-lg rounded-lg p-6 flex flex-col justify-between"
           >
             <div>
-              <h3 className="text-xl font-bold text-gray-900">{plan.name}</h3>
-              <p className=" mt-2 font-semibold">{plan.description}</p>
-              <ul className="mt-4 space-y-2 text-gray-700">
+              <h3 className="text-2xl font-bold text-gray-900">{plan.name}</h3>
+              <p className=" mt-5 font-semibold ">{plan.description}</p>
+              <ul className="mt-10 space-y-2 text-gray-700">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start">
                     <span className="text-lime-600 mr-2">✔</span> {feature}
@@ -63,7 +64,7 @@ const Plans = () => {
                 ))}
               </ul>
             </div>
-            <div className="mt-6 text-gray-900 font-bold">
+            <div className="mt-50 text-gray-900 font-bold">
               {plan.contactLink ? (
                 <Link
                   href={plan.contactLink}
