@@ -2,7 +2,7 @@ import Chart from "./chart";
 
 const DashboardSummary = () => {
   return (
-    <div className="bg-gray-100 flex flex-col md:flex-row p-4 rounded-3xl h-auto">
+    <div className="bg-gray-100 flex flex-col md:flex-row  rounded-3xl h-auto">
       <div className="flex-1 grid sm:grid-cols-1 md:grid-cols-2 gap-6 p-4">
         <div>
           <div className="flex flex-col md:flex-row justify-between gap-4">

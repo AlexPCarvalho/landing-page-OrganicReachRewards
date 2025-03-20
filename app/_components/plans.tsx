@@ -8,8 +8,8 @@ const plans = [
     name: "Starter",
     description: "For small businesses that want to grow organically",
     features: [
-      "Up to 500 people/month",
-      "Configure your own rules for rewards",
+      "Up to 300 tags/month",
+      "Configure your own campaigns",
       "Access to metrics dashboard",
       "Free per 6 months",
     ],
@@ -20,8 +20,9 @@ const plans = [
     description: "For medium/large businesses that want to grow organically",
     features: [
       "Everything in Starter, plus",
-      "Up to 10,000 people/month",
+      "Up to 1,000 tags/month",
       "Anti-fraud system",
+      "Multiple users",
       "Custom metrics",
       "Tailored reports in your inbox",
     ],
@@ -32,8 +33,9 @@ const plans = [
     description: "For businesses that rely on organic",
     features: [
       "Everything in Pro",
-      "Unlimited people",
+      "Unlimited tags",
       "Real-time auth system",
+      "Webhooks and API access",
       "Connects with API to generate rewards in your loyalty program",
     ],
     price: "Contact us",
@@ -43,7 +45,7 @@ const plans = [
 
 const Plans = () => {
   return (
-    <div className=" py-16 mt-5 px-6 md:px-12 lg:px-24">
+    <div className=" py-16 mt-5 px-6 md:px-12 lg:px-1">
       <h2 className="text-center text-4xl font-bold text-lime-900">
         Explore Plans
       </h2>
@@ -54,9 +56,9 @@ const Plans = () => {
             className=" bg-gray-100 shadow-lg rounded-lg p-6 flex flex-col justify-between"
           >
             <div>
-              <h3 className="text-2xl font-bold text-gray-900">{plan.name}</h3>
-              <p className=" mt-5 font-semibold ">{plan.description}</p>
-              <ul className="mt-10 space-y-2 text-gray-700">
+              <h3 className="text-3xl font-bold text-gray-900">{plan.name}</h3>
+              <p className=" mt-5 text-2xl font-semibold ">{plan.description}</p>
+              <ul className="mt-10 space-y-2 text-gray-700 text-xl">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start">
                     <span className="text-lime-600 mr-2">✔</span> {feature}
@@ -64,7 +66,7 @@ const Plans = () => {
                 ))}
               </ul>
             </div>
-            <div className="mt-50 text-gray-900 font-bold">
+            <div className="mt-50 text-gray-900 text-2xl font-bold">
               {plan.contactLink ? (
                 <Link
                   href={plan.contactLink}

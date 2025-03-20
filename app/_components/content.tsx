@@ -20,8 +20,7 @@ const Content = () => {
                 social media.
               </p>
               <p className="text-gray-600 text-xl indent-4">
-                By tagging the location in Instagram or Facebook posts,
-                customers earn points and unlock rewards.
+              Boost loyalty and reduce barriers—low friction and maximum reach for your brand.
               </p>
             </div>
           </div>

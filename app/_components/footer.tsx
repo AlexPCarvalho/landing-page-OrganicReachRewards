@@ -3,8 +3,9 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-stone-900 text-white mx-auto ">
-      <div className="flex flex-col sm:flex-row justify-between border-b sm:px-10 md:px-40 border-solid border-stone-700  p-4 sm:p-8 text-center sm:text-left">
+    <footer className="bg-stone-900  text-white  ">
+      
+      <div className="flex flex-col container mx-auto px-4 py-16 sm:flex-row justify-between     p-4 sm:p-8 text-center sm:text-left">
         <div className=" text-base flex flex-col items-center sm:items-start mb-4 sm:mb-0">
           <Image src="/logoW.png" width={120} height={70} alt="Logo Organic Reach Rewards White" />
           <h1 className="mt-2 font-bold max-w-md">
@@ -13,7 +14,7 @@ const Footer = () => {
           </h1>
         </div>
 
-        <div className="flex  flex-col justify-center sm:justify-end items-center pr-15 gap-4">
+        <div className="flex flex-col justify-center sm:justify-center items-center  gap-4">
           <Link href="/">Careers</Link>
           <Link href="/">Terms of Service</Link>
           <Link href="/">Privacy Policy</Link>
@@ -22,7 +23,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="text-center  p-4">
+      <div className="text-center border-solid border-stone-700 border-t p-4">
         <h1>© 2025 OrganicReach. All rights reserved.</h1>
       </div>
     </footer>
@@ -30,3 +31,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

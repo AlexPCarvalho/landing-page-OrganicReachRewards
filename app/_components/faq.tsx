@@ -5,27 +5,37 @@ const faqItems = [
   {
     question: "What is Organic Reach Rewards?",
     answer:
-      "Organic Reach Rewards is a micro SaaS that helps businesses grow naturally by rewarding customers for social media engagement.",
+      "Organic Reach Rewards is a platform that empowers businesses to grow naturally by rewarding customers for social media engagement. It tracks Instagram posts, Stories, Reels, and comment mentions to offer valuable insights without requiring extra apps or physical punch cards.",
   },
   {
     question: "How does it work?",
     answer:
-      "Customers earn points by posting Instagram Stories, Reels, or Posts tagging the business location. Once they reach the required amount, they receive rewards.",
+      "Customers tag your business on Instagram, automatically earning points that count toward a threshold you define; once they reach it, they unlock rewards such as discounts, free items, or other perks you choose.",
   },
   {
-    question: "Why is this better than traditional loyalty programs?",
+    question: "Do customers need to download a separate app?",
     answer:
-      "Unlike physical cards or apps, Organic Reach Rewards integrates seamlessly with social media, requiring no extra downloads or manual tracking.",
+      "No. They simply use Instagram—which they already have—and receive digital “stamps” for each qualifying post or mention, eliminating the need for additional software or physical cards.",
   },
   {
-    question: "How much does Organic Reach Rewards cost?",
+    question: "Which businesses can use it?",
     answer:
-      "Organic Reach Rewards offers a premium plan at $10/month, including advanced features and business customization options.",
+      "Any business looking to boost engagement—cafés, gyms, salons, restaurants, and more—can implement Organic Reach Rewards to foster loyalty and encourage customers to share their experiences on social media.",
   },
   {
-    question: "Which businesses can use Organic Reach Rewards?",
+    question: "What kind of rewards can I offer?",
     answer:
-      "Any business that benefits from customer engagement, such as cafes, gyms, salons, and restaurants, can integrate Organic Reach Rewards to grow organically.",
+      "You have full control over the rewards, from discounts and freebies to exclusive offers or VIP perks; the beauty of Organic Reach Rewards is its flexibility in fitting your brand’s unique goals.",
+  },
+  {
+    question: "Is it easy to set up and manage?",
+    answer:
+      "Absolutely. Once you establish how many tags count toward a reward, our system runs in the background, automatically tracking qualified mentions and delivering real-time engagement insights for quick, informed decisions.",
+  },
+  {
+    question: "How is customer data handled?",
+    answer:
+      "We only gather the information required to confirm eligible posts, respecting user privacy with a strict data deletion policy and compliance with all relevant data protection laws.",
   },
 ];
 
