@@ -2,8 +2,8 @@ import Chart from "./chart";
 
 const DashboardSummary = () => {
   return (
-    <div className="bg-gray-100 flex flex-col md:flex-row  rounded-3xl h-auto">
-      <div className="flex-1 grid sm:grid-cols-1 md:grid-cols-2 gap-6 p-4">
+    <div className="bg-gray-100 flex container mx-auto px-4 py-16 flex-col md:flex-row p-15 rounded-3xl h-auto">
+      <div className="flex-1 justify-center grid sm:grid-cols-1 md:grid-cols-2 gap-6 p-4">
         <div>
           <div className="flex flex-col md:flex-row justify-between gap-4">
             <div className="rounded-3xl flex-1 flex items-center justify-center">
@@ -23,12 +23,12 @@ const DashboardSummary = () => {
             </div>
           </div>
 
-          <div className="items-center bg-stone-50 rounded-3xl m-2 h-auto">
+          <div className="bg-stone-50 rounded-3xl m-2 p-2 w-full overflow-hidden">
             <Chart />
           </div>
         </div>
 
-        <div className="bg-stone-50 rounded-3xl p-6 flex flex-col justify-between h-full shadow-md">
+        <div className="bg-stone-50 pt-10 rounded-3xl p-6 flex flex-col justify-between h-full shadow-md">
           <div>
             <h2 className="text-5xl font-bold text-gray-900">85%</h2>
             <p className="text-gray-500 mt-2 text-lg">

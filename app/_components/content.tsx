@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowDownLeft, Facebook, Instagram } from "lucide-react";
+import { ArrowDownLeft,  Instagram } from "lucide-react";
 import DashboardSummary from "./dashboard-summary";
 
 const Content = () => {
@@ -34,15 +34,7 @@ const Content = () => {
                 <Instagram />
               </a>
             </div>
-            <div className="w-12 h-12 rounded-full bg-blue-200 items-center flex justify-center">
-              <a
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Facebook />
-              </a>
-            </div>
+            
             <div className="ml-4 ">
               <ArrowDownLeft />
             </div>

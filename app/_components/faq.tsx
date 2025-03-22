@@ -83,13 +83,13 @@ const FaqItems = () => {
               </div>
             </button>
             <div
-              className={`mt-2 text-gray-600 text-xl transition-all duration-300 ${
+              className={`mt-2 text-gray-600 text-base leading-relaxed transition-all duration-300 ease-in-out overflow-hidden ${
                 expandedFaq === index
-                  ? "max-h-40 opacity-100"
-                  : "max-h-0 opacity-0 overflow-hidden"
+                  ? "max-h-[1000px] opacity-100"
+                  : "max-h-0 opacity-0"
               }`}
             >
-              {faq.answer}
+              <p className="pr-2">{faq.answer}</p>
             </div>
           </div>
         ))}

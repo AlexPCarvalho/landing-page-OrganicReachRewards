@@ -9,7 +9,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="flex fixed w-full text-xl items-center justify-between bg-stone-50 px-6 py-4 font-bold">
+    <nav className="flex z-10 fixed w-full text-xl items-center justify-between bg-stone-50 px-6 py-4 font-bold">
       {/* LOGO (Clicável apenas no mobile) */}
       <div>
         <Link href="/" className="block md:hidden">

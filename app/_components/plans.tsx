@@ -14,6 +14,7 @@ const plans = [
       "Free per 6 months",
     ],
     price: "$ 10",
+    contactLink: "/#",
   },
   {
     name: "Pro",
@@ -27,6 +28,7 @@ const plans = [
       "Tailored reports in your inbox",
     ],
     price: "$ 30",
+    contactLink: "/#",
   },
   {
     name: "Enterprise",
@@ -39,7 +41,7 @@ const plans = [
       "Connects with API to generate rewards in your loyalty program",
     ],
     price: "Contact us",
-    contactLink: "/contact", 
+    contactLink: "/#", 
   },
 ];
 
@@ -58,7 +60,7 @@ const Plans = () => {
             <div>
               <h3 className="text-3xl font-bold text-gray-900">{plan.name}</h3>
               <p className=" mt-5 text-2xl font-semibold ">{plan.description}</p>
-              <ul className="mt-10 space-y-2 text-gray-700 text-xl">
+              <ul className="mt-10 space-y-2 text-gray-700 text-2xl">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start">
                     <span className="text-lime-600 mr-2">✔</span> {feature}
