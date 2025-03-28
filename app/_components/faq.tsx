@@ -51,7 +51,7 @@ const FaqItems = () => {
       <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-center">
         Frequently Asked Questions
       </h2>
-      <p className="text-center text-xl mb-8 max-w-xl mx-auto text-gray-600">
+      <p className="text-center  text-2xl mb-8 max-w-xl mx-auto text-gray-600">
         We have answered the most popular questions below.
       </p>
 
@@ -60,7 +60,7 @@ const FaqItems = () => {
           <div key={index} className="py-4">
             <button
               onClick={() => toggleFaq(index)}
-              className="flex justify-between items-center w-full  text-left font-medium text-2xl  py-3"
+              className="flex justify-between items-center w-full  text-left font-semibold  text-2xl  py-3"
             >
               {faq.question}
               <div
@@ -83,13 +83,15 @@ const FaqItems = () => {
               </div>
             </button>
             <div
-              className={`mt-2 text-gray-600 text-base leading-relaxed transition-all duration-300 ease-in-out overflow-hidden ${
+              className={`mt-2 text-gray-700 text-base leading-relaxed transition-all duration-300 ease-in-out overflow-hidden ${
                 expandedFaq === index
                   ? "max-h-[1000px] opacity-100"
                   : "max-h-0 opacity-0"
               }`}
             >
-              <p className="pr-2">{faq.answer}</p>
+              <p className="pr-2 text-gray-600 font-extralight  text-2xl">
+                {faq.answer}
+              </p>
             </div>
           </div>
         ))}

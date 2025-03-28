@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const plans = [
@@ -41,13 +41,23 @@ const plans = [
       "Connects with API to generate rewards in your loyalty program",
     ],
     price: "Contact us",
-    contactLink: "/#", 
+    contactLink: "/#",
   },
 ];
 
 const Plans = () => {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+
+  const handleMouseEnter = (index: number) => {
+    setHoveredIndex(index);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null);
+  };
+
   return (
-    <div className=" py-16 mt-5 px-6 md:px-12 lg:px-1">
+    <div className="py-16 mt-5 px-6 md:px-12 lg:px-1">
       <h2 className="text-center text-4xl font-bold text-lime-900">
         Explore Plans
       </h2>
@@ -55,11 +65,19 @@ const Plans = () => {
         {plans.map((plan, index) => (
           <div
             key={index}
-            className=" bg-gray-100 shadow-lg rounded-lg p-6 flex flex-col justify-between"
+            className={`bg-gray-100 rounded-lg p-6 flex flex-col justify-between transition-transform duration-300 ${
+              hoveredIndex === index
+                ? "transform scale-105 shadow-2xl"
+                : "shadow-lg"
+            }`}
+            onMouseEnter={() => handleMouseEnter(index)}
+            onMouseLeave={handleMouseLeave}
           >
             <div>
               <h3 className="text-3xl font-bold text-gray-900">{plan.name}</h3>
-              <p className=" mt-5 text-2xl font-semibold ">{plan.description}</p>
+              <p className="mt-5 text-2xl font-bold text-gray-600">
+                {plan.description}
+              </p>
               <ul className="mt-10 space-y-2 text-gray-700 text-2xl">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start">

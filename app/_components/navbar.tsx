@@ -2,35 +2,23 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="flex z-10 fixed w-full text-xl items-center justify-between bg-stone-50 px-6 py-4 font-bold">
-      {/* LOGO (Clicável apenas no mobile) */}
       <div>
-        <Link href="/" className="block md:hidden">
-          <Image
-            src="/logoB.png"
-            width={150}
-            height={90}
-            alt="Organic Reach Rewards"
-            className="cursor-pointer"
-          />
-        </Link>
         <Image
           src="/logoB.png"
           width={150}
           height={90}
           alt="Organic Reach Rewards"
-          className="hidden md:block"
         />
       </div>
 
-      {/* BOTÃO MENU HAMBURGUER (Mobile) */}
       <button
         className="md:hidden text-lime-700"
         onClick={() => setMenuOpen(!menuOpen)}

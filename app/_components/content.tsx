@@ -6,20 +6,22 @@ import DashboardSummary from "./dashboard-summary";
 
 const Content = () => {
   return (
+    
+   
+
     <div className="container mx-auto px-4 py-16">
-      <h1 className="text-5xl sm:text-8xl font-serif mb-6 text-lime-900 text-center sm:text-left">
-        Organic Reach <br /> Rewards
-      </h1> 
+      
+      
 
       <div className="mt-16 flex justify-end pb-10">
         <div className="flex-col">
           <div className="flex items-center mb-4">
             <div>
-              <p className="text-3xl text-lime-900">
+              <p className="text-3xl font-semibold text-lime-900">
                 Organic Reach Rewards connects brands and customers through
                 social media.
               </p>
-              <p className="text-gray-600 text-xl indent-4">
+              <p className="text-gray-600 text-xl ">
               Boost loyalty and reduce barriers—low friction and maximum reach for your brand.
               </p>
             </div>
@@ -50,7 +52,7 @@ const Content = () => {
             Selling more to loyal customers costs less than attracting new
             buyers.
           </h2>
-          <p className="text-gray-600 text-xl">
+          <p className="text-gray-600 text-2xl">
             A strong community of returning customers is a testament to the
             quality of your products or services. Recognizing their loyalty not
             only deepens their connection with your brand but also transforms
@@ -82,7 +84,7 @@ const Content = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Loyalty strengthens business credibility.
           </h2>
-          <p className="text-gray-600 text-xl">
+          <p className="text-gray-600 text-2xl">
             A consistent flow of repeat customers is clear evidence that your
             brand inspires trust and delivers real value. Fostering these
             lasting relationships ensures sustainable growth and long-term
@@ -96,7 +98,7 @@ const Content = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-lime-900 mb-4">
             Engagement drives real results.
           </h2>
-          <p className="text-gray-600 text-xl">
+          <p className="text-gray-600 text-2xl">
             Dedicated customers do more than just return, they actively share
             their experiences, amplify your brand’s visibility, and attract new
             buyers through authentic recommendations, reinforcing your
@@ -114,6 +116,7 @@ const Content = () => {
         </div>
       </section>
     </div>
+    
   );
 };
 
