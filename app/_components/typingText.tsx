@@ -13,7 +13,7 @@ const TypingText: React.FC<TypingTextProps> = ({ phrases, speed = 100 }) => {
 
   useEffect(() => {
     let charIndex = 0;
-    let currentPhrase = phrases[phraseIndex];
+    const currentPhrase = phrases[phraseIndex];
     let intervalId: NodeJS.Timeout | undefined;
 
     const type = () => {
@@ -25,7 +25,7 @@ const TypingText: React.FC<TypingTextProps> = ({ phrases, speed = 100 }) => {
         setTimeout(() => {
           setPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
           setText('');
-        }, 1500); // Tempo de espera antes de mudar para a próxima frase
+        }, 1500); 
       }
     };
 
