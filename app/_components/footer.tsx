@@ -20,10 +20,10 @@ const Footer = () => {
 
         <div className="flex flex-col justify-center sm:justify-center text-xl items-center  gap-4">
           <Link href="/careers">Careers</Link>
-          <Link href="/">Terms of Service</Link>
+          <Link href="/consumer-terms">Terms of Service</Link>
           <Link href="/privacy">Privacy Policy</Link>
-          <Link href="/">Compliance</Link>
-          <Link href="/">Data Deletion Policy</Link>
+          <Link href="/compliance">Compliance</Link>
+          <Link href="/data-deletion-policy">Data Deletion Policy</Link>
         </div>
       </div>
 
