@@ -144,13 +144,7 @@ const DataDeletionPolicy = () => {
             to ensure continued compliance with applicable laws and regulations.
           </p>
 
-          <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            External Resources
-          </h2>
-          <p>
-            For additional insights into our data protection program, you may
-            visit the Privacy section of the Visma Trust Centre:
-          </p>
+          
         </section>
       </div>
     </div>
