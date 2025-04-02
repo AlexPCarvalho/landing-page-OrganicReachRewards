@@ -19,9 +19,9 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col justify-center sm:justify-center text-xl items-center  gap-4">
-          <Link href="/">Careers</Link>
+          <Link href="/careers">Careers</Link>
           <Link href="/">Terms of Service</Link>
-          <Link href="/">Privacy Policy</Link>
+          <Link href="/privacy">Privacy Policy</Link>
           <Link href="/">Compliance</Link>
           <Link href="/">Data Deletion Policy</Link>
         </div>

@@ -5,7 +5,7 @@ import Interviews from "./_components/interviews";
 import Main from "./_components/main";
 import Offer from "./_components/offer";
 import Other from "./_components/other";
-const Careers = () => {
+const Home = () => {
   return (
     <>
       <Navbar />
@@ -21,4 +21,4 @@ const Careers = () => {
   );
 };
 
-export default Careers;
+export default Home;
