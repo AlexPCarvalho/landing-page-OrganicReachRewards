@@ -8,40 +8,40 @@ const plans = [
     name: "Starter",
     description: "For small businesses that want to grow organically",
     features: [
-      "Up to 300 tags/month",
+      "Up to 300 mentions/month",
       "Configure your own campaigns",
       "Access to metrics dashboard",
       "Free per 6 months",
     ],
     price: "$ 10",
-    contactLink: "/#",
+    contactLink: "/10",
   },
   {
     name: "Pro",
     description: "For medium/large businesses that want to grow organically",
     features: [
       "Everything in Starter, plus",
-      "Up to 1,000 tags/month",
+      "Up to 1,000 mentions/month",
       "Anti-fraud system",
       "Multiple users",
       "Custom metrics",
       "Tailored reports in your inbox",
     ],
     price: "$ 30",
-    contactLink: "/#",
+    contactLink: "/30",
   },
   {
     name: "Enterprise",
     description: "For businesses that rely on organic",
     features: [
       "Everything in Pro",
-      "Unlimited tags",
+      "Unlimited mentions",
       "Real-time auth system",
       "Webhooks and API access",
       "Connects with API to generate rewards in your loyalty program",
     ],
     price: "Contact us",
-    contactLink: "/#",
+    contactLink: "/contact",
   },
 ];
 
@@ -63,9 +63,10 @@ const Plans = () => {
       </h2>
       <div className="mt-15 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-20">
         {plans.map((plan, index) => (
-          <div
+          <Link
             key={index}
-            className={`bg-gray-100 rounded-lg p-6 flex flex-col justify-between transition-transform duration-300 ${
+            href={plan.contactLink}
+            className={` bg-gray-100 rounded-lg p-6 flex flex-col justify-between transition-transform duration-300 ${
               hoveredIndex === index
                 ? "transform scale-105 shadow-2xl"
                 : "shadow-lg"
@@ -86,19 +87,11 @@ const Plans = () => {
                 ))}
               </ul>
             </div>
-            <div className="mt-50 text-gray-900 text-2xl font-bold">
-              {plan.contactLink ? (
-                <Link
-                  href={plan.contactLink}
-                  className="text-lime-900 hover:underline"
-                >
-                  {plan.price}
-                </Link>
-              ) : (
-                plan.price
-              )}
+            <div className="mt-50 text-lime-900 text-3xl font-bold">
+              {plan.price}
+              <p className="text-gray-700 font-medium text-[20px]">per month</p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

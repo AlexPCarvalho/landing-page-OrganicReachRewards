@@ -1,18 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowDownLeft,  Instagram } from "lucide-react";
+import { ArrowDownLeft, Instagram } from "lucide-react";
 import DashboardSummary from "./dashboard-summary";
 
 const Content = () => {
   return (
-    
-   
-
     <div className="container mx-auto px-4 py-16">
-      
-      
-
       <div className="mt-16 flex justify-end pb-10">
         <div className="flex-col">
           <div className="flex items-center mb-4">
@@ -22,7 +16,8 @@ const Content = () => {
                 social media.
               </p>
               <p className="text-gray-600 text-xl ">
-              Boost loyalty and reduce barriers—low friction and maximum reach for your brand.
+                Boost loyalty and reduce barriers—low friction and maximum reach
+                for your brand.
               </p>
             </div>
           </div>
@@ -36,7 +31,7 @@ const Content = () => {
                 <Instagram />
               </a>
             </div>
-            
+
             <div className="ml-4 ">
               <ArrowDownLeft />
             </div>
@@ -49,8 +44,7 @@ const Content = () => {
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 px-4 sm:px-6 md:px-12 py-12">
         <div className="flex flex-col justify-center text-center md:text-left order-2 md:order-1">
           <h2 className="text-3xl text-lime-900 sm:text-4xl font-bold mb-4">
-            Selling more to loyal customers costs less than attracting new
-            buyers.
+            Selling more to loyal customers and attracting new buyers.
           </h2>
           <p className="text-gray-600 text-2xl">
             A strong community of returning customers is a testament to the
@@ -116,7 +110,6 @@ const Content = () => {
         </div>
       </section>
     </div>
-    
   );
 };
 

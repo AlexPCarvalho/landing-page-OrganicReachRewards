@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 interface TypingTextProps {
   phrases: string[];
@@ -8,7 +8,7 @@ interface TypingTextProps {
 }
 
 const TypingText: React.FC<TypingTextProps> = ({ phrases, speed = 100 }) => {
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
   const [phraseIndex, setPhraseIndex] = useState(0);
 
   useEffect(() => {
@@ -24,8 +24,8 @@ const TypingText: React.FC<TypingTextProps> = ({ phrases, speed = 100 }) => {
       } else {
         setTimeout(() => {
           setPhraseIndex((prevIndex) => (prevIndex + 1) % phrases.length);
-          setText('');
-        }, 1500); 
+          setText("");
+        }, 1500);
       }
     };
 
@@ -35,9 +35,9 @@ const TypingText: React.FC<TypingTextProps> = ({ phrases, speed = 100 }) => {
   }, [phraseIndex, phrases, speed]);
 
   return (
-    <div >
+    <div>
       {text}
-      <span className="inline-block animate-pulse">|</span> 
+      <span className="inline-block animate-pulse">|</span>
     </div>
   );
 };
