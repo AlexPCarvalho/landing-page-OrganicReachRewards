@@ -3,23 +3,25 @@
 import { Poppins } from "next/font/google";
 import Link from "next/link";
 
-
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "600"],
   display: "swap",
 });
+
 const Content = () => {
   return (
-    <div className="container mx-auto px-4 py-16 ">
+    <div className="container mx-auto px-4 py-16">
       <div
-        className={`${poppins.className} sm:text-6xl md:text-[100px] tracking-[-6] text-lime-900 font-bold  pt-40 sm:pt-40 sm:pl-20`}
+        className={`${poppins.className} sm:text-6xl md:text-[100px] text-5xl sm:tracking-[-6] tracking-[-3] text-lime-900 font-bold pt-40 sm:pt-40 sm:pl-20`}
       >
-        <p className="pl-20">Join the team </p>
-        <p className="pl-100 pt-5">be a protagonist of innovation</p>
+        <p className="pl-0  sm:pl-20 text-center sm:text-left">Join the team</p>
+        <p className="pl-0 pt-5 sm:pl-20 text-center sm:text-center">
+          be a protagonist of innovation
+        </p>
       </div>
       <div>
-        <p className="text-gray-600 pt-10 text-2xl text-center pr-90 pl-90">
+        <p className="text-gray-600 pt-10 text-xl text-center sm:text-2xl px-4 sm:px-20">
           If you are passionate about innovation, growth and real impact, we
           have a place for you! We are constantly looking for creative,
           ambitious people who are committed to transforming the way companies
@@ -33,17 +35,14 @@ const Content = () => {
         </p>
       </div>
 
-      <div className="flex flex-col  pb-12 items-center mb-40 gap-4 mt-10">
+      <div className="flex flex-col pb-12 items-center mb-40 gap-4 mt-10">
         <Link
           href="/jobs"
-          className="font-bold  bg-lime-700 px-10 py-4 rounded-2xl text-[20px] text-white"
+          className="font-bold text-center bg-lime-700 px-10 py-4 rounded-2xl text-[20px] text-white w-full  sm:w-auto"
         >
           See open roles
         </Link>
       </div>
-      
-
-
     </div>
   );
 };
