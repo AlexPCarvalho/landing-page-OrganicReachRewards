@@ -10,10 +10,7 @@ const Content = () => {
           </div>
 
           <section className="space-y-8 text-2xl border-solid pt-15 border-stone-700 border-t">
-            <p>
-              We’ve made some updates to our Consumer Terms of Service. Learn
-              more about the changes.
-            </p>
+            
             <p>
               Welcome to <strong>Organic Reach Rewards</strong>! Before you
               access our services, please read these Terms of Service.
