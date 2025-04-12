@@ -1,24 +1,26 @@
-import TypingText from "./typingText";
-import { Anton } from "next/font/google";
+import { Della_Respira } from "next/font/google";
 
-const anton = Anton({
+const dellaRespira = Della_Respira({
   subsets: ["latin"],
   weight: ["400"],
   display: "swap",
 });
 
 const Title = () => {
-  const phrases = [
-    "User Generated Content",
-    "Social Proof and Recognition",
-    "Empowering User Creativity",
-  ];
-
   return (
     <div
-      className={`${anton.className} text-4xl sm:text-6xl md:text-[100px] tracking-[-1] font-extrabold mb-6 text-lime-900 text-center  pt-50 sm:pt-50 sm:text-left sm:pl-20`}
+      className={`${dellaRespira.className} text-center bg-[#30503A]  px-[300] py-[120] text-white   `}
     >
-      <TypingText phrases={phrases} />
+      <div className="">
+        <p className="text-[120px] max-h-[600] pb-[74] ">
+          Connects brands and  customers through  social media.
+        </p>
+
+        <p className="text-[48px] ">
+          Boost loyalty and reduce barriers—low friction and  maximum
+          reach for your brand.
+        </p>
+      </div>
     </div>
   );
 };

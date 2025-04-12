@@ -11,11 +11,9 @@ const Home = () => {
     <>
       <Navbar />
       <Title />
-      <div className="container mx-auto px-4 py-16">
-        <Content />
-        <FaqItems />
-        <Plans />
-      </div>
+      <Content />
+      <FaqItems />
+      <Plans />
       <Footer />
     </>
   );

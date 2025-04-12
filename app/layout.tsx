@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import {  Inter } from "next/font/google";
+import {  Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "700"],
   display: "swap",
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} dark:bg-[#121212] dark:text-[#E5E5E5] antialiased`}
+        className={`${poppins.className} dark:bg-[#121212] dark:text-[#E5E5E5] antialiased`}
       >
         {children}
       </body>

@@ -3,31 +3,35 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-stone-900  text-white  ">
-      <div className="flex flex-col container mx-auto px-4 py-16 sm:flex-row justify-between     p-4 sm:p-8 text-center sm:text-left">
-        <div className=" text-base flex flex-col items-center sm:items-start mb-4 sm:mb-0">
+    <footer className="bg-[#30503A] text-white px-[300] py-[54]">
+      <div className="flex border-solid border-[#D3E9CA] border-b mx-auto pb-[30] justify-between text-center">
+        <div className="flex items-center  justify-between">
           <Image
-            src="/logoW.png"
-            width={150}
-            height={90}
-            alt="Logo Organic Reach Rewards White"
+            src="/logo.png"
+            width={94}
+            height={92}
+            alt="Logo Organic``Reach Rewards"
           />
-          <h1 className="mt-2 text-2xl font-bold max-w-md">
+          <h1 className="pl-[60px] max-w-[600px] text-[20px] font-semibold">
             Grow organically, build customer loyalty and transform engagement
             into real results. Your business, driven naturally!
           </h1>
         </div>
 
-        <div className="flex flex-col justify-center sm:justify-center text-xl items-center  gap-4">
-          <Link href="/careers">Careers</Link>
-          <Link href="/consumer-terms">Terms of Service</Link>
-          <Link href="/privacy">Privacy Policy</Link>
-          <Link href="/compliance">Compliance</Link>
-          <Link href="/data-deletion-policy">Data Deletion Policy</Link>
+        <div className="flex flex-col justify-center text-[20px] font-semibold items-center gap-4">
+          <div className="flex justify-center items-center gap-4">
+            <Link href="/careers">Careers</Link>
+            <Link href="/consumer-terms">Terms of Service</Link>
+            <Link href="/privacy">Privacy Policy</Link>
+          </div>
+
+          <div className="flex justify-center items-center gap-4">
+            <Link href="/compliance">Compliance</Link>
+            <Link href="/data-deletion-policy">Data Deletion Policy</Link>
+          </div>
         </div>
       </div>
-
-      <div className="text-center border-solid border-stone-700 border-t p-4">
+      <div className="text-center text-[20px] font-semibold pt-[30]">
         <h1>© 2025 OrganicReach. All rights reserved.</h1>
       </div>
     </footer>
