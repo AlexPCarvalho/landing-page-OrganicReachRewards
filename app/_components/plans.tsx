@@ -57,16 +57,16 @@ const Plans = () => {
   };
 
   return (
-    <div className="py-16 mt-5 px-6 md:px-12 lg:px-1">
-      <h2 className="text-center text-4xl font-bold text-lime-900">
+    <div className="pb-[100] px-[300] ">
+      <h2 className="text-center text-[80px] font-bold pb-[60] text-[#63783F]">
         Explore Plans
       </h2>
-      <div className="mt-15 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-20">
+      <div className=" grid grid-cols-1 md:grid-cols-3 gap-[20px]">
         {plans.map((plan, index) => (
           <Link
             key={index}
             href={plan.contactLink}
-            className={` bg-gray-100 rounded-lg p-6 flex flex-col justify-between transition-transform duration-300 ${
+            className={` bg-[#30503A]  px-[36] py-[58] flex flex-col justify-between transition-transform duration-300 ${
               hoveredIndex === index
                 ? "transform scale-105 shadow-2xl"
                 : "shadow-lg"
@@ -75,21 +75,29 @@ const Plans = () => {
             onMouseLeave={handleMouseLeave}
           >
             <div>
-              <h3 className="text-3xl font-bold text-gray-900">{plan.name}</h3>
-              <p className="mt-5 text-2xl font-bold text-gray-600">
+              <h3 className="text-[40px] pb-[20] font-bold text-white">{plan.name}</h3>
+              <p className="text-[20px] pb-[95] font-semibold text-white">
                 {plan.description}
               </p>
-              <ul className="mt-10 space-y-2 text-gray-700 text-2xl">
+              <ul className=" text-white  text-[20px]">
                 {plan.features.map((feature, i) => (
-                  <li key={i} className="flex items-start">
-                    <span className="text-lime-600 mr-2">✔</span> {feature}
+                  <li key={i} className="flex gap-[20] pb-[18] ">
+                    <img src="plans.svg" alt="" className=" " /> {feature}
                   </li>
                 ))}
               </ul>
             </div>
-            <div className="mt-50 text-lime-900 text-3xl font-bold">
-              {plan.price}
-              <p className="text-gray-700 font-medium text-[20px]">per month</p>
+            <div className="mt-[95] text-white text-[60px] font-bold">
+              {plan.price === "Contact us" ? ( 
+                <span className="font-bold bg-[#FBFFF6] py-[12] px-[24] text-[24px] text-[#30503A]">
+                  {plan.price}
+                </span>
+              ) : (
+                <>
+                {plan.price}
+              <p className="text-white font-light text-[16px]">per month</p>
+                </>
+              )}
             </div>
           </Link>
         ))}

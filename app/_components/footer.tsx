@@ -12,7 +12,7 @@ const Footer = () => {
             height={92}
             alt="Logo Organic``Reach Rewards"
           />
-          <h1 className="pl-[60px] max-w-[600px] text-[20px] font-semibold">
+          <h1 className="pl-[60px] max-w-[600px] text-start text-[20px] font-semibold">
             Grow organically, build customer loyalty and transform engagement
             into real results. Your business, driven naturally!
           </h1>
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center text-[20px] font-semibold pt-[30]">
+      <div className="text-center   text-[20px] font-semibold pt-[30]">
         <h1>© 2025 OrganicReach. All rights reserved.</h1>
       </div>
     </footer>

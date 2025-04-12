@@ -12,7 +12,7 @@ const Title = () => {
       className={`${dellaRespira.className} text-center bg-[#30503A]  px-[300] py-[120] text-white   `}
     >
       <div className="">
-        <p className="text-[120px] max-h-[600] pb-[74] ">
+        <p className="text-[120px]  pb-[74] ">
           Connects brands and  customers through  social media.
         </p>
 
