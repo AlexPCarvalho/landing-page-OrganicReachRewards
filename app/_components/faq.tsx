@@ -49,36 +49,38 @@ const FaqItems = () => {
   };
 
   return (
-    <div className="  px-[300] pt-[120] pb-[100] ">
-      <div className="pb-[20]">
-        <h1 className=" text-[80px] mb-[-35]  font-bold  text-[#63783F] text-center">
+    <div className="px-4 md:px-10 xl:px-[300px] pt-10 md:pt-20 xl:pt-[120px] pb-10 md:pb-20 xl:pb-[100px]">
+      <div className="pb-6 md:pb-[20px]">
+        <h1 className="text-3xl md:text-5xl xl:text-[80px] mb-[-10px] md:mb-[-35px] font-bold text-[#63783F] text-center">
           Frequently
         </h1>
-        <h1 className=" text-[80px] font-bold   text-[#63783F] text-center">
+        <h1 className="text-3xl md:text-5xl xl:text-[80px] font-bold text-[#63783F] text-center">
           Asked Questions
         </h1>
       </div>
-      <p className="text-center  text-[20px] text-[#688F59] pb-[60]  mx-auto ">
+
+      <p className="text-center text-base md:text-lg xl:text-[20px] text-[#688F59] pb-10 md:pb-[60px] mx-auto max-w-3xl">
         We have answered the most popular questions below.
       </p>
 
-      <div className=" m-auto  ">
+      <div className="m-auto">
         {faqItems.map((faq, index) => (
           <div key={index} className="py-4">
             <button
               onClick={() => toggleFaq(index)}
-              className="flex bg-[#99CE85]  px-[48] py-[27.5] justify-between items-center w-full  text-left font-bold text-[24px] text-[#30503A]  "
+              className="flex bg-[#99CE85] px-4 md:px-8 xl:px-[48px] py-4 md:py-6 xl:py-[27.5px] justify-between items-center w-full text-left font-bold text-lg md:text-xl xl:text-[24px] text-[#30503A]"
             >
               {faq.question}
-              <div className="flex-1 border-t px-[24] border-[#30503A] mx-2"></div>
+              <div className="flex-1 border-t px-2 md:px-4 xl:px-[24px] border-[#30503A] mx-2"></div>
               <div
                 className={`flex items-center justify-center h-8 w-8 rounded-full transition-transform duration-300 ${
                   expandedFaq === index ? "rotate-180" : "rotate-0"
                 }`}
               >
-                <CircleArrowDown className="text-[#30503A] w-[28px] h-[28px] " />
+                <CircleArrowDown className="text-[#30503A] w-5 md:w-6 xl:w-[28px] h-5 md:h-6 xl:h-[28px]" />
               </div>
             </button>
+
             <div
               className={`mt-2 text-gray-700 text-base leading-relaxed transition-all duration-300 ease-in-out overflow-hidden ${
                 expandedFaq === index
@@ -86,7 +88,7 @@ const FaqItems = () => {
                   : "max-h-0 opacity-0"
               }`}
             >
-              <p className="pr-2 text-white bg-[#30503A]   px-[48] py-[27.5] font-light  text-2xl">
+              <p className="pr-2 text-white bg-[#30503A] px-4 md:px-8 xl:px-[48px] py-4 md:py-6 xl:py-[27.5px] font-light text-base md:text-xl xl:text-2xl">
                 {faq.answer}
               </p>
             </div>

@@ -11,12 +11,13 @@ const daysOne = Days_One({
   weight: ["400"],
   display: "swap",
 });
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav
-      className={` ${daysOne.className} flex w-full text-xl items-center justify-between bg-[#30503A] px-[300] py-[40] `}
+      className={` ${daysOne.className} flex w-full text-xl items-center justify-between bg-[#30503A] px-4 md:px-10 xl:px-[300px] py-6 md:py-10 xl:py-[40px] relative`}
     >
       <Link href="/">
         <div>
@@ -39,22 +40,11 @@ const Navbar = () => {
       <div
         className={`${
           menuOpen ? "flex" : "hidden"
-        } md:flex flex-col md:flex-row absolute md:static top-16 left-0 w-full md:w-auto bg-stone-50 md:bg-transparent shadow-md md:shadow-none p-5 md:p-0 md:items-center md:gap-10 md:flex-1 md:justify-center`}
+        } md:flex flex-col md:flex-row absolute md:static top-20 left-0 w-full md:w-auto bg-[#FBFFF6] md:bg-transparent shadow-lg md:shadow-none p-6 md:p-0 items-center gap-6 md:gap-10 z-50`}
       >
-        <div className="flex flex-col  md:hidden items-center  gap-4 mt-4">
-          <Link
-            href="/signUp"
-            className="font-bold bg-white px-4 py-2 rounded-lg text-[#63783F]"
-          >
-            Sing in / Sing Up
-          </Link>
-        </div>
-      </div>
-
-      <div className="hidden md:flex items-center gap-6">
         <Link
           href="/signUp"
-          className="font-bold bg-white px-[26] py-[16]  text-[#63783F]"
+          className="font-bold bg-white px-4 py-2 md:px-[26px] md:py-[16px] rounded-lg text-[#63783F] w-full md:w-auto text-center"
         >
           Sing in / Sing Up
         </Link>
