@@ -16,7 +16,10 @@ import {
   ResponsiveContainer,
   Tooltip,
   Legend,
+  TooltipProps,
+  
 } from "recharts";
+import { NameType, ValueType } from "recharts/types/component/DefaultTooltipContent";
 
 const Dashboard = () => {
   // Dados para os gráficos de linha (Menções Semanais)
@@ -109,27 +112,19 @@ const Dashboard = () => {
 
   // Customização de Tooltip
 
-  const CustomTooltip: React.FC<{
-    active?: boolean;
-
-    payload?: any[];
-
-    label?: string;
-  }> = ({ active, payload, label }) => {
+  const CustomTooltip = ({ active, payload, label }: TooltipProps<ValueType, NameType>) => {
     if (active && payload && payload.length) {
       return (
-        <div className="bg-white p-1 text-center border text-[#000] border-gray-300 shadow-md rounded-b text-[12px] ">
-          <p className="font-bold">{`${label}`}</p>
-
+        <div className="bg-white p-2 text-[#000] border rounded text-xs shadow">
+          <p className="font-bold">{label}</p>
           {payload.map((entry, index) => (
-            <p key={`item-${index}`} className="text-[#000]">
-              {`${entry.name}: ${entry.value}`}
-            </p>
+            entry.name && entry.value ? (
+              <p key={index}>{`${entry.name}: ${entry.value}`}</p>
+            ) : null
           ))}
         </div>
       );
     }
-
     return null;
   };
 
