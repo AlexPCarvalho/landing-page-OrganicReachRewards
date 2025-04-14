@@ -43,7 +43,7 @@ const Navbar = () => {
         } md:flex flex-col md:flex-row absolute md:static top-20 left-0 w-full md:w-auto bg-[#FBFFF6] md:bg-transparent shadow-lg md:shadow-none p-6 md:p-0 items-center gap-6 md:gap-10 z-50`}
       >
         <Link
-          href="/signUp"
+          href="https://app.organicreachrewards.com/"
           className=" bg-white px-[26px] py-[16px] md:px-[26px] md:py-[16px] rounded-lg text-[#63783F] text-[24px] w-full md:w-auto text-center"
         >
           Sign in / Sign Up
