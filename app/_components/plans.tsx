@@ -2,6 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from 'next/image';
+
 
 const plans = [
   {
@@ -82,13 +84,19 @@ const Plans = () => {
                 {plan.description}
               </p>
               <ul className="text-white text-base md:text-lg xl:text-[20px]">
-                {plan.features.map((feature, i) => (
-                  <li key={i} className="flex gap-4 md:gap-[20px] pb-4 md:pb-[18px]">
-                    <img src="plans.svg" alt="" className="w-5 md:w-auto" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
+  {plan.features.map((feature, i) => (
+    <li key={i} className="flex gap-4 md:gap-[20px] pb-4 md:pb-[18px]">
+      <Image 
+        src="/plans.svg" 
+        alt="Ícone do plano" 
+        width={20} 
+        height={20} 
+        className="w-5 md:w-auto" 
+      />
+      {feature}
+    </li>
+  ))}
+</ul>
             </div>
             <div className="mt-10 md:mt-[95px] text-white text-4xl md:text-5xl xl:text-[60px] font-bold">
               {plan.price === "Contact us" ? (

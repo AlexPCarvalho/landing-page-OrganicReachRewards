@@ -13,7 +13,7 @@ const Title = () => {
     >
       <div>
         <p className="text-3xl md:text-5xl xl:text-[120px] pb-6 md:pb-12 xl:pb-[74px] leading-tight">
-          Connects brands and customers through social media.
+          Connects brands and customers through <br/> social media.
         </p>
 
         <p className="text-lg md:text-2xl xl:text-[48px] leading-relaxed">
