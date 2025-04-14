@@ -5,7 +5,7 @@ import { useState, useEffect, useRef, SetStateAction } from "react";
 
 const Steps = () => {
   const [activeSlide, setActiveSlide] = useState(0);
-  const totalSlides = 3;
+  const totalSlides = 2;
   const carouselRef = useRef(null);
   const touchStartXRef = useRef(0);
   const touchEndXRef = useRef(0);
@@ -192,38 +192,7 @@ const Steps = () => {
           </div>
         </div>
 
-        {/* Slide 3 */}
-        <div 
-          className={`transition-all duration-1000 ease-in-out ${
-            activeSlide === 2 ? "opacity-100" : "opacity-0 absolute top-0 left-0"
-          }`}
-        >
-          <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
-            <div>
-              <div>
-                <ul className="text-[#30503A] pb-10 md:pb-[40px] gap-4 md:gap-[32px] font-bold text-3xl md:text-5xl xl:text-[60px] flex">
-                  <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[0px]">Log in with Instagram, define your campaigns, and go live in minutes. It's sea mless.</p>
-                  </li>
-                </ul>
 
-                <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-10 md:pb-[50px] text-[#689E54]">
-                  Connect your Instagram account to automatically capture customer posts, reels, stories, and comments. Next, specify the campaigns and decide on rewards that excite your audience. Finally, activate your campaign and watch customers promote your brand while you track real-time engagement—all without extra apps or hassle.
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <Image
-                src="/steps3.png"
-                alt="steps"
-                width={566}
-                height={643}
-                className="h-auto xl:h-full"
-              />
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* Dots Indicator */}

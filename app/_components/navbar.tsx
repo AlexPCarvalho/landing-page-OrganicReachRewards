@@ -46,7 +46,7 @@ const Navbar = () => {
           href="/signUp"
           className="font-bold bg-white px-4 py-2 md:px-[26px] md:py-[16px] rounded-lg text-[#63783F] w-full md:w-auto text-center"
         >
-          Sing in / Sing Up
+          Sign in / Sign Up
         </Link>
       </div>
     </nav>
