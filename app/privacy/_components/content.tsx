@@ -41,9 +41,7 @@ const Content = () => {
                         We may disclose your personal data in the following situations:
                     </p>
                     <ul className="list-disc list-inside space-y-2 mt-4">
-                        <li>With affiliates and corporate partners.</li>
-                        <li>With service providers and business partners.</li>
-                        <li>In the event of significant corporate transactions.</li>
+
                         <li>To comply with legal or regulatory requirements.</li>
                     </ul>
 

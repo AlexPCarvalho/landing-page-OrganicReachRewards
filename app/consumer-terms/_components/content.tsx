@@ -10,7 +10,6 @@ const Content = () => {
           </div>
 
           <section className="space-y-8 text-2xl border-solid pt-15 border-stone-700 border-t">
-            
             <p>
               Welcome to <strong>Organic Reach Rewards</strong>! Before you
               access our services, please read these Terms of Service.
@@ -155,10 +154,7 @@ const Content = () => {
             <p>If you have any questions or concerns, please contact us:</p>
             <ul className="list-inside mt-4">
               <li>
-                Email: <strong>organicreachrewards@contact.com</strong>
-              </li>
-              <li>
-                Website: <strong>https://organicreachrewards.com/</strong>
+                Email: <strong>legal@organicreachrewards.com</strong>
               </li>
             </ul>
           </section>

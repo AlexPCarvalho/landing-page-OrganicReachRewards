@@ -44,7 +44,7 @@ const Navbar = () => {
       >
         <Link
           href="/signUp"
-          className="font-bold bg-white px-4 py-2 md:px-[26px] md:py-[16px] rounded-lg text-[#63783F] w-full md:w-auto text-center"
+          className=" bg-white px-[26px] py-[16px] md:px-[26px] md:py-[16px] rounded-lg text-[#63783F] text-[24px] w-full md:w-auto text-center"
         >
           Sign in / Sign Up
         </Link>

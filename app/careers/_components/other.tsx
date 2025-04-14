@@ -42,15 +42,7 @@ const other = () => {
               </p>
 
             </div>
-                <div>
-              <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Remote Work
-              </h3>
-              <p>
-              At Organic Reach Rewards, engineers and product developers work side by side, and everyone has the opportunity to explore different areas of innovation and development. We believe that the lines between engineering and research are becoming increasingly blurred as we explore new ways to drive organic engagement and optimize user experiences. Our team is made up of professionals with diverse backgrounds and experiences, and our interview structure is designed to value this diversity.
-              </p>
-
-            </div>
+               
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
               Internships
@@ -81,22 +73,19 @@ const other = () => {
               Unfortunately, we don’t provide feedback on resumes or interviews, but we’re always open to discussing your experience and what we can do to improve in the future.
               </p>
             </div>
-                <div>
+            <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Visas
+              Remote Work
               </h3>
               <p>
-              Organic Reach Rewards offers visa support! While we can’t sponsor visas for every role or candidate, we do our best to help with the process. If we make an offer, we’ll make every effort to ensure you’re eligible to work with us, with the assistance of an immigration attorney if necessary.
+              At Organic Reach Rewards, engineers and product developers work side by side, and everyone has the opportunity to explore different areas of innovation and development. We believe that the lines between engineering and research are becoming increasingly blurred as we explore new ways to drive organic engagement and optimize user experiences. Our team is made up of professionals with diverse backgrounds and experiences, and our interview structure is designed to value this diversity.
               </p>
+
             </div>
-                <div>
-              <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Green Cards
-              </h3>
-              <p>
-              When you’re eligible, we’re also interested in sponsoring green cards!
-              </p>
-            </div>
+                
+
+
+
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
               Remote Interviews
