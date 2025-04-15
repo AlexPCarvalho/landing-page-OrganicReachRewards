@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#30503A] text-white px-4 md:px-10 xl:px-[300px] py-10 md:py-16 xl:py-[54px]">
-      <div className="flex flex-col xl:flex-row border-solid border-[#D3E9CA] border-b mx-auto pb-10 md:pb-[30px] justify-between items-center xl:items-start text-center xl:text-left gap-10 xl:gap-0">
+    <footer className="bg-[#30503A] text-white px-4 md:px-10 xl:px-20 2xl:px-[300px] py-10 md:py-16 xl:py-12 2xl:py-16">
+      <div className="flex flex-col xl:flex-row border-solid border-[#D3E9CA] border-b mx-auto pb-10 md:pb-[30px] justify-between items-center xl:items-start text-center xl:text-left gap-10 xl:gap-0 max-w-screen-xl">
         <div className="flex flex-col md:flex-row items-center justify-center xl:justify-between gap-6">
           <Image
             src="/logo.png"

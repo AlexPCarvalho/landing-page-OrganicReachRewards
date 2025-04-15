@@ -1,13 +1,13 @@
+"use client";
 import Image from "next/image";
 
 const Cards = () => {
   return (
-    <div className="bg-[#30503A] text-center px-4 md:px-10 xl:px-[300px] py-10 md:py-16 xl:py-[100px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-[20px]">
+    <div className="bg-[#30503A] text-center px-4 md:px-10 xl:px-20 2xl:px-[300px] py-10 md:py-16 xl:py-20 2xl:py-24 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-[20px]">
       {[
         {
           img: "/selling.png",
-          title:
-            "Selling more to loyal customers and attracting new buyers.",
+          title: "Selling more to loyal customers and attracting new buyers.",
           text: "A strong community of returning customers is a testament to the quality of your products or services. Recognizing their loyalty not only deepens their connection with your brand but also transforms them into dedicated supporters.",
         },
         {

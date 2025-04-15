@@ -55,7 +55,7 @@ const Plans = () => {
   };
 
   return (
-    <div className="pb-20 md:pb-[100px] px-4 md:px-10 xl:px-[300px]">
+    <div className="pb-20 md:pb-[100px] px-4 md:px-10 xl:px-20 2xl:px-[300px]">
       <h2 className="text-center text-3xl md:text-5xl xl:text-[80px] font-bold pb-10 md:pb-[60px] text-[#63783F]">
         Explore Plans
       </h2>

@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-
 import { CircleArrowDown } from "lucide-react";
 
 const faqItems = [
@@ -17,17 +16,7 @@ const faqItems = [
   {
     question: "Do customers need to download a separate app?",
     answer:
-      "No. They simply use Instagram—which they already have—and receive digital “stamps” for each qualifying post or mention, eliminating the need for additional software or physical cards.",
-  },
-  {
-    question: "Which businesses can use it?",
-    answer:
-      "Any business looking to boost engagement—cafés, gyms, salons, restaurants, and more—can implement Organic Reach Rewards to foster loyalty and encourage customers to share their experiences on social media.",
-  },
-  {
-    question: "What kind of rewards can I offer?",
-    answer:
-      "You have full control over the rewards, from discounts and freebies to exclusive offers or VIP perks; the beauty of Organic Reach Rewards is its flexibility in fitting your brand’s unique goals.",
+      "No. They simply use Instagram—which they already have—and receive digital 'stamps' for each qualifying post or mention, eliminating the need for additional software or physical cards.",
   },
   {
     question: "Is it easy to set up and manage?",
@@ -49,7 +38,7 @@ const FaqItems = () => {
   };
 
   return (
-    <div className="px-4 md:px-10 xl:px-[300px] pt-10 md:pt-20 xl:pt-[120px] pb-10 md:pb-20 xl:pb-[100px]">
+    <div className="px-4 md:px-10 xl:px-20 2xl:px-[300px] pt-10 md:pt-20 xl:pt-20 2xl:pt-24 pb-10 md:pb-20 xl:pb-20 2xl:pb-24">
       <div className="pb-6 md:pb-[20px]">
         <h1 className="text-3xl md:text-5xl xl:text-[80px] mb-[0px] md:mb-[px] font-bold text-[#63783F] text-center">
           Frequently

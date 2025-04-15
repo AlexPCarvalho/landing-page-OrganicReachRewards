@@ -2,8 +2,10 @@
 
 import Image from "next/image";
 import { useState, useEffect, useRef, SetStateAction } from "react";
+import { useTranslation } from "react-i18next";
 
 const Steps = () => {
+  const { t } = useTranslation();
   const [activeSlide, setActiveSlide] = useState(0);
   const totalSlides = 2;
   const carouselRef = useRef(null);
@@ -59,7 +61,7 @@ const Steps = () => {
   };
 
   return (
-    <div className="relative bg-white px-4 md:px-10 xl:px-[300px] py-10 md:py-20 xl:py-[120px]">
+    <div className="relative bg-white px-4 md:px-10 xl:px-[300px] 2xl:px-[300px] py-10 md:py-20 xl:py-20 2xl:py-24">
       {/* Navigation Arrows - visible only on desktop */}
       <button
         onClick={prevSlide}
@@ -80,7 +82,6 @@ const Steps = () => {
           <path d="M15 18l-6-6 6-6" />
         </svg>
       </button>
-
       <button
         onClick={nextSlide}
         className="hidden md:block absolute top-1/2 right-4 md:right-6 transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 rounded-full p-2 shadow-md z-10"
@@ -100,7 +101,6 @@ const Steps = () => {
           <path d="M9 18l6-6-6-6" />
         </svg>
       </button>
-
       <div
         ref={carouselRef}
         className="relative overflow-hidden touch-pan-y min-h-[800px]"
@@ -122,8 +122,10 @@ const Steps = () => {
                     1
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[0px]">Login with</p>
-                    <p>Instagram</p>
+                    <p className="mb-[-10px] md:mb-[0px]">
+                      {t("steps.loginWith")}
+                    </p>
+                    <p>{t("steps.instagram")}</p>
                   </li>
                 </ul>
 
@@ -132,8 +134,10 @@ const Steps = () => {
                     2
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[-15px]">Define</p>
-                    <p>campaings</p>
+                    <p className="mb-[-10px] md:mb-[-15px]">
+                      {t("steps.define")}
+                    </p>
+                    <p>{t("steps.campaigns")}</p>
                   </li>
                 </ul>
 
@@ -142,17 +146,12 @@ const Steps = () => {
                     3
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p>Set live</p>
+                    <p>{t("steps.setLive")}</p>
                   </li>
                 </ul>
 
                 <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-10 md:pb-[50px] text-[#689E54]">
-                  Connect your Instagram account to automatically capture
-                  customer posts, reels, stories, and comments. Next, specify
-                  the campaigns and decide on rewards that excite your audience.
-                  Finally, activate your campaign and watch customers promote
-                  your brand while you track real-time engagement—all without
-                  extra apps or hassle.
+                  {t("steps.description1")}
                 </p>
               </div>
             </div>
@@ -183,8 +182,10 @@ const Steps = () => {
                     1
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[0px]">Mention </p>
-                    <p>the brand</p>
+                    <p className="mb-[-10px] md:mb-[0px]">
+                      {t("steps.mention")}
+                    </p>
+                    <p>{t("steps.brand")}</p>
                   </li>
                 </ul>
 
@@ -193,7 +194,9 @@ const Steps = () => {
                     2
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[-15px]">Earn Points</p>
+                    <p className="mb-[-10px] md:mb-[-15px]">
+                      {t("steps.earnPoints")}
+                    </p>
                   </li>
                 </ul>
 
@@ -202,17 +205,15 @@ const Steps = () => {
                     3
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[-15px]">Reedem </p>
-                    <p>rewards</p>
+                    <p className="mb-[-10px] md:mb-[0px]">
+                      {t("steps.reedem")}
+                    </p>
+                    <p>{t("steps.rewards")}</p>
                   </li>
                 </ul>
 
                 <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-10 md:pb-[50px] text-[#689E54]">
-                  Whenever you post a story, reel, or comment on the business
-                  media, you'll automatically receive a URL by direct message
-                  (DM). From that link, you can check your points balance, see
-                  available campaigns, and redeem your rewards—no extra logins
-                  or downloads are needed.
+                  {t("steps.description2")}
                 </p>
               </div>
             </div>
@@ -229,7 +230,6 @@ const Steps = () => {
           </div>
         </div>
       </div>
-
       {/* Dots Indicator */}
       <div className="flex justify-center mt-8 space-x-2">
         {[...Array(totalSlides)].map((_, index) => (

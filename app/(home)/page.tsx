@@ -1,3 +1,5 @@
+'use client'
+
 import Cards from "../_components/cards";
 import Content from "../_components/content";
 import Dashboard from "../_components/chart";

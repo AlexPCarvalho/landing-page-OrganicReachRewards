@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` ${daysOne.className} flex w-full text-xl items-center justify-between bg-[#30503A] px-4 md:px-10 xl:px-[300px] py-6 md:py-10 xl:py-[40px] relative`}
+      className={` ${daysOne.className} flex w-full text-xl items-center justify-between bg-[#30503A] px-4 md:px-10 xl:px-20 2xl:px-[300px] py-6 md:py-10 xl:py-10 2xl:py-12 relative`}
     >
       <Link href="/">
         <div>
