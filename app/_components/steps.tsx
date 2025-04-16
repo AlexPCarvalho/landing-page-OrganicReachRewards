@@ -102,15 +102,17 @@ const Steps = () => {
         </button>
         <div
           ref={carouselRef}
-          className="relative overflow-hidden touch-pan-y min-h-[800px]"
+          className="relative overflow-hidden touch-pan-y"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
           {/* Slide 1 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out absolute w-full ${
-              activeSlide === 0 ? "opacity-100 z-10" : "opacity-0 z-0"
+            className={`transition-opacity duration-1000 ease-in-out ${
+              activeSlide === 0
+                ? "opacity-100 relative"
+                : "opacity-0 absolute inset-0"
             }`}
           >
             <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
@@ -166,13 +168,14 @@ const Steps = () => {
                 </div>
               </div>
 
-              <div>
+              <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] xl:h-[643px]">
                 <Image
                   src="/steps1.png"
                   alt="steps"
-                  width={566}
-                  height={643}
-                  className="h-auto xl:h-full"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{ objectFit: "contain" }}
+                  priority
                 />
               </div>
             </div>
@@ -180,8 +183,10 @@ const Steps = () => {
 
           {/* Slide 2 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out absolute w-full ${
-              activeSlide === 1 ? "opacity-100 z-10" : "opacity-0 z-0"
+            className={`transition-opacity duration-1000 ease-in-out ${
+              activeSlide === 1
+                ? "opacity-100 relative"
+                : "opacity-0 absolute inset-0"
             }`}
           >
             <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
@@ -236,13 +241,14 @@ const Steps = () => {
                 </div>
               </div>
 
-              <div className="">
+              <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] xl:h-[643px]">
                 <Image
                   src="/steps2.png"
                   alt="steps"
-                  width={566}
-                  height={643}
-                  className="h-auto xl:h-full"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  style={{ objectFit: "contain" }}
+                  priority
                 />
               </div>
             </div>
