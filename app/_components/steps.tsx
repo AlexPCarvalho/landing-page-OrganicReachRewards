@@ -117,39 +117,39 @@ const Steps = () => {
               <div>
                 <div>
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg  md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[54px] md:h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[33px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
                         Login with
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
                         Instagram
                       </p>
                     </li>
                   </ul>
 
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[54px] md:h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[33px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[-15px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
                         Define
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
                         campaigns
                       </p>
                     </li>
                   </ul>
 
                   <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[54px] md:h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[33px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
                         Set Live
                       </p>
                     </li>
@@ -188,39 +188,39 @@ const Steps = () => {
               <div>
                 <div>
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[54px] md:h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[33px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
                         Mention
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
                         Brand
                       </p>
                     </li>
                   </ul>
 
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[54px] md:h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[33px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[-15px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
                         Earn Points
                       </p>
                     </li>
                   </ul>
 
                   <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[54px] md:h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[33px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
                         Reedem
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
                         Rewards
                       </p>
                     </li>

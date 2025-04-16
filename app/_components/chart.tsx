@@ -51,7 +51,7 @@ const Dashboard = () => {
 
             {/* Card de ranking */}
             <div className="bg-[#689E54] w-full lg:w-auto lg:flex-1  text-[#FBFFF6]">
-              <h2 className="text-xl lg:text-2xl xl:text-[24px] 2xl:text-[28px] text-center pb-4 lg:pb-6 xl:pb-8 pt-4 lg:pt-6">
+              <h2 className="text-lg md:text-xl px-[30px] text-center pb-4 lg:pb-6 xl:pb-8 pt-4 lg:pt-6">
                 Ranking of People Who Mentioned the Most
               </h2>
 
