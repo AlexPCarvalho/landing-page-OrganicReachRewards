@@ -3,44 +3,46 @@ import Image from "next/image";
 
 const Cards = () => {
   return (
-    <div className="bg-[#30503A] text-center px-4 md:px-10 xl:px-[300px] py-6 md:py-10 xl:py-12 2xl:py-14 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
-      {[
-        {
-          img: "/selling.png",
-          title: "Selling more to loyal customers and attracting new buyers.",
-          text: "A strong community of returning customers is a testament to the quality of your products or services. Recognizing their loyalty not only deepens their connection with your brand but also transforms them into dedicated supporters.",
-        },
-        {
-          img: "/Loyalty.png",
-          title: "Loyalty strengthens business credibility.",
-          text: "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
-        },
-        {
-          img: "/Engagement.png",
-          title: "Loyalty strengthens business credibility.",
-          text: "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
-        },
-      ].map((card, index) => (
-        <div key={index} className="bg-white p-4 md:p-6">
-          <div>
-            <Image
-              src={card.img}
-              width={180}
-              height={180}
-              alt={card.title}
-              className="w-full h-auto max-w-[180px] mx-auto"
-            />
+    <div className="bg-[#30503A] text-center px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
+      <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
+        {[
+          {
+            img: "/selling.png",
+            title: "Selling more to loyal customers and attracting new buyers.",
+            text: "A strong community of returning customers is a testament to the quality of your products or services. Recognizing their loyalty not only deepens their connection with your brand but also transforms them into dedicated supporters.",
+          },
+          {
+            img: "/Loyalty.png",
+            title: "Loyalty strengthens business credibility.",
+            text: "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
+          },
+          {
+            img: "/Engagement.png",
+            title: "Loyalty strengthens business credibility.",
+            text: "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
+          },
+        ].map((card, index) => (
+          <div key={index} className="bg-white p-4 md:p-6">
+            <div>
+              <Image
+                src={card.img}
+                width={180}
+                height={180}
+                alt={card.title}
+                className="w-full h-auto max-w-[180px] mx-auto"
+              />
+            </div>
+            <div className="flex flex-col justify-center text-center">
+              <h2 className="font-bold text-[#689E54] text-left py-4 md:py-6 text-base md:text-lg xl:text-xl">
+                {card.title}
+              </h2>
+              <p className="text-[#689E54] text-left font-light text-sm md:text-base xl:text-lg">
+                {card.text}
+              </p>
+            </div>
           </div>
-          <div className="flex flex-col justify-center text-center">
-            <h2 className="font-bold text-[#689E54] text-left py-4 md:py-6 text-base md:text-lg xl:text-xl">
-              {card.title}
-            </h2>
-            <p className="text-[#689E54] text-left font-light text-sm md:text-base xl:text-lg">
-              {card.text}
-            </p>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

@@ -1,14 +1,8 @@
-'use client';
+"use client";
 
 import React from "react";
 
-import {
-  PieChart,
-  Pie,
-  Cell,
-  ResponsiveContainer,
-  Tooltip,
-} from "recharts";
+import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip } from "recharts";
 
 const pieData1 = [
   { name: "Comments", value: 35 },
@@ -94,7 +88,10 @@ const PieCharts = () => {
         { title: "Engagement by Category", data: pieData1 },
         { title: "Reward by Campaign", data: pieData2 },
       ].map((item, idx) => (
-        <div key={idx} className="py-[44.07px] px-[23px] bg-[#689E54] text-[#FBFFF6] w-full lg:w-1/2">
+        <div
+          key={idx}
+          className="py-[44.07px] px-[23px] bg-[#689E54] text-[#FBFFF6] w-full lg:w-1/2"
+        >
           <div>
             <div className="flex pb-[45px] gap-[44px] flex-col md:flex-row">
               <h2 className="text-[25px] leading-tight whitespace-pre-line">

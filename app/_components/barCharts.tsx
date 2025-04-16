@@ -12,7 +12,10 @@ import {
   TooltipProps,
 } from "recharts";
 
-import { NameType, ValueType } from "recharts/types/component/DefaultTooltipContent";
+import {
+  NameType,
+  ValueType,
+} from "recharts/types/component/DefaultTooltipContent";
 import PieCharts from "./pieCharts";
 
 const barrasDiasData = [
@@ -41,7 +44,11 @@ const barrasHorasData = [
   { name: "19h", value: 350 },
 ];
 
-const CustomTooltip = ({ active, payload, label }: TooltipProps<ValueType, NameType>) => {
+const CustomTooltip = ({
+  active,
+  payload,
+  label,
+}: TooltipProps<ValueType, NameType>) => {
   if (active && payload && payload.length) {
     return (
       <div className="bg-white p-2 text-[#000] border rounded text-xs shadow">
@@ -72,7 +79,15 @@ const BarCharts = () => {
                   <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
                   <XAxis dataKey="name" stroke="#ffffff" />
                   <YAxis stroke="#ffffff" ticks={[0, 50, 250, 500]} />
-                  <Tooltip content={<CustomTooltip active={undefined} payload={undefined} label={undefined} />} />
+                  <Tooltip
+                    content={
+                      <CustomTooltip
+                        active={undefined}
+                        payload={undefined}
+                        label={undefined}
+                      />
+                    }
+                  />
                   <Legend />
                   <Bar dataKey="value" fill="#FBFFF6" />
                 </BarChart>
@@ -87,9 +102,21 @@ const BarCharts = () => {
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={barrasHorasData}>
                   <CartesianGrid strokeDasharray="3 3" opacity={0.3} />
-                  <XAxis dataKey="name" stroke="#ffffff" tick={{ fontSize: 10 }} />
+                  <XAxis
+                    dataKey="name"
+                    stroke="#ffffff"
+                    tick={{ fontSize: 10 }}
+                  />
                   <YAxis stroke="#ffffff" ticks={[0, 50, 100, 250, 500]} />
-                  <Tooltip content={<CustomTooltip active={undefined} payload={undefined} label={undefined} />} />
+                  <Tooltip
+                    content={
+                      <CustomTooltip
+                        active={undefined}
+                        payload={undefined}
+                        label={undefined}
+                      />
+                    }
+                  />
                   <Legend />
                   <Bar name="Engagement" dataKey="value" fill="#FBFFF6" />
                 </BarChart>

@@ -7,8 +7,8 @@ import LineCharts from "./lineCharts";
 const Dashboard = () => {
   return (
     <div className="flex justify-center items-center bg-[#99CE85] min-h-screen w-full">
-      <div className="w-full max-w-screen-2xl px-4 sm:px-8 md:px-12 lg:px-16 xl:px-20 2xl:px-24 py-6 lg:py-10">
-        <div className="w-full max-w-full mx-auto">
+      <div className="px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
+        <div className="max-w-screen-xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-4 mb-4">
             {/* Card de porcentagem */}
             <div className="bg-[#689E54] flex-1 w-full p-4 sm:p-6 text-[#FBFFF6] flex flex-col">
