@@ -2,10 +2,8 @@
 
 import Image from "next/image";
 import { useState, useEffect, useRef, SetStateAction } from "react";
-import { useTranslation } from "react-i18next";
 
 const Steps = () => {
-  const { t } = useTranslation();
   const [activeSlide, setActiveSlide] = useState(0);
   const totalSlides = 2;
   const carouselRef = useRef(null);
@@ -61,7 +59,7 @@ const Steps = () => {
   };
 
   return (
-    <div className="relative bg-white px-4 md:px-10 xl:px-[300px] 2xl:px-[300px] py-10 md:py-20 xl:py-20 2xl:py-24">
+    <div className="relative bg-white px-4 md:px-10 xl:px-[300px] py-6 md:py-10 xl:py-12 2xl:py-14">
       {/* Navigation Arrows - visible only on desktop */}
       <button
         onClick={prevSlide}
@@ -117,41 +115,52 @@ const Steps = () => {
           <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
             <div>
               <div>
-                <ul className="text-[#30503A] pb-10 md:pb-[40px] gap-4 md:gap-[32px] font-bold text-3xl md:text-5xl xl:text-[60px] flex items-center">
+                <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
                   <div className="w-[54px] h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-[33px] font-bold shrink-0">
                     1
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[0px]">
-                      {t("steps.loginWith")}
+                    <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[0px]">
+                      Login with
                     </p>
-                    <p>{t("steps.instagram")}</p>
+                    <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      Instagram
+                    </p>
                   </li>
                 </ul>
 
-                <ul className="text-[#30503A] pb-10 md:pb-[40px] gap-4 md:gap-[32px] font-bold text-3xl md:text-5xl xl:text-[60px] flex items-center">
+                <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
                   <div className="w-[54px] h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-[33px] font-bold shrink-0">
                     2
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[-15px]">
-                      {t("steps.define")}
+                    <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[-15px]">
+                      Define
                     </p>
-                    <p>{t("steps.campaigns")}</p>
+                    <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      campaigns
+                    </p>
                   </li>
                 </ul>
 
-                <ul className="text-[#30503A] pb-8 md:pb-[30px] gap-4 md:gap-[32px] font-bold text-3xl md:text-5xl xl:text-[60px] flex items-center">
+                <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
                   <div className="w-[54px] h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-[33px] font-bold shrink-0">
                     3
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p>{t("steps.setLive")}</p>
+                    <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      Set Live
+                    </p>
                   </li>
                 </ul>
 
-                <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-10 md:pb-[50px] text-[#689E54]">
-                  {t("steps.description1")}
+                <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
+                  Connect your Instagram account to automatically capture
+                  customer posts, reels, stories, and comments. Next, specify
+                  the campaigns and decide on rewards that excite your audience.
+                  Finally, activate your campaign and watch customers promote
+                  your brand while you track real-time engagement—all without
+                  extra apps or hassle.
                 </p>
               </div>
             </div>
@@ -177,43 +186,49 @@ const Steps = () => {
           <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
             <div>
               <div>
-                <ul className="text-[#30503A] pb-10 md:pb-[40px] gap-4 md:gap-[32px] font-bold text-3xl md:text-5xl xl:text-[60px] flex items-center">
+                <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
                   <div className="w-[54px] h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-[33px] font-bold shrink-0">
                     1
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[0px]">
-                      {t("steps.mention")}
+                    <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[0px]">
+                      Mention
                     </p>
-                    <p>{t("steps.brand")}</p>
+                    <p className="text-2xl md:text-4xl xl:text-[60px]">Brand</p>
                   </li>
                 </ul>
 
-                <ul className="text-[#30503A] pb-10 md:pb-[40px] gap-4 md:gap-[32px] font-bold text-3xl md:text-5xl xl:text-[60px] flex items-center">
+                <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
                   <div className="w-[54px] h-[54px] inline-flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-[33px] font-bold shrink-0 self-start mt-4">
                     2
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[-15px]">
-                      {t("steps.earnPoints")}
+                    <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[-15px]">
+                      Earn Points
                     </p>
                   </li>
                 </ul>
 
-                <ul className="text-[#30503A] pb-8 md:pb-[30px] gap-4 md:gap-[32px] font-bold text-3xl md:text-5xl xl:text-[60px] flex items-center">
+                <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
                   <div className="w-[54px] h-[54px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-[33px] font-bold shrink-0">
                     3
                   </div>
                   <li className="max-w-full xl:max-w-[598px]">
-                    <p className="mb-[-10px] md:mb-[0px]">
-                      {t("steps.reedem")}
+                    <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[60px] md:mb-[0px]">
+                      Reedem
                     </p>
-                    <p>{t("steps.rewards")}</p>
+                    <p className="text-2xl md:text-4xl xl:text-[60px]">
+                      Rewards
+                    </p>
                   </li>
                 </ul>
 
-                <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-10 md:pb-[50px] text-[#689E54]">
-                  {t("steps.description2")}
+                <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
+                  Whenever you post a story, reel, or comment on the business
+                  media, you'll automatically receive a URL by direct message
+                  (DM). From that link, you can check your points balance, see
+                  available campaigns, and redeem your rewards—no extra logins
+                  or downloads are needed.
                 </p>
               </div>
             </div>

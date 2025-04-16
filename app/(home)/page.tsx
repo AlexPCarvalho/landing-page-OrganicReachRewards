@@ -13,7 +13,7 @@ import Title from "../_components/title";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Navbar />
       <Title />
       <Steps />
@@ -23,7 +23,7 @@ const Home = () => {
       <FaqItems />
       <Plans />
       <Footer />
-    </>
+    </div>
   );
 };
 

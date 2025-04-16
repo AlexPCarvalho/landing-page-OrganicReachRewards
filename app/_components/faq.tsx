@@ -38,46 +38,43 @@ const FaqItems = () => {
   };
 
   return (
-    <div className="px-4 md:px-10 xl:px-20 2xl:px-[300px] pt-10 md:pt-20 xl:pt-20 2xl:pt-24 pb-10 md:pb-20 xl:pb-20 2xl:pb-24">
-      <div className="pb-6 md:pb-[20px]">
-        <h1 className="text-3xl md:text-5xl xl:text-[80px] mb-[0px] md:mb-[px] font-bold text-[#63783F] text-center">
+    <div className="px-4 md:px-10 xl:px-[300px] pt-6 md:pt-10 xl:pt-12 2xl:pt-14 pb-6 md:pb-10 xl:pb-12 2xl:pb-14">
+      <div className="pb-4 md:pb-6">
+        <h1 className="text-2xl md:text-3xl xl:text-5xl mb-0 font-bold text-[#63783F] text-center">
           Frequently
         </h1>
-        <h1 className="text-3xl md:text-5xl xl:text-[80px] font-bold text-[#63783F] text-center">
+        <h1 className="text-2xl md:text-3xl xl:text-5xl font-bold text-[#63783F] text-center">
           Asked Questions
         </h1>
       </div>
-
-      <p className="text-center text-base md:text-lg xl:text-[20px] text-[#688F59] pb-10 md:pb-[60px] mx-auto max-w-3xl">
+      <p className="text-center text-sm md:text-base xl:text-lg text-[#688F59] pb-6 md:pb-10 mx-auto max-w-2xl">
         We have answered the most popular questions below.
       </p>
-
       <div className="m-auto">
         {faqItems.map((faq, index) => (
-          <div key={index} className="py-4">
+          <div key={index} className="py-2 md:py-4">
             <button
               onClick={() => toggleFaq(index)}
-              className="flex bg-[#99CE85] px-4 md:px-8 xl:px-[48px] py-4 md:py-6 xl:py-[27.5px] justify-between items-center w-full text-left font-bold text-lg md:text-xl xl:text-[24px] text-[#30503A]"
+              className="flex bg-[#99CE85] px-2 md:px-4 xl:px-8 py-2 md:py-4 xl:py-6 justify-between items-center w-full text-left font-bold text-base md:text-lg xl:text-xl text-[#30503A]"
             >
               {faq.question}
-              <div className="flex-1 border-t px-2 md:px-4 xl:px-[24px] border-[#30503A] mx-2"></div>
+              <div className="flex-1 border-t px-2 md:px-4 xl:px-6 border-[#30503A] mx-2"></div>
               <div
-                className={`flex items-center justify-center h-8 w-8 rounded-full transition-transform duration-300 ${
+                className={`flex items-center justify-center h-6 w-6 md:h-8 md:w-8 rounded-full transition-transform duration-300 ${
                   expandedFaq === index ? "rotate-180" : "rotate-0"
                 }`}
               >
-                <CircleArrowDown className="text-[#30503A] w-5 md:w-6 xl:w-[28px] h-5 md:h-6 xl:h-[28px]" />
+                <CircleArrowDown className="text-[#30503A] w-4 md:w-5 xl:w-6 h-4 md:h-5 xl:h-6" />
               </div>
             </button>
-
             <div
-              className={`mt-2 text-gray-700 text-base leading-relaxed transition-all duration-300 ease-in-out overflow-hidden ${
+              className={`mt-1 text-gray-700 text-sm leading-relaxed transition-all duration-300 ease-in-out overflow-hidden ${
                 expandedFaq === index
                   ? "max-h-[1000px] opacity-100"
                   : "max-h-0 opacity-0"
               }`}
             >
-              <p className="pr-2 text-white bg-[#30503A] px-4 md:px-8 xl:px-[48px] py-4 md:py-6 xl:py-[27.5px] font-light text-base md:text-xl xl:text-2xl">
+              <p className="pr-2 text-white bg-[#30503A] px-2 md:px-4 xl:px-8 py-2 md:py-4 xl:py-6 font-light text-sm md:text-lg xl:text-xl">
                 {faq.answer}
               </p>
             </div>

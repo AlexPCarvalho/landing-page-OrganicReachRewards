@@ -9,10 +9,10 @@ const plans = [
     name: "Starter",
     description: "For small businesses that want to grow organically",
     features: [
-      "Up to 300 mentions/month",
+      "Up to 200 mentions/month",
       "Configure your own campaigns",
       "Access to metrics dashboard",
-      "Free per 6 months",
+      "Free per one month",
     ],
     price: "$ 10",
   },
@@ -21,7 +21,7 @@ const plans = [
     description: "For medium/large businesses that want to grow organically",
     features: [
       "Everything in Starter, plus",
-      "Up to 1,000 mentions/month",
+      "Up to 500 mentions/month",
       "Anti-fraud system",
       "Multiple users",
       "Custom metrics",

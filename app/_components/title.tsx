@@ -11,14 +11,14 @@ const Title = () => {
   return (
     <div className="flex justify-center w-full bg-[#30503A]">
       <div
-        className={`${dellaRespira.className} text-center w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[] py-10 md:py-16 lg:py-20 xl:py-20 2xl:py-24 text-white`}
+        className={`${dellaRespira.className} text-center w-full  px-4 md:px-10 xl:px-[300px] py-6 md:py-10 lg:py-12 xl:py-14 2xl:py-16 text-white`}
       >
         <div>
-          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-8xl 2xl:text-[120px] pb-6 md:pb-8 lg:pb-10 xl:pb-12 2xl:pb-[74px] leading-tight">
+          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-4 md:pb-6 lg:pb-8 xl:pb-10 2xl:pb-12 leading-tight">
             Connects brands and customers through <br /> social media.
           </p>
 
-          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-[48px] leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl leading-relaxed">
             Boost loyalty and reduce barriers—low friction and maximum reach for
             your brand.
           </p>

@@ -17,15 +17,16 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` ${daysOne.className} flex w-full text-xl items-center justify-between bg-[#30503A] px-4 md:px-10 xl:px-20 2xl:px-[300px] py-6 md:py-10 xl:py-10 2xl:py-12 relative`}
+      className={` ${daysOne.className} flex w-full text-xl items-center justify-between bg-[#30503A] px-2 sm:px-4 md:px-8 lg:px-12 xl:px-16 2xl:px-24 py-3 md:py-6 xl:py-8 2xl:py-10 relative`}
     >
       <Link href="/">
         <div>
           <Image
             src="/logo.png"
-            width={94}
-            height={92}
+            width={56}
+            height={54}
             alt="OrganicReach Rewards"
+            className="w-14 h-14 md:w-[72px] md:h-[70px] lg:w-[84px] lg:h-[82px] xl:w-[94px] xl:h-[92px]"
           />
         </div>
       </Link>
