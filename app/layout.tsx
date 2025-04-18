@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import {  Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
+import { I18nProvider } from "./i18n";
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "700"],
   display: "swap",
 });
-
 
 export const metadata: Metadata = {
   title: "Organic Reach Rewards",
@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${poppins.className} dark:bg-[#121212] dark:text-[#E5E5E5] antialiased`}
       >
-        {children}
+        <I18nProvider>{children}</I18nProvider>
       </body>
     </html>
   );

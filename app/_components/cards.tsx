@@ -1,25 +1,28 @@
 "use client";
 import Image from "next/image";
+import { useI18n } from "../i18n";
 
 const Cards = () => {
+  const { t } = useI18n();
   return (
+
     <div className="bg-[#30503A] text-center px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
         {[
           {
             img: "/selling.png",
-            title: "Selling more to loyal customers and attracting new buyers.",
-            text: "A strong community of returning customers is a testament to the quality of your products or services. Recognizing their loyalty not only deepens their connection with your brand but also transforms them into dedicated supporters.",
+            title: t('cards.selling.title'),
+            text: t('cards.selling.text'),
           },
           {
             img: "/Loyalty.png",
-            title: "Loyalty strengthens business credibility.",
-            text: "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
+            title: t('cards.loyalty.title'),
+            text: t('cards.loyalty.text'),
           },
           {
             img: "/Engagement.png",
-            title: "Loyalty strengthens business credibility.",
-            text: "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
+            title: t('cards.engagement.title'),
+            text: t('cards.engagement.text'),
           },
         ].map((card, index) => (
           <div key={index} className="bg-white p-4 md:p-6">

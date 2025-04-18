@@ -5,6 +5,8 @@ import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { Days_One } from "next/font/google";
+import { useI18n } from "../i18n";
+
 
 const daysOne = Days_One({
   subsets: ["latin"],
@@ -14,6 +16,7 @@ const daysOne = Days_One({
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { t, changeLanguage } = useI18n();
 
   return (
     <nav
@@ -26,7 +29,7 @@ const Navbar = () => {
             width={56}
             height={54}
             alt="OrganicReach Rewards"
-            className="w-10 h-10 md:w-[72px] md:h-[70px] lg:w-[84px] lg:h-[82px] xl:w-[94px] xl:h-[92px]"
+            className="w-14 h-14 md:w-[76px] md:h-[70px] lg:w-[84px] lg:h-[82px] xl:w-[84px] xl:h-[82px]"
           />
         </div>
       </Link>
@@ -43,11 +46,40 @@ const Navbar = () => {
           menuOpen ? "flex" : "hidden"
         } md:flex flex-col md:flex-row absolute md:static top-20 left-0 w-full md:w-auto bg-[#FBFFF6] md:bg-transparent shadow-lg md:shadow-none p-6 md:p-0 items-center gap-6 md:gap-10 z-50`}
       >
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => changeLanguage("pt-BR")}
+            aria-label="Português"
+            className="rounded-full bg-white p-1 shadow-md border-2 border-[#30503A] focus:outline-none focus:ring-2 focus:ring-[#30503A] transition-all"
+          >
+            <Image
+              src="/flagBrazil.svg"
+              alt="Português"
+              width={32}
+              height={32}
+              className="w-8 h-8 rounded-full"
+            />
+          </button>
+          <button
+            onClick={() => changeLanguage("en-US")}
+            aria-label="English"
+            className="rounded-full bg-white p-1 shadow-md border-2 border-[#30503A] focus:outline-none focus:ring-2 focus:ring-[#30503A] transition-all"
+          >
+            <Image
+              src="/flagEUA.svg"
+              alt="English"
+              width={32}
+              height={32}
+              className="w-8 h-8 rounded-full"
+            />
+          </button>
+        </div>
+
         <Link
-          href="https://app.organicreachrewards.com/login"
-          className=" bg-white px-[15px] py-[5px] md:px-[10px] md:py-[16px] rounded-lg text-[#63783F] text-[20px] md:text-[24px] w-full md:w-auto text-center"
+          href="https://app.organicreachrewards.com/"
+          className="bg-white px-[26px] py-[16px] md:px-[26px] md:py-[16px] rounded-lg text-[#63783F] text-[24px] w-full md:w-auto text-center"
         >
-          Sign in / Sign Up
+          {t("nav.signIn")}
         </Link>
       </div>
     </nav>

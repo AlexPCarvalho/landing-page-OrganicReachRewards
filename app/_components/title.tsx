@@ -1,5 +1,8 @@
 "use client";
+
 import { Della_Respira } from "next/font/google";
+import { useI18n } from "../i18n";
+
 
 const dellaRespira = Della_Respira({
   subsets: ["latin"],
@@ -8,6 +11,8 @@ const dellaRespira = Della_Respira({
 });
 
 const Title = () => {
+  const { t } = useI18n();
+
   return (
     <div className="flex justify-center w-full bg-[#30503A]">
       <div className="w-full px-4 md:px-10">
@@ -16,12 +21,11 @@ const Title = () => {
         >
           <div>
             <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-4 md:pb-6 lg:pb-8 xl:pb-10 2xl:pb-12 leading-tight">
-              Connects brands and customers through <br /> social media.
+              {t("home.title")}
             </p>
 
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl leading-relaxed">
-              Boost loyalty and reduce barriers—low friction and maximum reach
-              for your brand.
+              {t("home.subtitle")}
             </p>
           </div>
         </div>

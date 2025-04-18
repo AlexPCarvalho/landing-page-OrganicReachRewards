@@ -102,56 +102,54 @@ const Steps = () => {
         </button>
         <div
           ref={carouselRef}
-          className="relative overflow-hidden touch-pan-y"
+          className="relative overflow-hidden touch-pan-y min-h-[800px]"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
           {/* Slide 1 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out ${
-              activeSlide === 0
-                ? "opacity-100 relative"
-                : "opacity-0 absolute inset-0"
+            className={`transition-opacity duration-1000 ease-in-out absolute w-full ${
+              activeSlide === 0 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
             <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
               <div>
                 <div>
-                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg  md:text-[20px] xl:text-3xl flex items-center">
-                    <div className="w-[30px] h-[30px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg  md:text-2xl xl:text-3xl flex items-center">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-[20px] md:text-4xl xl:text-[45px] md:mb-[0px]">
-                        Login with Instagram
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
+                        Login with
                       </p>
-                      <p className="text-[20px] md:text-4xl xl:text-[45px]">
-                        
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
+                        Instagram
                       </p>
                     </li>
                   </ul>
 
-                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-[20px] xl:text-3xl flex items-center">
-                    <div className="w-[30px] h-[30px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-[20px] md:text-4xl xl:text-[45px] md:mb-[-15px]">
-                        Define campaigns
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
+                        Define
                       </p>
-                      <p className="text-[20px] md:text-4xl xl:text-[45px]">
-                        
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
+                        campaigns
                       </p>
                     </li>
                   </ul>
 
-                  <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-[20px] xl:text-3xl flex items-center">
-                    <div className="w-[30px] h-[30px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                  <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="text-[20px] md:text-4xl xl:text-[45px]">
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
                         Set Live
                       </p>
                     </li>
@@ -168,14 +166,13 @@ const Steps = () => {
                 </div>
               </div>
 
-              <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] xl:h-[643px]">
+              <div>
                 <Image
                   src="/steps1.png"
                   alt="steps"
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  style={{ objectFit: "contain" }}
-                  priority
+                  width={566}
+                  height={643}
+                  className="h-auto xl:h-full"
                 />
               </div>
             </div>
@@ -183,50 +180,48 @@ const Steps = () => {
 
           {/* Slide 2 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out ${
-              activeSlide === 1
-                ? "opacity-100 relative"
-                : "opacity-0 absolute inset-0"
+            className={`transition-opacity duration-1000 ease-in-out absolute w-full ${
+              activeSlide === 1 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
             <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
               <div>
                 <div>
-                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-[20px] xl:text-3xl flex items-center">
-                    <div className="w-[30px] h-[30px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-[20px] md:text-4xl xl:text-[45px] md:mb-[0px]">
-                        Mention Brand
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
+                        Mention
                       </p>
-                      <p className="text-[20px] md:text-4xl xl:text-[45px]">
-                        
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
+                        Brand
                       </p>
                     </li>
                   </ul>
 
-                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-[20px] xl:text-3xl flex items-center">
-                    <div className="w-[30px] h-[30px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-[20px] md:text-4xl xl:text-[45px] md:mb-[-15px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
                         Earn Points
                       </p>
                     </li>
                   </ul>
 
-                  <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-[20px] xl:text-3xl flex items-center">
-                    <div className="w-[30px] h-[30px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                  <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
+                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-[20px] md:text-4xl xl:text-[45px] md:mb-[0px]">
-                        Reedem Rewards
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
+                        Reedem
                       </p>
-                      <p className="text-[20px] md:text-4xl xl:text-[45px]">
-                        
+                      <p className="text-2xl md:text-4xl xl:text-[45px]">
+                        Rewards
                       </p>
                     </li>
                   </ul>
@@ -241,14 +236,13 @@ const Steps = () => {
                 </div>
               </div>
 
-              <div className="relative w-full h-[300px] sm:h-[400px] md:h-[500px] xl:h-[643px]">
+              <div className="">
                 <Image
                   src="/steps2.png"
                   alt="steps"
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  style={{ objectFit: "contain" }}
-                  priority
+                  width={566}
+                  height={643}
+                  className="h-auto xl:h-full"
                 />
               </div>
             </div>

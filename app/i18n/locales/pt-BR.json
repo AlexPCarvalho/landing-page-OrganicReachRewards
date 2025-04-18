@@ -1,0 +1,72 @@
+{
+  "nav.signIn": "Entrar / Cadastrar",
+
+  "home.title": "Conecta marcas e clientes através das redes sociais",
+  "home.subtitle": "Aumente a fidelidade e reduza barreiras—baixa fricção e alcance máximo para sua marca",
+
+  "content.title": "Insights Poderosos, Simplificados.",
+  "content.description": "Monitore menções, acompanhe o desempenho das campanhas e identifique o que gera mais engajamento dos clientes—tudo em um só lugar.",
+
+  "cards.selling.title": "Vendendo mais para clientes fiéis e atraindo novos compradores",
+  "cards.selling.text": "Uma comunidade forte de clientes que retornam é um testemunho da qualidade de seus produtos ou serviços. Reconhecer sua fidelidade não apenas aprofunda sua conexão com sua marca, mas também os transforma em apoiadores dedicados.",
+
+  "cards.loyalty.title": "A fidelidade fortalece a credibilidade do negócio",
+  "cards.loyalty.text": "Um fluxo consistente de clientes recorrentes é uma clara evidência de que sua marca inspira confiança e entrega valor real. Cultivar esses relacionamentos duradouros garante crescimento sustentável e sucesso a longo prazo.",
+
+  "cards.engagement.title": "A fidelidade fortalece a credibilidade do negócio",
+  "cards.engagement.text": "Um fluxo consistente de clientes recorrentes é uma clara evidência de que sua marca inspira confiança e entrega valor real. Cultivar esses relacionamentos duradouros garante crescimento sustentável e sucesso a longo prazo.",
+
+  "plans.title": "Explore os Planos",
+  "plans.starter.name": "Iniciante",
+  "plans.starter.description": "Para pequenas empresas que querem crescer organicamente",
+  "plans.starter.features": [
+    "Até 200 menções/mês",
+    "Configure suas próprias campanhas",
+    "Acesso ao painel de métricas",
+    "Grátis por um mês"
+  ],
+  "plans.pro.name": "Pro",
+  "plans.pro.description": "Para médias/grandes empresas que querem crescer organicamente",
+  "plans.pro.features": [
+    "Tudo do Iniciante, mais",
+    "Até 500 menções/mês",
+    "Sistema anti-fraude",
+    "Múltiplos usuários",
+    "Métricas personalizadas",
+    "Relatórios personalizados em seu e-mail"
+  ],
+  "plans.enterprise.name": "Enterprise",
+  "plans.enterprise.description": "Para empresas que dependem do orgânico",
+  "plans.enterprise.features": [
+    "Tudo do Pro",
+    "Menções ilimitadas",
+    "Sistema de autenticação em tempo real",
+    "Webhooks e acesso à API",
+    "Conecta-se com API para gerar recompensas em seu programa de fidelidade"
+  ],
+
+  "faq.title": "Perguntas Frequentes",
+  "faq.subtitle": "Respondemos às perguntas mais populares abaixo.",
+  "faq.questions": [
+    {
+      "question": "O que é o Organic Reach Rewards?",
+      "answer": "O Organic Reach Rewards é uma plataforma que capacita empresas a crescerem naturalmente recompensando clientes por engajamento nas redes sociais. Ele rastreia posts, Stories, Reels e menções em comentários no Instagram para oferecer insights valiosos sem exigir apps extras ou cartões físicos de fidelidade."
+    },
+    {
+      "question": "Como funciona?",
+      "answer": "Os clientes marcam sua empresa no Instagram, automaticamente ganhando pontos que contam para um limite que você define; uma vez que eles atingem esse limite, desbloqueiam recompensas como descontos, itens grátis ou outros benefícios que você escolher."
+    },
+    {
+      "question": "Os clientes precisam baixar um aplicativo separado?",
+      "answer": "Não. Eles simplesmente usam o Instagram—que já têm—e recebem 'selos' digitais para cada post ou menção qualificada, eliminando a necessidade de software adicional ou cartões físicos."
+    },
+    {
+      "question": "É fácil configurar e gerenciar?",
+      "answer": "Absolutamente. Uma vez que você estabelece quantas marcações contam para uma recompensa, nosso sistema funciona em segundo plano, rastreando automaticamente menções qualificadas e entregando insights de engajamento em tempo real para decisões rápidas e informadas."
+    },
+    {
+      "question": "Como os dados dos clientes são tratados?",
+      "answer": "Coletamos apenas as informações necessárias para confirmar posts elegíveis, respeitando a privacidade do usuário com uma política rigorosa de exclusão de dados e conformidade com todas as leis de proteção de dados relevantes."
+    }
+  ]
+}

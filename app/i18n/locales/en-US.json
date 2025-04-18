@@ -1,0 +1,72 @@
+{
+  "nav.signIn": "Sign in / Sign Up",
+
+  "home.title": "Connects brands and customers through social media",
+  "home.subtitle": "Boost loyalty and reduce barriers—low friction and maximum reach for your brand",
+
+  "content.title": "Powerful Insights, Simplified.",
+  "content.description": "Monitor mentions, track campaign performance, and pinpoint what drives the most customer engagement—all in one place.",
+
+  "cards.selling.title": "Selling more to loyal customers and attracting new buyers",
+  "cards.selling.text": "A strong community of returning customers is a testament to the quality of your products or services. Recognizing their loyalty not only deepens their connection with your brand but also transforms them into dedicated supporters.",
+
+  "cards.loyalty.title": "Loyalty strengthens business credibility",
+  "cards.loyalty.text": "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
+
+  "cards.engagement.title": "Loyalty strengthens business credibility",
+  "cards.engagement.text": "A consistent flow of repeat customers is clear evidence that your brand inspires trust and delivers real value. Fostering these lasting relationships ensures sustainable growth and long-term success.",
+
+  "plans.title": "Explore Plans",
+  "plans.starter.name": "Starter",
+  "plans.starter.description": "For small businesses that want to grow organically",
+  "plans.starter.features": [
+    "Up to 200 mentions/month",
+    "Configure your own campaigns",
+    "Access to metrics dashboard",
+    "Free per one month"
+  ],
+  "plans.pro.name": "Pro",
+  "plans.pro.description": "For medium/large businesses that want to grow organically",
+  "plans.pro.features": [
+    "Everything in Starter, plus",
+    "Up to 500 mentions/month",
+    "Anti-fraud system",
+    "Multiple users",
+    "Custom metrics",
+    "Tailored reports in your inbox"
+  ],
+  "plans.enterprise.name": "Enterprise",
+  "plans.enterprise.description": "For businesses that rely on organic",
+  "plans.enterprise.features": [
+    "Everything in Pro",
+    "Unlimited mentions",
+    "Real-time auth system",
+    "Webhooks and API access",
+    "Connects with API to generate rewards in your loyalty program"
+  ],
+
+  "faq.title": "Frequently Asked Questions",
+  "faq.subtitle": "We have answered the most popular questions below.",
+  "faq.questions": [
+    {
+      "question": "What is Organic Reach Rewards?",
+      "answer": "Organic Reach Rewards is a platform that empowers businesses to grow naturally by rewarding customers for social media engagement. It tracks Instagram posts, Stories, Reels, and comment mentions to offer valuable insights without requiring extra apps or physical punch cards."
+    },
+    {
+      "question": "How does it work?",
+      "answer": "Customers tag your business on Instagram, automatically earning points that count toward a threshold you define; once they reach it, they unlock rewards such as discounts, free items, or other perks you choose."
+    },
+    {
+      "question": "Do customers need to download a separate app?",
+      "answer": "No. They simply use Instagram—which they already have—and receive digital 'stamps' for each qualifying post or mention, eliminating the need for additional software or physical cards."
+    },
+    {
+      "question": "Is it easy to set up and manage?",
+      "answer": "Absolutely. Once you establish how many tags count toward a reward, our system runs in the background, automatically tracking qualified mentions and delivering real-time engagement insights for quick, informed decisions."
+    },
+    {
+      "question": "How is customer data handled?",
+      "answer": "We only gather the information required to confirm eligible posts, respecting user privacy with a strict data deletion policy and compliance with all relevant data protection laws."
+    }
+  ]
+}

@@ -64,7 +64,7 @@ const Plans = () => {
           {plans.map((plan, index) => (
             <Link
               key={index}
-              href={"https://app.organicreachrewards.com/login"}
+              href={"https://app.organicreachrewards.com"}
               className={`bg-[#30503A] px-6 md:px-[36px] py-12 md:py-[58px] flex flex-col justify-between transition-transform duration-300 ${
                 hoveredIndex === index
                   ? "transform scale-105 shadow-2xl"
