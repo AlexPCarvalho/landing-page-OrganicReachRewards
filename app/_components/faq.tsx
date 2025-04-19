@@ -1,66 +1,60 @@
 "use client";
 import { useState } from "react";
 import { CircleArrowDown } from "lucide-react";
-
-const faqItems = [
-  {
-    question: "What is Organic Reach Rewards?",
-    answer:
-      "Organic Reach Rewards is a platform that empowers businesses to grow naturally by rewarding customers for social media engagement. It tracks Instagram posts, Stories, Reels, and comment mentions to offer valuable insights without requiring extra apps or physical punch cards.",
-  },
-  {
-    question: "How does it work?",
-    answer:
-      "Customers tag your business on Instagram, automatically earning points that count toward a threshold you define; once they reach it, they unlock rewards such as discounts, free items, or other perks you choose.",
-  },
-  {
-    question: "Do customers need to download a separate app?",
-    answer:
-      "No. They simply use Instagram—which they already have—and receive digital 'stamps' for each qualifying post or mention, eliminating the need for additional software or physical cards.",
-  },
-  {
-    question: "Which businesses can use it?",
-    answer:
-      "Any business looking to boost engagement—cafés, gyms, salons, restaurants, and more—can implement Organic Reach Rewards to foster loyalty and encourage customers to share their experiences on social media.",
-  },
-  {
-    question: "What kind of rewards can i offer?",
-    answer:
-      "You have full control over the rewards, from discounts and freebies to exclusive offers or VIP perks; the beauty of Organic Reach Rewards is its flexibility in fitting your brand's unique goals.",
-  },
-
-  {
-    question: "Is it easy to set up and manage?",
-    answer:
-      "Absolutely. Once you establish how many tags count toward a reward, our system runs in the background, automatically tracking qualified mentions and delivering real-time engagement insights for quick, informed decisions.",
-  },
-  {
-    question: "How is customer data handled?",
-    answer:
-      "We only gather the information required to confirm eligible posts, respecting user privacy with a strict data deletion policy and compliance with all relevant data protection laws.",
-  },
-];
+import { useI18n } from "../i18n";
 
 const FaqItems = () => {
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
+  const { t } = useI18n();
 
   const toggleFaq = (index: number) => {
     setExpandedFaq(expandedFaq === index ? null : index);
   };
 
+  const faqItems = [
+    {
+      question: t("faq.questions0"),
+      answer: t("faq.answers0"),
+    },
+    {
+      question: t("faq.questions1"),
+      answer: t("faq.answers1"),
+    },
+    {
+      question: t("faq.questions2"),
+      answer: t("faq.answers2"),
+    },
+    {
+      question: t("faq.questions3"),
+      answer: t("faq.answers3"),
+    },
+    {
+      question: t("faq.questions4"),
+      answer: t("faq.answers4"),
+    },
+    {
+      question: t("faq.questions5"),
+      answer: t("faq.answers5"),
+    },
+    {
+      question: t("faq.questions6"),
+      answer: t("faq.answers6"),
+    },
+  ];
+
   return (
-    <div className="px-4 md:px-10 pt-6 md:pt-10 xl:pt-12 2xl:pt-14 pb-6 md:pb-10 xl:pb-12 2xl:pb-14">
+    <div className="px-4 md:px-10 xl:px-[300px] pt-6 md:pt-10 xl:pt-12 2xl:pt-14 pb-6 md:pb-10 xl:pb-12 2xl:pb-14">
       <div className="max-w-screen-xl mx-auto">
         <div className="pb-4 md:pb-6">
           <h1 className="text-2xl md:text-3xl xl:text-[80px] mb-0 font-bold text-[#63783F] text-center">
-            Frequently
+            {t("faq.title")}
           </h1>
           <h1 className="text-2xl md:text-3xl xl:text-[80px] font-bold text-[#63783F] text-center">
-            Asked Questions
+            {t("faq.title2")}
           </h1>
         </div>
         <p className="text-center text-sm md:text-base xl:text-[20px] text-[#688F59] pb-6 md:pb-10 mx-auto max-w-2xl">
-          We have answered the most popular questions below.
+          {t("faq.subtitle")}
         </p>
         <div className="m-auto">
           {faqItems.map((faq, index) => (

@@ -13,60 +13,67 @@
   "cards.loyalty.title": "A fidelidade fortalece a credibilidade do negócio",
   "cards.loyalty.text": "Um fluxo consistente de clientes recorrentes é uma clara evidência de que sua marca inspira confiança e entrega valor real. Cultivar esses relacionamentos duradouros garante crescimento sustentável e sucesso a longo prazo.",
 
-  "cards.engagement.title": "A fidelidade fortalece a credibilidade do negócio",
-  "cards.engagement.text": "Um fluxo consistente de clientes recorrentes é uma clara evidência de que sua marca inspira confiança e entrega valor real. Cultivar esses relacionamentos duradouros garante crescimento sustentável e sucesso a longo prazo.",
+  "cards.engagement.title": "O engajamento gera resultados reais.",
+  "cards.engagement.text": "Clientes dedicados fazem mais do que apenas retornar; eles compartilham ativamente suas experiências, ampliam a visibilidade da sua marca e atraem novos compradores por meio de recomendações autênticas, reforçando sua credibilidade.",
+
+
+
 
   "plans.title": "Explore os Planos",
+  "plans.perMonth": "por mês",
   "plans.starter.name": "Iniciante",
   "plans.starter.description": "Para pequenas empresas que querem crescer organicamente",
-  "plans.starter.features": [
-    "Até 200 menções/mês",
-    "Configure suas próprias campanhas",
-    "Acesso ao painel de métricas",
-    "Grátis por um mês"
-  ],
+  "plans.starter.features.0": "Até 200 menções/mês",
+  "plans.starter.features.1": "Configure suas próprias campanhas",
+  "plans.starter.features.2": "Acesso ao painel de métricas",
+  "plans.starter.features.3": "Grátis por um mês",
+  "plans.starter.price": "R$ 50",
+
+
+  
   "plans.pro.name": "Pro",
   "plans.pro.description": "Para médias/grandes empresas que querem crescer organicamente",
-  "plans.pro.features": [
-    "Tudo do Iniciante, mais",
-    "Até 500 menções/mês",
-    "Sistema anti-fraude",
-    "Múltiplos usuários",
-    "Métricas personalizadas",
-    "Relatórios personalizados em seu e-mail"
-  ],
+  "plans.pro.features.0": "Tudo do Iniciante, mais",
+  "plans.pro.features.1": "Até 500 menções/mês",
+  "plans.pro.features.2": "Sistema anti-fraude",
+  "plans.pro.features.3": "Múltiplos usuários",
+  "plans.pro.features.4": "Métricas personalizadas",
+  "plans.pro.features.5": "Relatórios personalizados em seu e-mail",
+  "plans.pro.price": "R$ 150",
+
+
   "plans.enterprise.name": "Enterprise",
   "plans.enterprise.description": "Para empresas que dependem do orgânico",
-  "plans.enterprise.features": [
-    "Tudo do Pro",
-    "Menções ilimitadas",
-    "Sistema de autenticação em tempo real",
-    "Webhooks e acesso à API",
-    "Conecta-se com API para gerar recompensas em seu programa de fidelidade"
-  ],
+  "plans.enterprise.features.0": "Tudo do Pro",
+  "plans.enterprise.features.1": "Menções ilimitadas",
+  "plans.enterprise.features.2": "Sistema de autenticação em tempo real",
+  "plans.enterprise.features.3": "Webhooks e acesso à API",
+  "plans.enterprise.features.4": "Conecta-se com API para gerar recompensas em seu programa de fidelidade",
+  "plans.enterprise.price": "Fale conosco",
 
-  "faq.title": "Perguntas Frequentes",
+  "faq.title": "Perguntas",
+  "faq.title2": "Frequentes",
   "faq.subtitle": "Respondemos às perguntas mais populares abaixo.",
-  "faq.questions": [
-    {
-      "question": "O que é o Organic Reach Rewards?",
-      "answer": "O Organic Reach Rewards é uma plataforma que capacita empresas a crescerem naturalmente recompensando clientes por engajamento nas redes sociais. Ele rastreia posts, Stories, Reels e menções em comentários no Instagram para oferecer insights valiosos sem exigir apps extras ou cartões físicos de fidelidade."
-    },
-    {
-      "question": "Como funciona?",
-      "answer": "Os clientes marcam sua empresa no Instagram, automaticamente ganhando pontos que contam para um limite que você define; uma vez que eles atingem esse limite, desbloqueiam recompensas como descontos, itens grátis ou outros benefícios que você escolher."
-    },
-    {
-      "question": "Os clientes precisam baixar um aplicativo separado?",
-      "answer": "Não. Eles simplesmente usam o Instagram—que já têm—e recebem 'selos' digitais para cada post ou menção qualificada, eliminando a necessidade de software adicional ou cartões físicos."
-    },
-    {
-      "question": "É fácil configurar e gerenciar?",
-      "answer": "Absolutamente. Uma vez que você estabelece quantas marcações contam para uma recompensa, nosso sistema funciona em segundo plano, rastreando automaticamente menções qualificadas e entregando insights de engajamento em tempo real para decisões rápidas e informadas."
-    },
-    {
-      "question": "Como os dados dos clientes são tratados?",
-      "answer": "Coletamos apenas as informações necessárias para confirmar posts elegíveis, respeitando a privacidade do usuário com uma política rigorosa de exclusão de dados e conformidade com todas as leis de proteção de dados relevantes."
-    }
-  ]
+
+  
+  "faq.questions0": "O que é o Organic Reach Rewards?",
+  "faq.answers0": "O Organic Reach Rewards é uma plataforma que capacita empresas a crescerem naturalmente, recompensando os clientes pelo engajamento nas redes sociais. Ele acompanha postagens, Stories, Reels e menções nos comentários do Instagram para oferecer insights valiosos sem a necessidade de aplicativos extras ou cartões físicos.",
+
+  "faq.questions1": "Como funciona?",
+  "faq.answers1": "Os clientes marcam sua empresa no Instagram, ganhando automaticamente pontos que somam para um limite que você define; quando atingem esse limite, eles desbloqueiam recompensas como descontos, itens gratuitos ou outros benefícios que você escolher.",
+
+  "faq.questions2": "Os clientes precisam baixar um aplicativo separado?",
+  "faq.answers2": "Não. Eles simplesmente usam o Instagram — que já possuem — e recebem 'selos' digitais para cada postagem ou menção qualificada, eliminando a necessidade de software adicional ou cartões físicos.",
+
+  "faq.questions3": "Quais tipos de negócios podem usá-lo?",
+  "faq.answers3": "Qualquer empresa que queira aumentar o engajamento — cafés, academias, salões, restaurantes e mais — pode implementar o Organic Reach Rewards para promover a lealdade e incentivar os clientes a compartilharem suas experiências nas redes sociais.",
+
+  "faq.questions4": "Que tipo de recompensas posso oferecer?",
+  "faq.answers4": "Você tem total controle sobre as recompensas, desde descontos e brindes até ofertas exclusivas ou benefícios VIP; a beleza do Organic Reach Rewards é sua flexibilidade em se ajustar aos objetivos exclusivos da sua marca.",
+
+  "faq.questions5": "É fácil de configurar e gerenciar?",
+  "faq.answers5": "Absolutamente. Assim que você definir quantas marcações contam para uma recompensa, nosso sistema funciona em segundo plano, automaticamente rastreando as menções qualificadas e fornecendo insights de engajamento em tempo real para decisões rápidas e informadas.",
+
+  "faq.questions6": "Como os dados dos clientes são tratados?",
+  "faq.answers6": "Nós coletamos apenas as informações necessárias para confirmar postagens elegíveis, respeitando a privacidade dos usuários com uma rígida política de exclusão de dados e conformidade com todas as leis de proteção de dados relevantes."
 }

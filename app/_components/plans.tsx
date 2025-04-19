@@ -3,48 +3,18 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useI18n } from "../i18n/index";
 
-const plans = [
-  {
-    name: "Starter",
-    description: "For small businesses that want to grow organically",
-    features: [
-      "Up to 200 mentions/month",
-      "Configure your own campaigns",
-      "Access to metrics dashboard",
-      "Free per one month",
-    ],
-    price: "$ 10",
-  },
-  {
-    name: "Pro",
-    description: "For medium/large businesses that want to grow organically",
-    features: [
-      "Everything in Starter, plus",
-      "Up to 500 mentions/month",
-      "Anti-fraud system",
-      "Multiple users",
-      "Custom metrics",
-      "Tailored reports in your inbox",
-    ],
-    price: "$ 30",
-  },
-  {
-    name: "Enterprise",
-    description: "For businesses that rely on organic",
-    features: [
-      "Everything in Pro",
-      "Unlimited mentions",
-      "Real-time auth system",
-      "Webhooks and API access",
-      "Connects with API to generate rewards in your loyalty program",
-    ],
-    price: "Contact us",
-  },
-];
+interface Plan {
+  name: string;
+  description: string;
+  features: string[];
+  price: string;
+}
 
 const Plans = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const { t } = useI18n();
 
   const handleMouseEnter = (index: number) => {
     setHoveredIndex(index);
@@ -54,11 +24,56 @@ const Plans = () => {
     setHoveredIndex(null);
   };
 
+  const starterFeatures = [
+    t("plans.starter.features.0"),
+    t("plans.starter.features.1"),
+    t("plans.starter.features.2"),
+    t("plans.starter.features.3"),
+  ];
+
+  const proFeatures = [
+    t("plans.pro.features.0"),
+    t("plans.pro.features.1"),
+    t("plans.pro.features.2"),
+    t("plans.pro.features.3"),
+    t("plans.pro.features.4"),
+    t("plans.pro.features.5"),
+  ];
+
+  const enterpriseFeatures = [
+    t("plans.enterprise.features.0"),
+    t("plans.enterprise.features.1"),
+    t("plans.enterprise.features.2"),
+    t("plans.enterprise.features.3"),
+    t("plans.enterprise.features.4"),
+  ];
+
+  const plans: Plan[] = [
+    {
+      name: t("plans.starter.name"),
+      description: t("plans.starter.description"),
+      features: starterFeatures,
+      price: t("plans.starter.price"),
+    },
+    {
+      name: t("plans.pro.name"),
+      description: t("plans.pro.description"),
+      features: proFeatures,
+      price: t("plans.pro.price"),
+    },
+    {
+      name: t("plans.enterprise.name"),
+      description: t("plans.enterprise.description"),
+      features: enterpriseFeatures,
+      price: t("plans.enterprise.price"),
+    },
+  ];
+
   return (
     <div className="bg-[#fff] px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
       <div className="max-w-screen-xl mx-auto">
         <h2 className="text-center sm:text-2xl 2xl:text-[80px] md:text-5xl xl:text-[80px] font-bold pb-10 md:pb-[60px] text-[#63783F]">
-          Explore Plans
+          {t("plans.title")}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-[20px]">
           {plans.map((plan, index) => (
@@ -81,7 +96,7 @@ const Plans = () => {
                   {plan.description}
                 </p>
                 <ul className="text-white text-base md:text-lg xl:text-[20px]">
-                  {plan.features.map((feature, i) => (
+                  {plan.features.map((feature: string, i: number) => (
                     <li
                       key={i}
                       className="flex gap-4 md:gap-[20px] pb-4 md:pb-[18px]"
@@ -99,7 +114,7 @@ const Plans = () => {
                 </ul>
               </div>
               <div className="mt-10 md:mt-[95px] text-white text-4xl md:text-5xl xl:text-[60px] font-bold">
-                {plan.price === "Contact us" ? (
+                {plan.price === t("plans.enterprise.price") ? (
                   <span className="font-bold bg-[#FBFFF6] py-2 md:py-[12px] px-4 md:px-[24px] text-base md:text-[24px] text-[#30503A]">
                     {plan.price}
                   </span>
@@ -107,7 +122,7 @@ const Plans = () => {
                   <>
                     {plan.price}
                     <p className="text-white font-light text-sm md:text-[16px]">
-                      per month
+                      {t("plans.perMonth")}
                     </p>
                   </>
                 )}
