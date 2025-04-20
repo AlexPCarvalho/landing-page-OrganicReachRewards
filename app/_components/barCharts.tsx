@@ -17,54 +17,65 @@ import {
   ValueType,
 } from "recharts/types/component/DefaultTooltipContent";
 import PieCharts from "./pieCharts";
+import { useI18n } from "../i18n";
 
-const barrasDiasData = [
-  { name: "Mon", value: 100 },
-  { name: "Tue", value: 450 },
-  { name: "Wed", value: 250 },
-  { name: "Thu", value: 500 },
-  { name: "Fri", value: 200 },
-  { name: "Sat", value: 400 },
-  { name: "Sun", value: 300 },
-];
-
-const barrasHorasData = [
-  { name: "07h", value: 150 },
-  { name: "08h", value: 250 },
-  { name: "09h", value: 400 },
-  { name: "10h", value: 100 },
-  { name: "11h", value: 80 },
-  { name: "12h", value: 600 },
-  { name: "13h", value: 400 },
-  { name: "14h", value: 90 },
-  { name: "15h", value: 170 },
-  { name: "16h", value: 100 },
-  { name: "17h", value: 230 },
-  { name: "18h", value: 600 },
-  { name: "19h", value: 350 },
-];
-
-const CustomTooltip = ({
-  active,
-  payload,
-  label,
-}: TooltipProps<ValueType, NameType>) => {
-  if (active && payload && payload.length) {
-    return (
-      <div className="bg-white p-2 text-[#000] border rounded text-xs shadow">
-        <p className="font-bold">{label}</p>
-        {payload.map((entry, index) =>
-          entry.name && entry.value ? (
-            <p key={index}>{`${entry.name}: ${entry.value}`}</p>
-          ) : null
-        )}
-      </div>
-    );
-  }
-  return null;
-};
 
 const BarCharts = () => {
+  const { t } = useI18n();
+  
+  const barrasDiasData = [
+    { name: t("chart.bar.date1"), value: 100 },
+    { name: t("chart.bar.date2"), value: 450 },
+    { name: t("chart.bar.date3"), value: 250 },
+    { name: t("chart.bar.date4"), value: 500 },
+    { name: t("chart.bar.date5"), value: 200 },
+    { name: t("chart.bar.date6"), value: 400 },
+    { name: t("chart.bar.date7"), value: 300 },
+  ];
+  
+  const barrasHorasData = [
+    { name: "07h", value: 150 },
+    { name: "08h", value: 250 },
+    { name: "09h", value: 400 },
+    { name: "10h", value: 100 },
+    { name: "11h", value: 80 },
+    { name: "12h", value: 600 },
+    { name: "13h", value: 400 },
+    { name: "14h", value: 90 },
+    { name: "15h", value: 170 },
+    { name: "16h", value: 100 },
+    { name: "17h", value: 230 },
+    { name: "18h", value: 600 },
+    { name: "19h", value: 350 },
+  ];
+  
+  const CustomTooltip = ({
+    active,
+    payload,
+    label,
+  }: TooltipProps<ValueType, NameType>) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className="bg-white p-2 text-[#000] border rounded text-xs shadow">
+          <p className="font-bold">{label}</p>
+          {payload.map((entry, index) =>
+            entry.name && entry.value ? (
+              <p key={index}>{`${entry.name}: ${entry.value}`}</p>
+            ) : null
+          )}
+        </div>
+      );
+    }
+    return null;
+  };
+  
+  
+
+
+
+
+
+
   return (
     <div className="flex flex-col gap-4">
       {/* Bar Chart Card */}
@@ -72,7 +83,7 @@ const BarCharts = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Chart by Days */}
           <div>
-            <h2 className="text-lg md:text-xl mb-2">Engagement by Days</h2>
+            <h2 className="text-lg md:text-xl mb-2">{t("chart.bar.day")}</h2>
             <div className="h-48">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={barrasDiasData}>
@@ -89,7 +100,7 @@ const BarCharts = () => {
                     }
                   />
                   <Legend />
-                  <Bar dataKey="value" fill="#FBFFF6" />
+                  <Bar name={t("chart.bar.name")} dataKey="value" fill="#FBFFF6" />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -97,7 +108,7 @@ const BarCharts = () => {
 
           {/* Chart by Hours */}
           <div>
-            <h2 className="text-lg md:text-xl mb-2">Engagement by Hours</h2>
+            <h2 className="text-lg md:text-xl mb-2">{t("chart.bar.hour")}</h2>
             <div className="h-48">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={barrasHorasData}>
@@ -118,7 +129,7 @@ const BarCharts = () => {
                     }
                   />
                   <Legend />
-                  <Bar name="Engagement" dataKey="value" fill="#FBFFF6" />
+                  <Bar name={t("chart.bar.name")} dataKey="value" fill="#FBFFF6" />
                 </BarChart>
               </ResponsiveContainer>
             </div>

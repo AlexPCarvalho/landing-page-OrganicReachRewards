@@ -92,5 +92,84 @@
   "footer.terms": "Terms of Service",
   "footer.privacy": "Privacy Policy",
   "footer.compliance": "Compliance",
-  "footer.deletion": "Data Deletion Policy"
+  "footer.deletion": "Data Deletion Policy",
+
+
+
+
+
+
+  "chart.text1": "of customers",
+  "chart.text2": "mention",
+  "chart.text3": "your page",
+
+  "chart.title": "Total Mentions",
+  "chart.subtitle": "Total Customers",
+
+  "chart.ranking": "Ranking of People Who Mentioned the Most",
+
+  "chart.1title": "Weekly Mentions",
+
+  "chart.1line1": "Stories",
+  "chart.1line2": "Comments",
+  "chart.1line3": "Reels",
+  "chart.1line4": "Posts",
+
+  "chart.2title": "Total Rewards",
+
+
+  "chart.2line1": "Free coffee",
+  "chart.2line2": "Free swag",
+  "chart.2line3": "E-book",
+  "chart.2line4": "Consulting",
+
+  "chart.3title": "Total Campaigns",
+
+  "chart.3line1.": "Stories",
+  "chart.3line2": "Comments",
+  "chart.3line3": "Reels",
+  "chart.3line4": "Posts",
+
+  "chart.line.date1": "Mon",
+  "chart.line.date2": "Tue",
+  "chart.line.date3": "Wed",
+  "chart.line.date4": "Thu",
+  "chart.line.date5": "Fri",
+  "chart.line.date6": "Sat",
+  "chart.line.date7": "Sun",
+
+  "chart.bar.day": "Engagement by Days",
+  "chart.bar.hour": "Engagement by Hours",
+  "chart.bar.name": "Engagement",
+
+  "chart.bar.date1": "Mon",
+  "chart.bar.date2": "Tue",
+  "chart.bar.date3": "Wed",
+  "chart.bar.date4": "Thu",
+  "chart.bar.date5": "Fri",
+  "chart.bar.date6": "Sat",
+  "chart.bar.date7": "Sun",
+
+  "chart.pie.1title": "Engagement by Category",
+ 
+
+  "chart.pie.1name": "Engagement",
+  "chart.pie.1name1": "Comments",
+  "chart.pie.1name2": "Photos",
+  "chart.pie.1name3": "Reels",
+  "chart.pie.1name4": "Stories",
+
+
+
+  "chart.pie.2title": "Reward by Campaign",
+  
+
+
+  "chart.pie.2name1": "Coupons",
+  "chart.pie.2name2": "Discounts",
+  "chart.pie.2name3": "Gifts",
+  "chart.pie.2name4": "Cashback"
+
+
+
 }

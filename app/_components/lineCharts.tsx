@@ -16,44 +16,48 @@ import {
   ValueType,
 } from "recharts/types/component/DefaultTooltipContent";
 import BarCharts from "./barCharts";
+import { useI18n } from "../i18n";
 
 const LineCharts = () => {
+
+  const { t } = useI18n();
+
   const DateLine = [
-    { name: "Mon", line1: 400, line2: 350, line3: 60, line4: 220 },
-    { name: "Tue", line1: 280, line2: 400, line3: 150, line4: 170 },
-    { name: "Wed", line1: 400, line2: 290, line3: 60, line4: 220 },
-    { name: "Thu", line1: 180, line2: 480, line3: 330, line4: 160 },
-    { name: "Fri", line1: 350, line2: 250, line3: 80, line4: 200 },
-    { name: "Sat", line1: 100, line2: 150, line3: 400, line4: 290 },
-    { name: "Sun", line1: 500, line2: 310, line3: 80, line4: 230 },
+    { name: t("chart.line.date1"), line1: 400, line2: 350, line3: 60, line4: 220 },
+    { name: t("chart.line.date2"), line1: 280, line2: 400, line3: 150, line4: 170 },
+    { name: t("chart.line.date3"), line1: 400, line2: 290, line3: 60, line4: 220 },
+    { name: t("chart.line.date4"), line1: 180, line2: 480, line3: 330, line4: 160 },
+    { name: t("chart.line.date5"), line1: 350, line2: 250, line3: 80, line4: 200 },
+    { name: t("chart.line.date6"), line1: 100, line2: 150, line3: 400, line4: 290 },
+    { name: t("chart.line.date7"), line1: 500, line2: 310, line3: 80, line4: 230 },
   ];
 
   const chartConfig = [
     {
-      name: "Weekly Mentions",
+      name: t("chart.1title"),
       lines: [
-        { key: "line1", name: "Stories", color: "#ffffff" },
-        { key: "line2", name: "Comments", color: "#A5D6A7" },
-        { key: "line3", name: "Reels", color: "#C5E1A5" },
-        { key: "line4", name: "Posts", color: "#E6EE9C" },
+        { key: "line1", name: t("chart.1line1"), color: "#ffffff" },
+        { key: "line2", name: t("chart.1line2"), color: "#A5D6A7" },
+        { key: "line3", name: t("chart.1line3"), color: "#C5E1A5" },
+        { key: "line4", name: t("chart.1line4"), color: "#E6EE9C" },
       ],
     },
     {
-      name: "Total Rewards",
+      name: t("chart.2title"),
       lines: [
-        { key: "line1", name: "Free coffee", color: "#ffffff" },
-        { key: "line2", name: "Free swag", color: "#A5D6A7" },
-        { key: "line3", name: "E-book", color: "#C5E1A5" },
-        { key: "line4", name: "Consulting", color: "#E6EE9C" },
+        { key: "line1", name: t("chart.2line1"), color: "#ffffff" },
+        { key: "line2", name: t("chart.2line2"), color: "#A5D6A7" },
+        { key: "line3", name: t("chart.2line3"), color: "#C5E1A5" },
+        { key: "line4", name: t("chart.2line4"), color: "#E6EE9C" },
       ],
     },
     {
-      name: "Total Campaigns",
+      name: t("chart.3title"),
       lines: [
-        { key: "line1", name: "Stories", color: "#ffffff" },
-        { key: "line2", name: "Comments", color: "#A5D6A7" },
-        { key: "line3", name: "Reels", color: "#C5E1A5" },
-        { key: "line4", name: "Posts", color: "#E6EE9C" },
+        { key: "line1", name: t("chart.3line1"), color: "#ffffff" },
+        { key: "line2", name: t("chart.3line2"), color: "#A5D6A7" },
+        { key: "line3", name: t("chart.3line3"), color: "#C5E1A5" },
+        { key: "line4", name: t("chart.3line4"), color: "#E6EE9C" },
       ],
     },
   ];

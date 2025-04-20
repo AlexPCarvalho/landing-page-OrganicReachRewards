@@ -93,5 +93,70 @@
 "footer.careers":"Carreiras",
 "footer.privacy": "Política de Privacidade",
 "footer.compliance": "Conformidade",
-"footer.deletion": "Política de Exclusão de Dados"
+"footer.deletion": "Política de Exclusão de Dados",
+
+"chart.text1": "dos clientes",
+"chart.text2": "mencionam",
+"chart.text3": "sua página",
+
+"chart.title": "Total de Menções",
+
+"chart.ranking": "Ranking das Pessoas que Mais Mencionaram",
+
+"chart.1title": "Menções da Semana",
+"chart.2title": "Total de Recompensas",
+"chart.1line1": "Stories",
+"chart.1line2": "Comentários",
+"chart.1line3": "Reels",
+"chart.1line4": "Posts",
+
+"chart.subtitle": "Total de Clientes",
+
+"chart.2line1": "Café grátis",
+"chart.2line2": "Brindes grátis",
+"chart.2line3": "E-book",
+"chart.2line4": "Consultoria",
+
+
+"chart.3title": "Total de Campanhas",
+
+"chart.3line1.": "Stories",
+"chart.3line2": "Comentários",
+"chart.3line3": "Reels",
+"chart.3line4": "Posts",
+
+"chart.line.date1": "Seg",
+"chart.line.date2": "Ter",
+"chart.line.date3": "Qua",
+"chart.line.date4": "Qui",
+"chart.line.date5": "Sex",
+"chart.line.date6": "Sáb",
+"chart.line.date7": "Dom",
+
+"chart.bar.day": "Engajamento por Dia",
+"chart.bar.hour": "Engajamento por Hora",
+"chart.bar.name": "Engajamento",
+
+"chart.bar.date1": "Seg",
+"chart.bar.date2": "Ter",
+"chart.bar.date3": "Qua",
+"chart.bar.date4": "Qui",
+"chart.bar.date5": "Sex",
+"chart.bar.date6": "Sáb",
+"chart.bar.date7": "Dom",
+
+"chart.pie.1title": "Engajamento por Categoria",
+
+"chart.pie.1name": "Engajamento",
+"chart.pie.1name1": "Comentários",
+"chart.pie.1name2": "Fotos",
+"chart.pie.1name3": "Reels",
+"chart.pie.1name4": "Stories",
+
+"chart.pie.2title": "Recompensa por Campanha",
+
+"chart.pie.2name1": "Cupons",
+"chart.pie.2name2": "Descontos",
+"chart.pie.2name3": "Presentes",
+"chart.pie.2name4": "Cashback"
 }

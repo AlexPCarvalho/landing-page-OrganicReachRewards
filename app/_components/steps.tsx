@@ -105,7 +105,7 @@ const Steps = () => {
         </button>
         <div
           ref={carouselRef}
-          className="relative overflow-hidden touch-pan-y min-h-[900px] md:min-h-[500px]"
+          className="relative overflow-hidden touch-pan-y min-h-[900px] md:min-h-[520px]"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
@@ -164,7 +164,7 @@ const Steps = () => {
                 <Image
                   src="/steps1.png"
                   alt="steps"
-                  width={420}
+                  width={450}
                   height={643}
                   className="sm:h-full"
                 />

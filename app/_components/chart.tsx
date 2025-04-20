@@ -3,8 +3,11 @@
 import React from "react";
 import Image from "next/image";
 import LineCharts from "./lineCharts";
+import { useI18n } from "../i18n";
 
 const Dashboard = () => {
+
+  const { t } = useI18n();
   return (
     <div className="flex justify-center items-center bg-[#99CE85] min-h-screen w-full">
       <div className="px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
@@ -19,19 +22,19 @@ const Dashboard = () => {
 
                 <div className="text-center lg:text-left lg:pl-4 xl:pl-6 2xl:pl-8 text-lg lg:text-xl xl:text-2xl 2xl:text-[24px]">
                   <p className="lg:mb-[-5px] xl:mb-[-7px] 2xl:mb-[-10px]">
-                    of customers
+                    {t("chart.text1")}
                   </p>
                   <p className="lg:mb-[-5px] xl:mb-[-7px] 2xl:mb-[-10px]">
-                    mention
+                    {t("chart.text2")}
                   </p>
-                  <p>your page</p>
+                  <p>{t("chart.text3")}</p>
                 </div>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4 lg:mt-0">
                 <div className="bg-[#689E54] rounded-2xl border border-solid border-[#8FC07C] p-4 text-center">
                   <div className="text-lg xl:text-xl 2xl:text-2xl">
-                    Total Mentions
+                    {t("chart.title")}
                   </div>
                   <div className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold">
                     549
@@ -40,7 +43,7 @@ const Dashboard = () => {
 
                 <div className="bg-[#689E54] rounded-2xl p-4 border border-solid border-[#8FC07C] text-center">
                   <div className="text-lg xl:text-xl 2xl:text-2xl">
-                    Total Customers
+                    {t("chart.subtitle")}
                   </div>
                   <div className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold">
                     210
@@ -52,7 +55,7 @@ const Dashboard = () => {
             {/* Card de ranking */}
             <div className="bg-[#689E54] w-full lg:w-auto lg:flex-1  text-[#FBFFF6]">
               <h2 className="text-lg md:text-xl px-[30px] text-center pb-4 lg:pb-6 xl:pb-8 pt-4 lg:pt-6">
-                Ranking of People Who Mentioned the Most
+                {t("chart.ranking")}
               </h2>
 
               <div className="relative flex items-end justify-center px-2 sm:px-4 md:px-6 lg:px-8">
