@@ -1,20 +1,11 @@
 {
   "nav.signIn": "Sign in / Sign Up",
 
-
-
-
   "home.title": "Connects brands and customers through social media",
   "home.subtitle": "Boost loyalty and reduce barriers—low friction and maximum reach for your brand",
 
-
-
   "content.title": "Powerful Insights, Simplified.",
   "content.description": "Monitor mentions, track campaign performance, and pinpoint what drives the most customer engagement—all in one place.",
-
-
-
-
 
   "cards.selling.title": "Selling more to loyal customers and attracting new buyers",
   "cards.selling.text": "A strong community of returning customers is a testament to the quality of your products or services. Recognizing their loyalty not only deepens their connection with your brand but also transforms them into dedicated supporters.",
@@ -25,16 +16,11 @@
   "cards.engagement.title": "Engagement drives real results.",
   "cards.engagement.text": "Dedicated customers do more than just return, they actively share their experiences, amplify your brand's visibility, and attract new buyers through authentic recommendations, reinforcing your credibility.",
 
-
-
-
-
-
   "plans.title": "Explore Plans",
   "plans.perMonth": "per month",
   "plans.starter.name": "Starter",
   "plans.starter.description": "For small businesses that want to grow organically",
-  "plans.starter.features.0": "Up to 200 mentions/month",
+  "plans.starter.features.0": "Up to 200 interactions/month",
   "plans.starter.features.1": "Configure your own campaigns",
   "plans.starter.features.2": "Access to metrics dashboard",
   "plans.starter.features.3": "Free per one month",
@@ -43,7 +29,7 @@
   "plans.pro.name": "Pro",
   "plans.pro.description": "For medium/large businesses that want to grow organically",
   "plans.pro.features.0": "Everything in Starter, plus",
-  "plans.pro.features.1": "Up to 500 mentions/month",
+  "plans.pro.features.1": "Up to 500 interactions/month",
   "plans.pro.features.2": "Anti-fraud system",
   "plans.pro.features.3": "Multiple users",
   "plans.pro.features.4": "Custom metrics",
@@ -53,16 +39,11 @@
   "plans.enterprise.name": "Enterprise",
   "plans.enterprise.description": "For businesses that rely on organic",
   "plans.enterprise.features.0": "Everything in Pro",
-  "plans.enterprise.features.1": "Unlimited mentions",
+  "plans.enterprise.features.1": "Unlimited interactions",
   "plans.enterprise.features.2": "Real-time auth system",
   "plans.enterprise.features.3": "Webhooks and API access",
   "plans.enterprise.features.4": "Connects with API to generate rewards in your loyalty program",
   "plans.enterprise.price": "Contact us",
-
-
-
-
-
 
   "faq.title": "Frequently",
   "faq.title2": "Asked Questions",
@@ -74,39 +55,42 @@
   "faq.questions1": "How does it work?",
   "faq.answers1": " Customers tag your business on Instagram, automatically earning points that count toward a threshold you define; once they reach it, they unlock rewards such as discounts, free items, or other perks you choose.",
 
-
   "faq.questions2": "Do customers need to download a separate app?",
   "faq.answers2": "No. They simply use Instagram—which they already have—and receive digital 'stamps' for each qualifying post or mention, eliminating the need for additional software or physical cards.",
-
 
   "faq.questions3": "Which businesses can use it?",
   "faq.answers3": "Any business looking to boost engagement—cafés, gyms, salons, restaurants, and more—can implement Organic Reach Rewards to foster loyalty and encourage customers to share their experiences on social media.",
 
-
   "faq.questions4": "What kind of rewards can i offer?",
   "faq.answers4": "You have full control over the rewards, from discounts and freebies to exclusive offers or VIP perks; the beauty of Organic Reach Rewards is its flexibility in fitting your brand's unique goals.",
 
+  "faq.questions5": "Do you support automations?  “Comment ‘word’ and receive a DM”?",
+  "faq.answers5": "Yes! Our platform supports Instagram automations. You can set up campaigns where customers who comment a specific keyword on your posts or reels automatically receive a personalized DM. It’s a great way to engage your audience, answer questions, share exclusive offers, or guide them to a reward page—completely hands-free.",
 
-  "faq.questions5": "Is it easy to set up and manage?",
-  "faq.answers5": "Absolutely. Once you establish how many tags count toward a reward, our system runs in the background, automatically tracking qualified mentions and delivering real-time engagement insights for quick, informed decisions.",
+  "faq.questions6": "Is it easy to set up and manage?",
+  "faq.answers6": "Absolutely. Once you establish how many tags count toward a reward, our system runs in the background, automatically tracking qualified mentions and delivering real-time engagement insights for quick, informed decisions.",
 
+  "faq.questions7": "How is customer data handled?",
+  "faq.answers7": "We only gather the information required to confirm eligible posts, respecting user privacy with a strict data deletion policy and compliance with all relevant data protection laws.",
 
-  "faq.questions6": "How is customer data handled?",
-  "faq.answers6": "We only gather the information required to confirm eligible posts, respecting user privacy with a strict data deletion policy and compliance with all relevant data protection laws.",
+  "steps.1.1title": "Login with Instagram",
   
-"steps.1.1title1":"Login with",
-"steps.1.1title2":"Instagram",
-"steps.1.2title1":"Define",
-"steps.1.2title2":"campaigns",
-"steps.1.3title1":"Set Live",
-"steps.1.text":"Connect your Instagram account to automatically capture customer posts, reels, stories, and comments. Next, specify the campaigns and decide on rewards that excite your audience. Finally, activate your campaign and watch customers promote your brand while you track real-time engagement—all without extra apps or hassle.",
-"steps.2.1title1":"Mention",
-"steps.2.1title2":"Brand",
-"steps.2.2title1":"Earn Points",
-"steps.2.3title1":"Reedem",
-"steps.2.3title2":"Rewards",
-"steps.2.text":"Whenever you post a story, reel, or comment on the business media, you'll automatically receive a URL by direct message (DM). From that link, you can check your points balance, see available campaigns, and redeem your rewards—no extra logins or downloads are needed."
-
-
+  "steps.1.2title": "Define campaigns",
+ 
+  "steps.1.3title": "Set Live",
+  "steps.1.text": "Connect your Instagram account to automatically capture customer posts, reels, stories, and comments. Next, specify the campaigns and decide on rewards that excite your audience. Finally, activate your campaign and watch customers promote your brand while you track real-time engagement—all without extra apps or hassle.",
+  "steps.2.1title": "Mention Brand",
   
+  "steps.2.2title": "Earn Points",
+  "steps.2.3title": "Reedem Rewards",
+  
+  "steps.2.text": "Whenever you post a story, reel, or comment on the business media, you'll automatically receive a URL by direct message (DM). From that link, you can check your points balance, see available campaigns, and redeem your rewards—no extra logins or downloads are needed.",
+
+  "footer.text": "Grow organically, build customer loyalty and transform engagement into real results. Your business, driven naturally!",
+  "footer.copy": "© 2023 Organic Reach Rewards. All rights reserved.",
+  "footer.careers":"Careers",
+  "footer.terms": "Terms of Service",
+  "footer.privacy": "Privacy Policy",
+  "footer.compliance": "Compliance",
+  "footer.deletion": "Data Deletion Policy"
 }

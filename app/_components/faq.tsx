@@ -40,6 +40,10 @@ const FaqItems = () => {
       question: t("faq.questions6"),
       answer: t("faq.answers6"),
     },
+    {
+      question: t("faq.questions7"),
+      answer: t("faq.answers7"),
+    },
   ];
 
   return (

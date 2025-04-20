@@ -16,36 +16,30 @@
   "cards.engagement.title": "O engajamento gera resultados reais.",
   "cards.engagement.text": "Clientes dedicados fazem mais do que apenas retornar; eles compartilham ativamente suas experiências, ampliam a visibilidade da sua marca e atraem novos compradores por meio de recomendações autênticas, reforçando sua credibilidade.",
 
-
-
-
   "plans.title": "Explore os Planos",
   "plans.perMonth": "por mês",
   "plans.starter.name": "Iniciante",
   "plans.starter.description": "Para pequenas empresas que querem crescer organicamente",
-  "plans.starter.features.0": "Até 200 menções/mês",
+  "plans.starter.features.0": "Até 200 interações/mês",
   "plans.starter.features.1": "Configure suas próprias campanhas",
   "plans.starter.features.2": "Acesso ao painel de métricas",
   "plans.starter.features.3": "Grátis por um mês",
   "plans.starter.price": "R$ 50",
 
-
-  
   "plans.pro.name": "Pro",
   "plans.pro.description": "Para médias/grandes empresas que querem crescer organicamente",
   "plans.pro.features.0": "Tudo do Iniciante, mais",
-  "plans.pro.features.1": "Até 500 menções/mês",
+  "plans.pro.features.1": "Até 500 interações/mês",
   "plans.pro.features.2": "Sistema anti-fraude",
   "plans.pro.features.3": "Múltiplos usuários",
   "plans.pro.features.4": "Métricas personalizadas",
   "plans.pro.features.5": "Relatórios personalizados em seu e-mail",
   "plans.pro.price": "R$ 150",
 
-
   "plans.enterprise.name": "Enterprise",
   "plans.enterprise.description": "Para empresas que dependem do orgânico",
   "plans.enterprise.features.0": "Tudo do Pro",
-  "plans.enterprise.features.1": "Menções ilimitadas",
+  "plans.enterprise.features.1": "Interações ilimitadas",
   "plans.enterprise.features.2": "Sistema de autenticação em tempo real",
   "plans.enterprise.features.3": "Webhooks e acesso à API",
   "plans.enterprise.features.4": "Conecta-se com API para gerar recompensas em seu programa de fidelidade",
@@ -55,7 +49,6 @@
   "faq.title2": "Frequentes",
   "faq.subtitle": "Respondemos às perguntas mais populares abaixo.",
 
-  
   "faq.questions0": "O que é o Organic Reach Rewards?",
   "faq.answers0": "O Organic Reach Rewards é uma plataforma que capacita empresas a crescerem naturalmente, recompensando os clientes pelo engajamento nas redes sociais. Ele acompanha postagens, Stories, Reels e menções nos comentários do Instagram para oferecer insights valiosos sem a necessidade de aplicativos extras ou cartões físicos.",
 
@@ -71,9 +64,34 @@
   "faq.questions4": "Que tipo de recompensas posso oferecer?",
   "faq.answers4": "Você tem total controle sobre as recompensas, desde descontos e brindes até ofertas exclusivas ou benefícios VIP; a beleza do Organic Reach Rewards é sua flexibilidade em se ajustar aos objetivos exclusivos da sua marca.",
 
-  "faq.questions5": "É fácil de configurar e gerenciar?",
-  "faq.answers5": "Absolutamente. Assim que você definir quantas marcações contam para uma recompensa, nosso sistema funciona em segundo plano, automaticamente rastreando as menções qualificadas e fornecendo insights de engajamento em tempo real para decisões rápidas e informadas.",
+  "faq.questions5": "Vocês suportam automações? “Comente ‘palavra’ e receba uma DM”? ",
+  "faq.answers5": "Sim! Nossa plataforma suporta automações no Instagram. Você pode configurar campanhas onde clientes que comentam uma palavra-chave específica em suas postagens ou reels recebem automaticamente uma DM personalizada. É uma ótima maneira de engajar seu público, responder perguntas, compartilhar ofertas exclusivas ou guiá-los para uma página de recompensas — completamente sem precisar de mãos.",
 
-  "faq.questions6": "Como os dados dos clientes são tratados?",
-  "faq.answers6": "Nós coletamos apenas as informações necessárias para confirmar postagens elegíveis, respeitando a privacidade dos usuários com uma rígida política de exclusão de dados e conformidade com todas as leis de proteção de dados relevantes."
+  "faq.questions6": "É fácil de configurar e gerenciar?",
+  "faq.answers6": "Absolutamente. Assim que você definir quantas marcações contam para uma recompensa, nosso sistema funciona em segundo plano, automaticamente rastreando as menções qualificadas e fornecendo insights de engajamento em tempo real para decisões rápidas e informadas.",
+
+  "faq.questions7": "Como os dados dos clientes são tratados?",
+  "faq.answers7": "Nós coletamos apenas as informações necessárias para confirmar postagens elegíveis, respeitando a privacidade dos usuários com uma rígida política de exclusão de dados e conformidade com todas as leis de proteção de dados relevantes.",
+
+  "steps.1.1title": "Entrar com o Instagram",
+
+"steps.1.2title": "Definir campanhas",
+
+"steps.1.3title": "Ativar",
+"steps.1.text": "Conecte sua conta do Instagram para capturar automaticamente posts, reels, stories e comentários de clientes. Em seguida, especifique as campanhas e decida sobre recompensas que empolguem seu público. Por fim, ative sua campanha e observe os clientes promoverem sua marca enquanto você acompanha o engajamento em tempo real — tudo sem aplicativos extras ou complicações.",
+"steps.2.1title": "Mencionar a Marca",
+
+"steps.2.2title": "Ganhar Pontos",
+"steps.2.3title": "Resgatar Recompensas",
+
+"steps.2.text": "Sempre que você postar um story, reel ou comentário na mídia da empresa, receberá automaticamente um URL por mensagem direta (DM). Nesse link, você pode verificar seu saldo de pontos, ver as campanhas disponíveis e resgatar suas recompensas — sem necessidade de logins extras ou downloads.",
+
+
+"footer.text": "Cresça organicamente, construa a lealdade do cliente e transforme o engajamento em resultados reais. Seu negócio, impulsionado naturalmente!",
+"footer.copy": "© 2023 Organic Reach Rewards. Todos os direitos reservados.",
+"footer.terms": "Termos de Serviço",
+"footer.careers":"Carreiras",
+"footer.privacy": "Política de Privacidade",
+"footer.compliance": "Conformidade",
+"footer.deletion": "Política de Exclusão de Dados"
 }

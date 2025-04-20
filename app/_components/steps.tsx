@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useState, useEffect, useRef, SetStateAction } from "react";
+import { useI18n } from "../i18n";
 
 const Steps = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -58,6 +59,8 @@ const Steps = () => {
     touchEndXRef.current = 0;
   };
 
+  const { t } = useI18n()
+
   return (
     <div className="relative bg-white px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
       <div className="max-w-screen-xl mx-auto">
@@ -102,7 +105,7 @@ const Steps = () => {
         </button>
         <div
           ref={carouselRef}
-          className="relative overflow-hidden touch-pan-y min-h-[800px]"
+          className="relative overflow-hidden touch-pan-y min-h-[900px] md:min-h-[500px]"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
@@ -113,7 +116,7 @@ const Steps = () => {
               activeSlide === 0 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
-            <div className="flex flex-col xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
+            <div className="flex flex-col  xl:flex-row justify-between items-center xl:items-start gap-10 xl:gap-0">
               <div>
                 <div>
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg  md:text-2xl xl:text-3xl flex items-center">
@@ -122,11 +125,9 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
-                        Login with
+                        {t("steps.1.1title")}
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[45px]">
-                        Instagram
-                      </p>
+
                     </li>
                   </ul>
 
@@ -136,11 +137,9 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
-                        Define
+                      {t("steps.1.2title")}
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[45px]">
-                        campaigns
-                      </p>
+
                     </li>
                   </ul>
 
@@ -150,18 +149,13 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="text-2xl md:text-4xl xl:text-[45px]">
-                        Set Live
+                      {t("steps.1.3title")}
                       </p>
                     </li>
                   </ul>
 
-                  <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
-                    Connect your Instagram account to automatically capture
-                    customer posts, reels, stories, and comments. Next, specify
-                    the campaigns and decide on rewards that excite your
-                    audience. Finally, activate your campaign and watch
-                    customers promote your brand while you track real-time
-                    engagement—all without extra apps or hassle.
+                  <p className="max-w-full xl:max-w-[512px]  text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
+                  {t("steps.1.text")}
                   </p>
                 </div>
               </div>
@@ -170,9 +164,9 @@ const Steps = () => {
                 <Image
                   src="/steps1.png"
                   alt="steps"
-                  width={566}
+                  width={420}
                   height={643}
-                  className="h-auto xl:h-full"
+                  className="sm:h-full"
                 />
               </div>
             </div>
@@ -193,11 +187,9 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
-                        Mention
+                      {t("steps.2.1title")}
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[45px]">
-                        Brand
-                      </p>
+
                     </li>
                   </ul>
 
@@ -207,7 +199,7 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
-                        Earn Points
+                      {t("steps.2.2title")}
                       </p>
                     </li>
                   </ul>
@@ -218,20 +210,14 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
-                        Reedem
+                      {t("steps.2.3title")}
                       </p>
-                      <p className="text-2xl md:text-4xl xl:text-[45px]">
-                        Rewards
-                      </p>
+
                     </li>
                   </ul>
 
                   <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
-                    Whenever you post a story, reel, or comment on the business
-                    media, you'll automatically receive a URL by direct message
-                    (DM). From that link, you can check your points balance, see
-                    available campaigns, and redeem your rewards—no extra logins
-                    or downloads are needed.
+                  {t("steps.2.text")}
                   </p>
                 </div>
               </div>
@@ -240,7 +226,7 @@ const Steps = () => {
                 <Image
                   src="/steps2.png"
                   alt="steps"
-                  width={566}
+                  width={380}
                   height={643}
                   className="h-auto xl:h-full"
                 />
