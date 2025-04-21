@@ -74,30 +74,25 @@
   "faq.answers7": "We only gather the information required to confirm eligible posts, respecting user privacy with a strict data deletion policy and compliance with all relevant data protection laws.",
 
   "steps.1.1title": "Login with Instagram",
-  
+
   "steps.1.2title": "Define campaigns",
- 
+
   "steps.1.3title": "Set Live",
   "steps.1.text": "Connect your Instagram account to automatically capture customer posts, reels, stories, and comments. Next, specify the campaigns and decide on rewards that excite your audience. Finally, activate your campaign and watch customers promote your brand while you track real-time engagement—all without extra apps or hassle.",
   "steps.2.1title": "Mention Brand",
-  
+
   "steps.2.2title": "Earn Points",
   "steps.2.3title": "Reedem Rewards",
-  
+
   "steps.2.text": "Whenever you post a story, reel, or comment on the business media, you'll automatically receive a URL by direct message (DM). From that link, you can check your points balance, see available campaigns, and redeem your rewards—no extra logins or downloads are needed.",
 
   "footer.text": "Grow organically, build customer loyalty and transform engagement into real results. Your business, driven naturally!",
   "footer.copy": "© 2023 Organic Reach Rewards. All rights reserved.",
-  "footer.careers":"Careers",
+  "footer.careers": "Careers",
   "footer.terms": "Terms of Service",
   "footer.privacy": "Privacy Policy",
   "footer.compliance": "Compliance",
   "footer.deletion": "Data Deletion Policy",
-
-
-
-
-
 
   "chart.text1": "of customers",
   "chart.text2": "mention",
@@ -116,7 +111,6 @@
   "chart.1line4": "Posts",
 
   "chart.2title": "Total Rewards",
-
 
   "chart.2line1": "Free coffee",
   "chart.2line2": "Free swag",
@@ -151,7 +145,6 @@
   "chart.bar.date7": "Sun",
 
   "chart.pie.1title": "Engagement by Category",
- 
 
   "chart.pie.1name": "Engagement",
   "chart.pie.1name1": "Comments",
@@ -159,16 +152,325 @@
   "chart.pie.1name3": "Reels",
   "chart.pie.1name4": "Stories",
 
-
-
   "chart.pie.2title": "Reward by Campaign",
-  
-
 
   "chart.pie.2name1": "Coupons",
   "chart.pie.2name2": "Discounts",
   "chart.pie.2name3": "Gifts",
-  "chart.pie.2name4": "Cashback"
+  "chart.pie.2name4": "Cashback",
+
+  "careers.content.title1": "Join the team",
+  "careers.content.title2": "be a protagonist of innovation",
+  "careers.content.text": "If you are passionate about innovation, growth and real impact, we have a place for you! We are constantly looking for creative, ambitious people who are committed to transforming the way companies connect with their customers. At Organic Reach Rewards, you will have the chance to work on projects that make a difference in the daily lives of people and companies. If you feel motivated to contribute to innovative solutions and want to grow alongside a united and focused team, come be part of this journey with us. Here, you will find a dynamic and challenging environment, where your opinion will be heard and your impact will be recognized.",
+  "careers.content.button": "See open roles",
+
+  "careers.interviews.title": "Technical Interviews",
+
+  "careers.interviews.text0": "The new challenges we face at Organic Reach Rewards require diverse expertise and perspectives. Our interview process is designed to identify thoughtful candidates who bring unique strengths to our multidisciplinary team. If this sounds like you, we’d love to hear from you, regardless of your background or experience.",
+  "careers.interviews.text1": "One of the most common questions we get is whether it’s worth applying to work at Organic Reach Rewards if you don’t have experience with modern web development or organic engagement systems. Yes! For some roles, experience with the technologies we use is expected, but many employees come to Organic Reach Rewards without having worked directly with these tools before. If you’re unsure about the experience required for the role, ask your recruiter.",
+
+  "careers.interviews.text2": "We use shared environments like CodeSandbox or Replit for our coding-focused interviews. We’ll be very interested in how you think through each problem, analyze the tradeoffs between possible approaches, and implement solutions. We expect you to write, run, and debug your solutions along the way. You’ll be able to search the documentation or the web as you normally would (which is why we’ll ask you to share your screen during each interview), but it’s still important to be familiar with the basic syntax, standard libraries, and common idioms in the technologies we use so that research doesn’t take up too much time.",
+  "careers.interviews.text3": "Your interview process will also include non-technical questions about your experience and what motivates you. And of course, you’ll have time to ask us about Organic Reach Rewards and how we work. We can’t wait to meet you and see how you can contribute to our mission!",
+
+  "careers.main.title0": "What we value and how we act",
+
+  "careers.main.text0": "At Organic Reach Rewards, we believe that our team values ​​are fundamental to our collective success. Our culture is built on solid principles that guide our work and the way we relate to each other within the company and with our clients.",
+
+  "careers.main.title1": "Collaboration",
+  "careers.main.text1": "We work together because we know that the sum of our skills is the key to achieving great results. Collaboration is a daily practice in our team, and it is a core value that permeates everything we do. We believe that supporting the growth and success of each team member is crucial to collective success, which is why we foster an environment where everyone helps and learns from each other.",
+
+  "careers.main.title2": "Innovation",
+  "careers.main.text2": "We are always looking for new ways of doing things. Innovation is not limited to the technologies we use, but also to the way we solve problems, improve processes and meet the needs of our clients. Innovation is at the heart of our mission, and it is reflected in every project we deliver. We believe that with the right mindset and a creative approach, we can turn any challenge into an opportunity.",
+
+  "careers.main.title3": "Empathy",
+  "careers.main.text3": "Empathy is a core value, both within the team and in our interactions with customers. We know that understanding the needs of others and demonstrating mutual respect creates an environment of trust, where everyone feels valued and motivated to contribute. We strive to build sincere and lasting relationships with both our colleagues and customers, always prioritizing well-being and genuine understanding.",
+
+  "careers.main.title4": "Transparency",
+  "careers.main.text4": "We believe that open and honest communication is fundamental to the success of any team. At Organic Reach Rewards, everyone has access to the information they need to make informed decisions and directly impact the business. We value clarity in all aspects, from goal setting to ongoing feedback. This ensures that everyone on the team knows how their work is contributing to the success of the company.",
+
+  "careers.main.title5": "Results-Oriented",
+  "careers.main.text5": "While collaboration and well-being are essential, we are a results-oriented company. We work with clear goals and focus on exceeding them. Our commitment to results is balanced by an ethical and human approach, where the quality of life and happiness of our team are equally important. We always seek to exceed our clients’ expectations, ensuring that we deliver value at every step.",
+
+  "careers.offer.title": "What we offer",
+
+  "careers.offer.title1": "Health & Wellbeing",
+  "careers.offer.text1": "At Organic Reach Rewards, we believe that the well-being of our employees is essential to the collective success of our company. That’s why we offer a range of benefits focused on the physical and mental health of our team, ensuring that you have the support you need to take care of yourself and your family.",
+
+  "careers.offer.1list1": "Comprehensive health and dental plan for you and your dependents",
+
+  "careers.offer.1list2": "Mental health support, with psychological support programs for you and your family",
+
+  "careers.offer.1list3": "Benefits to promote work-life balance",
+
+  "careers.offer.1list4": "Wellness programs, including activities and resources to care for physical and mental health",
+
+  "careers.offer.title2": "Compensation and Support",
+  "careers.offer.text2": "We value the work of our team and ensure that you have the tools and support you need to reach your full potential. At Organic Reach Rewards, we invest in your professional growth and always strive for fair compensation that recognizes your contributions.",
+
+  "careers.offer.2list1": "Competitive salary aligned with the market",
+  "careers.offer.2list2": "Mentoring programs for continuous development",
+  "careers.offer.2list3": "Access to workshops and professional development courses",
+  "careers.offer.2list4": "Dedicated support for your development, with performance monitoring and constant feedback",
+
+  "careers.offer.title3": "Culture of Continuous Innovation",
+  "careers.offer.text3": "At Organic Reach Rewards, innovation is one of the pillars of our work. We are constantly looking for new ways to improve our processes, our products and the experience of our users. Join us to be part of a team that is always at the forefront of innovation.",
+
+  "careers.offer.3list1": "Opportunity to work with the most current and cutting-edge technologies",
+  "careers.offer.3list2": "Space to experiment, test and implement new ideas and solutions",
+  "careers.offer.3list3": "Stimulation of creativity and the search for innovative solutions that positively impact our customers",
+  "careers.offer.3list4": "Collaboration with cross-functional teams to transform ideas into real solutions",
+
+  "careers.other.title": "Other Things",
+
+  "careers.other.title1": "Multidisciplinary Work and Innovation",
+  "careers.other.text1": "At Organic Reach Rewards, engineers and product developers work side by side, and everyone has the opportunity to explore different areas of innovation and development. We believe that the lines between engineering and research are becoming increasingly blurred as we explore new ways to drive organic engagement and optimize user experiences. Our team is made up of professionals with diverse backgrounds and experiences, and our interview structure is designed to value this diversity.",
+
+  "careers.other.1list1": "If you have an engineering background, apply for engineering roles. You will do much better in interviews and, once you join the team, you will have as much impact on the decisions and direction of Organic Reach Rewards as any other team member.",
+
+  "careers.other.1list2": "As evidence, all of our projects have significant input from engineers, often with engineers as the primary drivers of deliverables and solutions.",
+
+  "careers.other.title2": "Flexible Working Hours",
+
+  "careers.other.text2": "The Organic Reach Rewards team works primarily remotely, with the flexibility to meet when needed. Some team members have regular in-person meetings, but we understand that the transition to remote work can be important for many. If necessary, you can start by working fully remotely during the adjustment period.",
+
+  "careers.other.title3": "Internships",
+
+  "careers.other.text3": "We currently do not offer internship positions.",
+
+  "careers.other.tile4": "We value direct evidence of skill",
+
+  "careers.other.text4": "If you’ve done interesting independent research, written an insightful blog post, or made substantial contributions to open-source software, put that at the top of your resume! We want to see the impact you’ve made and how you can contribute to our mission of improving organic engagement.",
+
+  "careers.other.tile5": "Feedback",
+
+  "careers.other.text5": "Unfortunately, we don’t provide feedback on resumes or interviews, but we’re always open to discussing your experience and what we can do to improve in the future.",
+
+  "careers.other.tile6": "Remote Work",
+
+  "careers.other.text6": "At Organic Reach Rewards, engineers and product developers work side by side, and everyone has the opportunity to explore different areas of innovation and development. We believe that the lines between engineering and research are becoming increasingly blurred as we explore new ways to drive organic engagement and optimize user experiences. Our team is made up of professionals with diverse backgrounds and experiences, and our interview structure is designed to value this diversity.",
+
+  "careers.other.tile7": "Remote Interviews",
+
+  "careers.other.text7": "We conduct all interviews remotely, using platforms such as Google Meet. We prefer office hours in the Brasilia time zone, but we are flexible if this is a challenge for you.",
+
+  "careers.other.tile8": "Re-applications",
+
+  "careers.other.text8": "If you are unsuccessful this time, you can re-apply after 12 months, or sooner if something material changes in your experience or skills.",
+
+  "careers.other.tile9": "Time to decide on the offer",
+
+  "careers.other.text9": "If we receive your acceptance for an offer, we will be happy to give you time to consider and finalize other selection processes.",
+
+  "compliance.title0": "Compliance Policy",
+
+  "compliance.title1": "Introduction",
+  "compliance.text1": "Our compliance policy ensures that our business operations, products, and services meet the required legal, regulatory, and internal standards. This policy is designed to demonstrate our commitment to compliance with all relevant laws and regulations, as well as our commitment to ethical business practices.",
+
+  "compliance.title2": "Scope",
+  "compliance.text2": "This policy applies to all employees, contractors, partners, and third-party suppliers involved in any business processes within the company.",
+
+  "compliance.title3": "Legal and Regulatory Compliance",
+  "compliance.text3": "We comply with all applicable local, national, and international laws and regulations, including but not limited to:",
+  "compliance.list3.1": "General Data Protection Regulation (GDPR)",
+  "compliance.list3.2": "Anti-Money Laundering (AML) Regulations",
+  "compliance.list3.3": "Health and Safety Legislation",
+  "compliance.list3.4": "Industry-Specific Regulations",
+
+  "compliance.title4": "Internal Compliance Procedures",
+  "compliance.text4": "We have implemented internal compliance procedures to ensure all business practices adhere to the highest legal and ethical standards. These procedures include:",
+  "compliance.list4.1": "Regular compliance audits and reviews",
+  "compliance.list4.2": "Employee training programs on compliance issues",
+  "compliance.list4.3": "Whistleblower protections and reporting mechanisms",
+
+  "compliance.title5": "Responsibilities",
+  "compliance.text5": "All employees and contractors have a responsibility to comply with the law and the internal compliance policies of the company. The following groups have specific responsibilities:",
+  "compliance.list5.1": "Compliance Officer: Oversees all compliance activities, audits, and reports.",
+  "compliance.list5.2": "Managers: Ensure that their teams are aware of and follow the compliance procedures.",
+  "compliance.list5.3": "Employees: Must report any suspected violations or irregularities to the Compliance Officer.",
+
+  "compliance.title6": "Monitoring and Enforcement",
+  "compliance.text6": "Compliance will be regularly monitored, and any violations will result in appropriate disciplinary actions. These actions can include:",
+  "compliance.list6.1": "Verbal or written warnings",
+  "compliance.list6.2": "Suspension or termination of employment",
+  "compliance.list6.3": "Legal actions, where necessary",
+
+  "compliance.title7": "Reporting Violations",
+  "compliance.text7": "We encourage all employees and stakeholders to report any compliance concerns. Reports can be made anonymously and will be investigated thoroughly to ensure corrective actions are taken.",
+
+  "compliance.title8": "Continuous Improvement",
+  "compliance.text8": "This policy will be reviewed periodically to ensure its effectiveness and compliance with evolving laws and regulations. Changes to the policy will be communicated promptly to all employees.",
+
+  "compliance.title9": "Conclusion",
+  "compliance.text9": "Compliance is a cornerstone of our business operations. We are committed to upholding the highest standards of legal, regulatory, and ethical compliance to protect our stakeholders and ensure the long-term success of our company.",
+
+  "terms.title0": "Terms of Service",
+
+  "terms.text0": "Welcome to Organic Reach Rewards! Before you access our services, please read these Terms of Service.",
+
+  "terms.text0.1": "These Terms of Service (“Terms”) govern your use of Organic Reach Rewards, and other products and services that we may offer for individuals, along with any associated apps, software, and websites (together, our “Services”). These Terms are a contract between you and Organic Reach Rewards (“Organic Reach Rewards”) (and not our Providers), and they include our Acceptable Use Policy. By accessing our Services, you agree to these Terms.",
+
+  "terms.text0.2": "Please read our Privacy Policy, which describes how we collect and use personal information.",
+
+  "terms.title1": "1. Who We Are",
+
+  "terms.text1": "Organic Reach Rewards is a platform that offers individuals the opportunity to earn rewards by engaging with businesses on social media.",
+
+  "terms.title2": "2. Account Creation and Access",
+
+  "terms.text2": "Minimum age. You must be at least 18 years old or the minimum age required to consent to use the Services in your location, whichever is higher.",
+
+  "terms.text2.1": "Your Organic Reach Rewards Account. To access our Services, we may ask you to create an Account. You agree to provide correct, current, and complete Account information and allow us to use it to communicate with you about our Services.",
+
+  "terms.title3": "3. Use of Our Services",
+  "terms.text3": "You may access and use our Services only in compliance with our Terms, including our Acceptable Use Policy.",
+  "terms.text3.1": "You may not use our Services in any manner that violates any applicable law or regulation.",
+
+  "terms.title4": "4. Inputs, Outputs, and Materials",
+  "terms.text4": "By using our Services, you are responsible for all Inputs you submit, and you warrant that you have the necessary rights to submit those Inputs. You retain any right, title, and interest in the Inputs, while we assign you rights to Outputs that result from your use of our Services.",
+
+  "terms.title5": "5. Feedback",
+  "terms.text5": "We appreciate feedback, including ideas and suggestions for improvement. By submitting feedback, you grant us the right to use it without any obligation or compensation.",
+
+  "terms.title6": "6. Subscriptions, Fees, and Payment",
+  "terms.text6": "To access certain features of our Services, you may need to pay applicable fees. You are responsible for providing accurate billing information, and you agree to pay any fees associated with the Services you use.",
+
+  "terms.title7": "7. Third-party Services and Links",
+  "terms.text7": "Our Services may be used in connection with third-party content or services. We are not responsible for any loss or damage that may arise from your use of third-party content, services, and integrations.",
+
+  "terms.title8": "8. Ownership of the Services",
+  "terms.text8": "The Services are owned, operated, and provided by us and our affiliates. We retain all rights, including intellectual property rights, in the Services. You are granted limited access under these Terms.",
+
+  "terms.title9": "9. Disclaimer of Warranties, Limitations of Liability, and Indemnity",
+  "terms.text9": "The Services are provided “as is“ and “as available“ without warranties of any kind. We are not liable for any damages arising from the use of our Services.",
+  "terms.text9.1": "You agree to indemnify us from any liabilities, claims, or damages arising from your use of the Services.",
+
+  "terms.title10": "10. Governing Law and Jurisdiction",
+  "terms.text10": "These Terms are governed by the laws of the State of São Paulo, Brazil. Any disputes arising from these Terms will be resolved in the appropriate courts of São Paulo.",
+
+  "terms.title11": "11. General Terms",
+  "terms.text11": "We may modify or discontinue our Services at any time. We reserve the right to change these Terms, and any changes will be posted on this page.",
+
+  "terms.title12": "12. Contact Information",
+  "terms.text12": "If you have any questions or concerns, please contact us:",
+  "terms.text12.1": "Email: ",
+  "terms.text12.2": "legal@organicreachrewards.com",
+
+
+  "privacy.title0": "Privacy Policy",
+
+  "privacy.text0": "Organic Reach Rewards values the privacy of its users and is committed to protecting the personal information you provide to us. This Privacy Policy explains how we collect, use, disclose, and process your personal data when using our website and services, as well as when you interact with our systems, such as in the case of promotions and rewards.",
+
+  "privacy.title1": "1. Collection of Personal Data",
+  "privacy.text1": "We collect the following categories of personal data:",
+
+  "privacy.list1.1": "Personal Data provided directly: Identity, contact, payment information, and inputs/outputs from the service.",
+  "privacy.list1.2": "Automatically collected data: Device information, usage, logs, cookies, and similar technologies.",
+
+  "privacy.title2": "2. Use of Personal Data",
+  "privacy.text2": "We use your personal data for the following purposes:",
+
+  "privacy.list2.1": "To provide, maintain, and improve services related to the rewards program.",
+  "privacy.list2.2": "To communicate with you about promotions and updates.",
+  "privacy.list2.3": "To facilitate payments for products or services purchased.",
+  "privacy.list2.4": "To prevent fraud, abuse, and protect our rights.",
+
+  "privacy.title3": "3. How We Share Your Personal Data",
+  "privacy.text3": "We may disclose your personal data in the following situations:",
+
+  "privacy.list3.1": "To comply with legal or regulatory requirements.",
+
+  "privacy.title4": "4. Your Rights and Choices",
+  "privacy.text4": "Depending on your location, you may have certain rights regarding your personal data, including:",
+
+  "privacy.list4.1": "Access to and correction of data.",
+  "privacy.list4.2": "Deletion of personal data.",
+  "privacy.list4.3": "Withdrawal of consent, when applicable.",
+
+  "privacy.title5": "5. International Data Transfers",
+  "privacy.text5": "Your data may be transferred to servers outside your country. We ensure that these transfers are carried out with an adequate level of protection.",
+
+
+
+
+
+  "privacy.title6": "6. Data Retention",
+  "privacy.text6": "We retain your personal data only for as long as necessary to fulfill the purposes described in this policy.",
+
+  "privacy.title7": "7. Data Security",
+  "privacy.text7": "We implement security measures to protect your personal data from loss, misuse, and unauthorized access.",
+
+  
+  "privacy.title8": "8. Changes to the Privacy Policy",
+  "privacy.text8": "We may update this Privacy Policy periodically. We will notify you of significant changes and update the effective date at the top of this page.",
+
+
+
+  "privacy.title9": "9. Contact",
+  "privacy.text9": "If you have any questions or need to exercise your rights regarding your personal data, please contact us:",
+  "privacy.text9.1": "Email: ",
+  "privacy.text9.2": "legal@organicreachrewards.com",
+
+
+
+
+
+
+
+
+
+  "deletion.title0": "Data Deletion Policy",
+
+  "deletion.title1": "Introduction",
+  "deletion.text1": "This data deletion policy outlines the procedures and guidelines for the safe and timely deletion of customer data in accordance with the General Data Protection Regulation (GDPR). The policy ensures that data is retained only for the necessary period and promptly deleted when no longer needed for the purposes for which it was collected.",
+
+  "deletion.title2": "Scope",
+  "deletion.text2": "This policy applies to all employees, contractors, and external suppliers who have access to customer data within Identum AS.",
+
+  "deletion.title3": "Definitions",
+  "deletion.text3": "Personal data: Any information relating to an identified or identifiable natural person.",
+  "deletion.text3.1": "Data subject: An identifiable individual whom the personal data is about.",
+
+  "deletion.title4": "Data Classification",
+  "deletion.text4": "Customer data is classified based on their sensitivity, with specific attention to personal data under the GDPR.",
+
+  "deletion.title5": "Data Retention Periods",
+  "deletion.text5": "Customer data will be retained for a period of three months after the formal conclusion of the contract between the customer and Identum AS.",
+
+  "deletion.title6": "Data Deletion Procedures",
+  "deletion.text6": "Customer data will be securely and permanently deleted from all systems (including production, test, and staging environments) and databases within three months after the formal conclusion of the contract. Data deletion will be performed using industry-standard methods to ensure irreversibility.",
+
+  "deletion.title7": "Rights of the Data Subject",
+  "deletion.text7": "Upon successful deletion, you will receive a confirmation email from Organic Reach Rewards.Data subjects have the right to request the deletion of their personal data. Furthermore:",
+
+  "deletion.list7.1": "Upon request, Identum AS is obliged to provide data subjects with an export of their data in a commonly used and machine-readable format, to facilitate compliance with other legislation.",
+  "deletion.list7.2": "If providing a data export is not feasible, Identum AS may offer a lookup license for a certain time to allow the data subject access to their data. In such cases, a customer contract and a data processing agreement must be signed to formalize the ongoing processing of data during the specified period.",
+
+  "deletion.title8": "Review and Audit",
+  "deletion.text8": "Regular reviews and audits will be conducted to ensure compliance with this data deletion policy. The data protection officer is responsible for overseeing these activities.",
+
+  "deletion.title9": "Employee Training",
+  "deletion.text9": "Employees will receive training on data deletion procedures and the importance of GDPR compliance.",
+
+  "deletion.title10": "Legal and Regulatory Compliance",
+  "deletion.text10":"This policy is designed to meet the GDPR and other relevant data protection laws.",
+
+  "deletion.title11": "Communication",
+  "deletion.text11": "This policy will be communicated to all relevant stakeholders, and any updates will be quickly shared.",
+
+
+  "deletion.title12": "Updates and Revisions",
+  "deletion.text12": "This policy will be periodically reviewed and updated as necessary to ensure continued compliance with applicable laws and regulations."
+
+
+
+
+
+
+  
+
+
+
+
 
 
 

@@ -75,88 +75,366 @@
 
   "steps.1.1title": "Entrar com o Instagram",
 
-"steps.1.2title": "Definir campanhas",
+  "steps.1.2title": "Definir campanhas",
 
-"steps.1.3title": "Ativar",
-"steps.1.text": "Conecte sua conta do Instagram para capturar automaticamente posts, reels, stories e comentários de clientes. Em seguida, especifique as campanhas e decida sobre recompensas que empolguem seu público. Por fim, ative sua campanha e observe os clientes promoverem sua marca enquanto você acompanha o engajamento em tempo real — tudo sem aplicativos extras ou complicações.",
-"steps.2.1title": "Mencionar a Marca",
+  "steps.1.3title": "Ativar",
+  "steps.1.text": "Conecte sua conta do Instagram para capturar automaticamente posts, reels, stories e comentários de clientes. Em seguida, especifique as campanhas e decida sobre recompensas que empolguem seu público. Por fim, ative sua campanha e observe os clientes promoverem sua marca enquanto você acompanha o engajamento em tempo real — tudo sem aplicativos extras ou complicações.",
+  "steps.2.1title": "Mencionar a Marca",
 
-"steps.2.2title": "Ganhar Pontos",
-"steps.2.3title": "Resgatar Recompensas",
+  "steps.2.2title": "Ganhar Pontos",
+  "steps.2.3title": "Resgatar Recompensas",
 
-"steps.2.text": "Sempre que você postar um story, reel ou comentário na mídia da empresa, receberá automaticamente um URL por mensagem direta (DM). Nesse link, você pode verificar seu saldo de pontos, ver as campanhas disponíveis e resgatar suas recompensas — sem necessidade de logins extras ou downloads.",
+  "steps.2.text": "Sempre que você postar um story, reel ou comentário na mídia da empresa, receberá automaticamente um URL por mensagem direta (DM). Nesse link, você pode verificar seu saldo de pontos, ver as campanhas disponíveis e resgatar suas recompensas — sem necessidade de logins extras ou downloads.",
+
+  "footer.text": "Cresça organicamente, construa a lealdade do cliente e transforme o engajamento em resultados reais. Seu negócio, impulsionado naturalmente!",
+  "footer.copy": "© 2023 Organic Reach Rewards. Todos os direitos reservados.",
+  "footer.terms": "Termos de Serviço",
+  "footer.careers": "Carreiras",
+  "footer.privacy": "Política de Privacidade",
+  "footer.compliance": "Conformidade",
+  "footer.deletion": "Política de Exclusão de Dados",
+
+  "chart.text1": "dos clientes",
+  "chart.text2": "mencionam",
+  "chart.text3": "sua página",
+
+  "chart.title": "Total de Menções",
+
+  "chart.ranking": "Ranking das Pessoas que Mais Mencionaram",
+
+  "chart.1title": "Menções da Semana",
+  "chart.2title": "Total de Recompensas",
+  "chart.1line1": "Stories",
+  "chart.1line2": "Comentários",
+  "chart.1line3": "Reels",
+  "chart.1line4": "Posts",
+
+  "chart.subtitle": "Total de Clientes",
+
+  "chart.2line1": "Café grátis",
+  "chart.2line2": "Brindes grátis",
+  "chart.2line3": "E-book",
+  "chart.2line4": "Consultoria",
+
+  "chart.3title": "Total de Campanhas",
+
+  "chart.3line1.": "Stories",
+  "chart.3line2": "Comentários",
+  "chart.3line3": "Reels",
+  "chart.3line4": "Posts",
+
+  "chart.line.date1": "Seg",
+  "chart.line.date2": "Ter",
+  "chart.line.date3": "Qua",
+  "chart.line.date4": "Qui",
+  "chart.line.date5": "Sex",
+  "chart.line.date6": "Sáb",
+  "chart.line.date7": "Dom",
+
+  "chart.bar.day": "Engajamento por Dia",
+  "chart.bar.hour": "Engajamento por Hora",
+  "chart.bar.name": "Engajamento",
+
+  "chart.bar.date1": "Seg",
+  "chart.bar.date2": "Ter",
+  "chart.bar.date3": "Qua",
+  "chart.bar.date4": "Qui",
+  "chart.bar.date5": "Sex",
+  "chart.bar.date6": "Sáb",
+  "chart.bar.date7": "Dom",
+
+  "chart.pie.1title": "Engajamento por Categoria",
+
+  "chart.pie.1name": "Engajamento",
+  "chart.pie.1name1": "Comentários",
+  "chart.pie.1name2": "Fotos",
+  "chart.pie.1name3": "Reels",
+  "chart.pie.1name4": "Stories",
+
+  "chart.pie.2title": "Recompensa por Campanha",
+
+  "chart.pie.2name1": "Cupons",
+  "chart.pie.2name2": "Descontos",
+  "chart.pie.2name3": "Presentes",
+  "chart.pie.2name4": "Cashback",
+
+  "careers.content.title1": "Junte-se ao time",
+  "careers.content.title2": "seja protagonista da inovação",
+  "careers.content.text": "Se você é apaixonado por inovação, crescimento e impacto real, temos um lugar para você! Estamos constantemente em busca de pessoas criativas, ambiciosas e comprometidas em transformar a forma como as empresas se conectam com seus clientes. Na Organic Reach Rewards, você terá a chance de trabalhar em projetos que fazem a diferença no dia a dia de pessoas e empresas. Se você se sente motivado a contribuir com soluções inovadoras e deseja crescer ao lado de um time unido e focado, venha fazer parte dessa jornada conosco. Aqui, você encontrará um ambiente dinâmico e desafiador, onde sua opinião será ouvida e seu impacto será reconhecido.",
+  "careers.content.button": "Ver vagas abertas",
+
+  "careers.interviews.title": "Entrevistas Técnicas",
+
+  "careers.interviews.text0": "Os novos desafios que enfrentamos na Organic Reach Rewards exigem conhecimentos e perspectivas diversas. Nosso processo de entrevista é projetado para identificar candidatos reflexivos que tragam forças únicas ao nosso time multidisciplinar. Se você se identifica com isso, adoraríamos conhecer você, independentemente do seu histórico ou experiência.",
+
+  "careers.interviews.text1": "Uma das perguntas mais comuns que recebemos é se vale a pena se candidatar à Organic Reach Rewards mesmo sem ter experiência com desenvolvimento web moderno ou sistemas de engajamento orgânico. Sim! Para algumas funções, espera-se experiência com as tecnologias que usamos, mas muitos colaboradores chegaram à Organic Reach Rewards sem ter trabalhado diretamente com essas ferramentas antes. Se você tiver dúvidas sobre a experiência necessária para uma vaga, pergunte ao recrutador.",
+
+  "careers.interviews.text2": "Usamos ambientes compartilhados como CodeSandbox ou Replit para as entrevistas focadas em código. Estaremos muito interessados em ver como você pensa em cada problema, analisa os prós e contras de possíveis abordagens e implementa as soluções. Esperamos que você escreva, execute e depure suas soluções ao longo do processo. Você poderá buscar documentação ou pesquisar na web como faria normalmente (por isso pediremos para compartilhar a tela durante a entrevista), mas ainda assim é importante estar familiarizado com a sintaxe básica, bibliotecas padrão e padrões comuns das tecnologias que usamos, para que a pesquisa não tome muito tempo.",
+
+  "careers.interviews.text3": "Seu processo de entrevista também incluirá perguntas não técnicas sobre sua experiência e o que te motiva. E claro, você terá tempo para nos perguntar sobre a Organic Reach Rewards e como trabalhamos. Estamos ansiosos para te conhecer e ver como você pode contribuir com nossa missão!",
+
+  "careers.main.title0": "O que valorizamos e como agimos",
+
+  "careers.main.text0": "Na Organic Reach Rewards, acreditamos que os valores do nosso time são fundamentais para o nosso sucesso coletivo. Nossa cultura é construída com base em princípios sólidos que guiam nosso trabalho e a forma como nos relacionamos internamente e com nossos clientes.",
+
+  "careers.main.title1": "Colaboração",
+  "careers.main.text1": "Trabalhamos juntos porque sabemos que a soma das nossas habilidades é a chave para alcançar grandes resultados. A colaboração é uma prática diária em nosso time e um valor essencial que permeia tudo o que fazemos. Acreditamos que apoiar o crescimento e o sucesso de cada membro da equipe é crucial para o sucesso coletivo. Por isso, cultivamos um ambiente onde todos ajudam e aprendem uns com os outros.",
+
+  "careers.main.title2": "Inovação",
+  "careers.main.text2": "Estamos sempre em busca de novas formas de fazer as coisas. A inovação não se limita às tecnologias que usamos, mas também à maneira como resolvemos problemas, melhoramos processos e atendemos às necessidades dos nossos clientes. A inovação está no centro da nossa missão e se reflete em cada projeto que entregamos. Acreditamos que, com a mentalidade certa e uma abordagem criativa, podemos transformar qualquer desafio em oportunidade.",
+
+  "careers.main.title3": "Empatia",
+  "careers.main.text3": "A empatia é um valor essencial, tanto dentro da equipe quanto nas nossas interações com os clientes. Sabemos que entender as necessidades dos outros e demonstrar respeito mútuo cria um ambiente de confiança, onde todos se sentem valorizados e motivados a contribuir. Buscamos construir relações sinceras e duradouras com nossos colegas e clientes, sempre priorizando o bem-estar e a compreensão genuína.",
+
+  "careers.main.title4": "Transparência",
+  "careers.main.text4": "Acreditamos que a comunicação aberta e honesta é fundamental para o sucesso de qualquer equipe. Na Organic Reach Rewards, todos têm acesso às informações necessárias para tomar decisões conscientes e impactar diretamente o negócio. Valorizamos a clareza em todos os aspectos, desde o estabelecimento de metas até o feedback contínuo. Isso garante que todos saibam como seu trabalho está contribuindo para o sucesso da empresa.",
+
+  "careers.main.title5": "Foco em Resultados",
+  "careers.main.text5": "Embora a colaboração e o bem-estar sejam essenciais, somos uma empresa orientada a resultados. Trabalhamos com metas claras e foco em superá-las. Nosso compromisso com os resultados é equilibrado por uma abordagem ética e humana, onde a qualidade de vida e a felicidade da equipe são igualmente importantes. Buscamos sempre superar as expectativas dos nossos clientes, garantindo a entrega de valor em cada etapa.",
+  "careers.offer.title": "O que oferecemos",
+
+  "careers.offer.title1": "Saúde e Bem-Estar",
+  "careers.offer.text1": "Na Organic Reach Rewards, acreditamos que o bem-estar dos nossos colaboradores é essencial para o sucesso coletivo da empresa. Por isso, oferecemos uma variedade de benefícios focados na saúde física e mental da equipe, garantindo que você tenha o suporte necessário para cuidar de si e da sua família.",
+
+  "careers.offer.1list1": "Plano de saúde e odontológico completo para você e seus dependentes",
+  "careers.offer.1list2": "Apoio à saúde mental, com programas de suporte psicológico para você e sua família",
+  "careers.offer.1list3": "Benefícios para promover o equilíbrio entre vida pessoal e profissional",
+  "careers.offer.1list4": "Programas de bem-estar, incluindo atividades e recursos voltados à saúde física e mental",
+
+  "careers.offer.title2": "Remuneração e Suporte",
+  "careers.offer.text2": "Valorizamos o trabalho da nossa equipe e garantimos que você tenha as ferramentas e o apoio necessários para atingir seu máximo potencial. Na Organic Reach Rewards, investimos no seu crescimento profissional e buscamos sempre uma remuneração justa que reconheça suas contribuições.",
+
+  "careers.offer.2list1": "Salário competitivo alinhado ao mercado",
+  "careers.offer.2list2": "Programas de mentoria para desenvolvimento contínuo",
+  "careers.offer.2list3": "Acesso a workshops e cursos de desenvolvimento profissional",
+  "careers.offer.2list4": "Apoio dedicado ao seu desenvolvimento, com acompanhamento de desempenho e feedback constante",
+
+  "careers.offer.title3": "Cultura de Inovação Contínua",
+  "careers.offer.text3": "Na Organic Reach Rewards, a inovação é um dos pilares do nosso trabalho. Estamos constantemente buscando novas formas de melhorar nossos processos, nossos produtos e a experiência dos nossos usuários. Junte-se a nós e faça parte de um time que está sempre na vanguarda da inovação.",
+
+  "careers.offer.3list1": "Oportunidade de trabalhar com as tecnologias mais atuais e inovadoras",
+  "careers.offer.3list2": "Espaço para experimentar, testar e implementar novas ideias e soluções",
+  "careers.offer.3list3": "Estímulo à criatividade e à busca por soluções inovadoras que impactem positivamente nossos clientes",
+  "careers.offer.3list4": "Colaboração com equipes multidisciplinares para transformar ideias em soluções reais",
+  "careers.other.title": "Outros Pontos",
+
+  "careers.other.title1": "Trabalho Multidisciplinar e Inovação",
+  "careers.other.text1": "Na Organic Reach Rewards, engenheiros e desenvolvedores de produto trabalham lado a lado, e todos têm a oportunidade de explorar diferentes áreas de inovação e desenvolvimento. Acreditamos que as fronteiras entre engenharia e pesquisa estão cada vez mais tênues à medida que exploramos novas formas de impulsionar o engajamento orgânico e otimizar a experiência dos usuários. Nossa equipe é composta por profissionais com formações e experiências diversas, e nossa estrutura de entrevistas é pensada para valorizar essa diversidade.",
+
+  "careers.other.1list1": "Se você tem formação em engenharia, candidate-se para cargos de engenharia. Você terá um desempenho muito melhor nas entrevistas e, ao ingressar na equipe, terá tanto impacto nas decisões e no direcionamento da Organic Reach Rewards quanto qualquer outro membro da equipe.",
+
+  "careers.other.1list2": "Como prova disso, todos os nossos projetos contam com contribuições significativas de engenheiros, muitas vezes sendo eles os principais responsáveis pelas entregas e soluções.",
+
+  "careers.other.title2": "Horários de Trabalho Flexíveis",
+  "careers.other.text2": "A equipe da Organic Reach Rewards trabalha majoritariamente de forma remota, com flexibilidade para encontros presenciais quando necessário. Alguns membros da equipe têm reuniões presenciais regulares, mas entendemos que a transição para o trabalho remoto pode ser importante para muitos. Se necessário, você pode começar trabalhando totalmente de forma remota durante o período de adaptação.",
+
+  "careers.other.title3": "Estágios",
+  "careers.other.text3": "Atualmente, não oferecemos vagas de estágio.",
+  "careers.other.tile4": "Valorizamos evidências diretas de habilidade",
+
+  "careers.other.text4": "Se você realizou pesquisas independentes interessantes, escreveu um post de blog relevante ou contribuiu de forma significativa para projetos de código aberto, coloque isso no topo do seu currículo! Queremos ver o impacto que você causou e como pode contribuir com nossa missão de aprimorar o engajamento orgânico.",
+
+  "careers.other.tile5": "Feedback",
+
+  "careers.other.text5": "Infelizmente, não fornecemos feedback sobre currículos ou entrevistas, mas estamos sempre abertos a conversar sobre sua experiência e o que podemos fazer para melhorar no futuro.",
+
+  "careers.other.tile6": "Trabalho Remoto",
+
+  "careers.other.text6": "Na Organic Reach Rewards, engenheiros e desenvolvedores de produto trabalham lado a lado, e todos têm a oportunidade de explorar diferentes áreas de inovação e desenvolvimento. Acreditamos que as fronteiras entre engenharia e pesquisa estão cada vez mais tênues à medida que buscamos novas formas de impulsionar o engajamento orgânico e otimizar a experiência dos usuários. Nossa equipe é composta por profissionais com formações e experiências diversas, e nossa estrutura de entrevistas é pensada para valorizar essa diversidade.",
+
+  "careers.other.tile7": "Entrevistas Remotas",
+
+  "careers.other.text7": "Conduzimos todas as entrevistas remotamente, utilizando plataformas como o Google Meet. Preferimos horários comerciais no fuso de Brasília, mas somos flexíveis caso isso seja um desafio para você.",
+
+  "careers.other.tile8": "Nova candidatura",
+
+  "careers.other.text8": "Se você não for selecionado desta vez, poderá se candidatar novamente após 12 meses — ou antes, caso tenha uma mudança significativa em sua experiência ou habilidades.",
+
+  "careers.other.tile9": "Tempo para decidir sobre a oferta",
+
+  "careers.other.text9": "Se receber nossa proposta, ficaremos felizes em oferecer um tempo para que você possa analisá-la com calma e finalizar outros processos seletivos.",
+  "compliance.title0": "Política de Conformidade",
+
+  "compliance.title1": "Introdução",
+  "compliance.text1": "Nossa política de compliance garante que nossas operações, produtos e serviços atendam aos padrões legais, regulatórios e internos exigidos. Essa política foi criada para demonstrar nosso compromisso com o cumprimento de todas as leis e regulamentações aplicáveis, além de nossa dedicação a práticas empresariais éticas.",
+
+  "compliance.title2": "Escopo",
+  "compliance.text2": "Esta política se aplica a todos os colaboradores, contratados, parceiros e fornecedores terceirizados envolvidos em qualquer processo de negócios dentro da empresa.",
+
+  "compliance.title3": "Conformidade Legal e Regulatória",
+  "compliance.text3": "Cumprimos todas as leis e regulamentações locais, nacionais e internacionais aplicáveis, incluindo, mas não se limitando a:",
+  "compliance.list3.1": "Regulamento Geral de Proteção de Dados (GDPR)",
+  "compliance.list3.2": "Regulamentações contra Lavagem de Dinheiro (AML)",
+  "compliance.list3.3": "Legislação de Saúde e Segurança",
+  "compliance.list3.4": "Regulamentações específicas do setor",
+
+  "compliance.title4": "Procedimentos Internos de Compliance",
+  "compliance.text4": "Implementamos procedimentos internos de compliance para garantir que todas as práticas comerciais estejam em conformidade com os mais altos padrões legais e éticos. Esses procedimentos incluem:",
+  "compliance.list4.1": "Auditorias e revisões de compliance regulares",
+  "compliance.list4.2": "Programas de treinamento para colaboradores sobre questões de compliance",
+  "compliance.list4.3": "Proteção ao denunciante e mecanismos de relato",
+
+  "compliance.title5": "Responsabilidades",
+  "compliance.text5": "Todos os colaboradores e contratados têm a responsabilidade de cumprir a lei e as políticas internas de compliance da empresa. Os seguintes grupos possuem responsabilidades específicas:",
+  "compliance.list5.1": "Responsável de Compliance: Supervisiona todas as atividades, auditorias e relatórios de compliance.",
+  "compliance.list5.2": "Gestores: Garantem que suas equipes estejam cientes e sigam os procedimentos de compliance.",
+  "compliance.list5.3": "Colaboradores: Devem relatar quaisquer violações ou irregularidades suspeitas ao Responsável de Compliance.",
+
+  "compliance.title6": "Monitoramento e Aplicação",
+  "compliance.text6": "O compliance será monitorado regularmente, e quaisquer violações resultarão em ações disciplinares apropriadas. Essas ações podem incluir:",
+  "compliance.list6.1": "Advertências verbais ou por escrito",
+  "compliance.list6.2": "Suspensão ou demissão",
+  "compliance.list6.3": "Ações legais, quando necessário",
+
+  "compliance.title7": "Relato de Violações",
+  "compliance.text7": "Encorajamos todos os colaboradores e stakeholders a reportarem quaisquer preocupações relacionadas ao compliance. As denúncias podem ser feitas de forma anônima e serão investigadas com seriedade para garantir ações corretivas.",
+
+  "compliance.title8": "Melhoria Contínua",
+  "compliance.text8": "Esta política será revisada periodicamente para garantir sua eficácia e conformidade com leis e regulamentos em constante evolução. Quaisquer alterações serão comunicadas a todos os colaboradores.",
+
+  "compliance.title9": "Conclusão",
+  "compliance.text9": "A conformidade é um pilar fundamental das nossas operações. Estamos comprometidos com os mais altos padrões legais, regulatórios e éticos para proteger nossos stakeholders e garantir o sucesso a longo prazo da empresa.",
+
+  "terms.title0": "Termos de Serviço",
+
+  "terms.text0": "Bem-vindo à Organic Reach Rewards! Antes de acessar nossos serviços, leia estes Termos de Serviço.",
+
+  "terms.text0.1": "Estes Termos de Serviço (“Termos”) regem o uso da Organic Reach Rewards e de outros produtos e serviços que possamos oferecer para indivíduos, juntamente com quaisquer aplicativos, softwares e sites associados (juntos, nossos “Serviços”). Estes Termos são um contrato entre você e a Organic Reach Rewards (“Organic Reach Rewards”) (e não com nossos Fornecedores), e incluem nossa Política de Uso Aceitável. Ao acessar nossos Serviços, você concorda com estes Termos.",
+
+  "terms.text0.2": "Leia nossa Política de Privacidade, que descreve como coletamos e usamos informações pessoais.",
+
+  "terms.title1": "1. Quem Somos",
+  "terms.text1": "Idade mínima. Você deve ter pelo menos 18 anos ou a idade mínima exigida para consentir com o uso dos Serviços em sua localidade, o que for maior.",
+
+  "terms.text1.1": "Sua Conta na Organic Reach Rewards. Para acessar nossos Serviços, podemos solicitar que você crie uma Conta. Você concorda em fornecer informações corretas, atualizadas e completas da Conta, e nos autoriza a utilizá-las para nos comunicarmos com você sobre nossos Serviços.",
+
+  "terms.title2": "2. Criação e Acesso à Conta",
+  "terms.text2": "A Organic Reach Rewards é uma plataforma que oferece aos indivíduos a oportunidade de ganhar recompensas ao interagir com empresas nas redes sociais.",
+
+  "terms.title3": "3. Uso dos Nossos Serviços",
+  "terms.text3": "Você pode acessar e usar nossos Serviços apenas em conformidade com estes Termos, incluindo nossa Política de Uso Aceitável.",
+  "terms.text3.1": "Você não pode usar nossos Serviços de nenhuma forma que viole leis ou regulamentações aplicáveis.",
+
+  "terms.title4": "4. Entradas, Saídas e Materiais",
+  "terms.text4": "Ao utilizar nossos Serviços, você é responsável por todas as Entradas que enviar e garante que possui os direitos necessários para submetê-las. Você mantém quaisquer direitos, títulos e interesses sobre as Entradas, enquanto nós atribuiremos a você os direitos sobre as Saídas que resultarem do uso dos nossos Serviços.",
+
+  "terms.title5": "5. Feedback",
+  "terms.text5": "Agradecemos feedbacks, incluindo ideias e sugestões de melhorias. Ao enviar um feedback, você nos concede o direito de usá-lo sem qualquer obrigação ou compensação.",
+
+  "terms.title6": "6. Assinaturas, Taxas e Pagamento",
+  "terms.text6": "Para acessar determinados recursos dos nossos Serviços, pode ser necessário pagar taxas aplicáveis. Você é responsável por fornecer informações de cobrança precisas e concorda em pagar todas as taxas associadas aos Serviços que utilizar.",
+
+  "terms.title7": "7. Serviços e Links de Terceiros",
+  "terms.text7": "Nossos Serviços podem ser utilizados em conjunto com conteúdo ou serviços de terceiros. Não nos responsabilizamos por quaisquer perdas ou danos que possam surgir do uso de conteúdo, serviços ou integrações de terceiros.",
+  "terms.title8": "8. Propriedade dos Serviços",
+  "terms.text8": "Os Serviços são de propriedade, operados e fornecidos por nós e por nossas afiliadas. Mantemos todos os direitos, incluindo os direitos de propriedade intelectual, sobre os Serviços. A você é concedido um acesso limitado de acordo com estes Termos.",
+
+  "terms.title9": "9. Isenção de Garantias, Limitações de Responsabilidade e Indenização",
+  "terms.text9": "Os Serviços são fornecidos “como estão“ e “conforme disponíveis“, sem garantias de qualquer tipo. Não nos responsabilizamos por quaisquer danos decorrentes do uso dos nossos Serviços.",
+  "terms.text9.1": "Você concorda em nos isentar de quaisquer responsabilidades, reivindicações ou danos decorrentes do uso dos Serviços por sua parte.",
+
+  "terms.title10": "10. Lei Aplicável e Jurisdição",
+  "terms.text10": "Estes Termos são regidos pelas leis do Estado de São Paulo, Brasil. Quaisquer disputas decorrentes destes Termos serão resolvidas nos tribunais competentes de São Paulo.",
+
+  "terms.title11": "11. Disposições Gerais",
+  "terms.text11": "Podemos modificar ou descontinuar nossos Serviços a qualquer momento. Reservamo-nos o direito de alterar estes Termos, e quaisquer mudanças serão publicadas nesta página.",
+
+  "terms.title12": "12. Informações de Contato",
+  "terms.text12": "Se você tiver dúvidas ou preocupações, entre em contato conosco:",
+  "terms.text12.1": "E-mail: ",
+  "terms.text12.2": "legal@organicreachrewards.com",
+
+  "privacy.title0": "Política de Privacidade",
+
+  "privacy.text0": "A Organic Reach Rewards valoriza a privacidade de seus usuários e está comprometida em proteger as informações pessoais que você nos fornece. Esta Política de Privacidade explica como coletamos, usamos, divulgamos e processamos seus dados pessoais ao utilizar nosso site e serviços, bem como ao interagir com nossos sistemas, como em promoções e recompensas.",
+
+  "privacy.title1": "1. Coleta de Dados Pessoais",
+  "privacy.text1": "Coletamos as seguintes categorias de dados pessoais:",
+
+  "privacy.list1.1": "Dados fornecidos diretamente: Identidade, contato, informações de pagamento e entradas/saídas do serviço.",
+  "privacy.list1.2": "Dados coletados automaticamente: Informações do dispositivo, uso, registros, cookies e tecnologias semelhantes.",
+
+  "privacy.title2": "2. Uso dos Dados Pessoais",
+  "privacy.text2": "Utilizamos seus dados pessoais para os seguintes propósitos:",
+
+  "privacy.list2.1": "Fornecer, manter e melhorar os serviços relacionados ao programa de recompensas.",
+  "privacy.list2.2": "Nos comunicar com você sobre promoções e atualizações.",
+  "privacy.list2.3": "Facilitar pagamentos por produtos ou serviços adquiridos.",
+  "privacy.list2.4": "Prevenir fraudes, abusos e proteger nossos direitos.",
+
+  "privacy.title3": "3. Como Compartilhamos Seus Dados Pessoais",
+  "privacy.text3": "Podemos divulgar seus dados pessoais nas seguintes situações:",
+
+  "privacy.list3.1": "Para cumprir exigências legais ou regulatórias.",
+
+  "privacy.title4": "4. Seus Direitos e Escolhas",
+  "privacy.text4": "Dependendo da sua localização, você pode ter certos direitos em relação aos seus dados pessoais, incluindo:",
+
+  "privacy.list4.1": "Acesso e correção dos dados.",
+  "privacy.list4.2": "Exclusão dos dados pessoais.",
+  "privacy.list4.3": "Revogação do consentimento, quando aplicável.",
+
+  "privacy.title5": "5. Transferência Internacional de Dados",
+  "privacy.text5": "Seus dados podem ser transferidos para servidores fora do seu país. Garantimos que essas transferências sejam realizadas com um nível adequado de proteção.",
+
+  "privacy.title6": "6. Retenção de Dados",
+  "privacy.text6": "Reteremos seus dados pessoais apenas pelo tempo necessário para cumprir os propósitos descritos nesta política.",
+
+  "privacy.title7": "7. Segurança dos Dados",
+  "privacy.text7": "Implementamos medidas de segurança para proteger seus dados pessoais contra perda, uso indevido e acesso não autorizado.",
+
+  "privacy.title8": "8. Alterações nesta Política de Privacidade",
+  "privacy.text8": "Podemos atualizar esta Política de Privacidade periodicamente. Notificaremos você sobre alterações significativas e atualizaremos a data de vigência no topo desta página.",
+
+  "privacy.title9": "9. Contato",
+  "privacy.text9": "Se você tiver alguma dúvida ou precisar exercer seus direitos em relação aos seus dados pessoais, entre em contato conosco:",
+  "privacy.text9.1": "E-mail:",
+  "privacy.text9.2": "legal@organicreachrewards.com",
+
+  "deletion.title0": "Política de Exclusão de Dados",
+
+  "deletion.title1": "Introdução",
+  "deletion.text1": "Esta política de exclusão de dados descreve os procedimentos e diretrizes para a exclusão segura e oportuna dos dados dos clientes, em conformidade com o Regulamento Geral de Proteção de Dados (GDPR). A política garante que os dados sejam retidos apenas pelo período necessário e excluídos prontamente quando não forem mais necessários para os fins para os quais foram coletados.",
+
+  "deletion.title2": "Escopo",
+  "deletion.text2": "Esta política se aplica a todos os funcionários, contratados e fornecedores externos que tenham acesso aos dados dos clientes dentro da Identum AS.",
+
+  "deletion.title3": "Definições",
+  "deletion.text3": "Dados pessoais: Qualquer informação relacionada a uma pessoa natural identificada ou identificável.",
+  "deletion.text3.1": "Titular dos dados: Um indivíduo identificável ao qual os dados pessoais se referem.",
+
+  "deletion.title4": "Classificação de Dados",
+  "deletion.text4": "Os dados dos clientes são classificados com base em sua sensibilidade, com atenção especial aos dados pessoais conforme definido pelo GDPR.",
+
+  "deletion.title5": "Períodos de Retenção de Dados",
+  "deletion.text5": "Os dados dos clientes serão retidos por um período de três meses após a conclusão formal do contrato entre o cliente e a Identum AS.",
+
+  "deletion.title6": "Procedimentos de Exclusão de Dados",
+  "deletion.text6": "Os dados dos clientes serão excluídos de forma segura e permanente de todos os sistemas (incluindo ambientes de produção, teste e homologação) e bancos de dados dentro de três meses após a conclusão formal do contrato. A exclusão será realizada utilizando métodos reconhecidos pelo setor para garantir a irreversibilidade.",
+
+  "deletion.title7": "Direitos do Titular dos Dados",
+  "deletion.text7": "Após a exclusão bem-sucedida, você receberá um e-mail de confirmação da Organic Reach Rewards. Os titulares dos dados têm o direito de solicitar a exclusão de seus dados pessoais. Além disso:",
+
+  "deletion.list7.1": "Mediante solicitação, a Identum AS é obrigada a fornecer ao titular dos dados uma exportação de seus dados em formato comumente utilizado e legível por máquina, para facilitar o cumprimento de outras legislações.",
+  "deletion.list7.2": "Se a exportação de dados não for viável, a Identum AS poderá oferecer uma licença de consulta por tempo determinado para permitir o acesso aos dados pelo titular. Nesses casos, é necessário assinar um contrato de cliente e um acordo de processamento de dados para formalizar o tratamento contínuo durante o período especificado.",
+
+  "deletion.title8": "Revisão e Auditoria",
+  "deletion.text8": "Revisões e auditorias regulares serão realizadas para garantir a conformidade com esta política de exclusão de dados. O encarregado pela proteção de dados é responsável por supervisionar essas atividades.",
+
+  "deletion.title9": "Treinamento de Funcionários",
+  "deletion.text9": "Os funcionários receberão treinamento sobre os procedimentos de exclusão de dados e a importância da conformidade com o GDPR.",
+
+  "deletion.title10": "Conformidade Legal e Regulatória",
+  "deletion.text10": "Esta política foi desenvolvida para atender ao GDPR e outras leis de proteção de dados relevantes.",
+
+  "deletion.title11": "Comunicação",
+  "deletion.text11": "Esta política será comunicada a todas as partes interessadas relevantes, e quaisquer atualizações serão rapidamente divulgadas.",
+
+  "deletion.title12": "Atualizações e Revisões",
+  "deletion.text12": "Esta política será revisada periodicamente e atualizada conforme necessário para garantir a conformidade contínua com as leis e regulamentações aplicáveis."
 
 
-"footer.text": "Cresça organicamente, construa a lealdade do cliente e transforme o engajamento em resultados reais. Seu negócio, impulsionado naturalmente!",
-"footer.copy": "© 2023 Organic Reach Rewards. Todos os direitos reservados.",
-"footer.terms": "Termos de Serviço",
-"footer.careers":"Carreiras",
-"footer.privacy": "Política de Privacidade",
-"footer.compliance": "Conformidade",
-"footer.deletion": "Política de Exclusão de Dados",
-
-"chart.text1": "dos clientes",
-"chart.text2": "mencionam",
-"chart.text3": "sua página",
-
-"chart.title": "Total de Menções",
-
-"chart.ranking": "Ranking das Pessoas que Mais Mencionaram",
-
-"chart.1title": "Menções da Semana",
-"chart.2title": "Total de Recompensas",
-"chart.1line1": "Stories",
-"chart.1line2": "Comentários",
-"chart.1line3": "Reels",
-"chart.1line4": "Posts",
-
-"chart.subtitle": "Total de Clientes",
-
-"chart.2line1": "Café grátis",
-"chart.2line2": "Brindes grátis",
-"chart.2line3": "E-book",
-"chart.2line4": "Consultoria",
 
 
-"chart.3title": "Total de Campanhas",
 
-"chart.3line1.": "Stories",
-"chart.3line2": "Comentários",
-"chart.3line3": "Reels",
-"chart.3line4": "Posts",
-
-"chart.line.date1": "Seg",
-"chart.line.date2": "Ter",
-"chart.line.date3": "Qua",
-"chart.line.date4": "Qui",
-"chart.line.date5": "Sex",
-"chart.line.date6": "Sáb",
-"chart.line.date7": "Dom",
-
-"chart.bar.day": "Engajamento por Dia",
-"chart.bar.hour": "Engajamento por Hora",
-"chart.bar.name": "Engajamento",
-
-"chart.bar.date1": "Seg",
-"chart.bar.date2": "Ter",
-"chart.bar.date3": "Qua",
-"chart.bar.date4": "Qui",
-"chart.bar.date5": "Sex",
-"chart.bar.date6": "Sáb",
-"chart.bar.date7": "Dom",
-
-"chart.pie.1title": "Engajamento por Categoria",
-
-"chart.pie.1name": "Engajamento",
-"chart.pie.1name1": "Comentários",
-"chart.pie.1name2": "Fotos",
-"chart.pie.1name3": "Reels",
-"chart.pie.1name4": "Stories",
-
-"chart.pie.2title": "Recompensa por Campanha",
-
-"chart.pie.2name1": "Cupons",
-"chart.pie.2name2": "Descontos",
-"chart.pie.2name3": "Presentes",
-"chart.pie.2name4": "Cashback"
 }

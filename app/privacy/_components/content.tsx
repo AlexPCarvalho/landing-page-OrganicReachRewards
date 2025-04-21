@@ -1,124 +1,124 @@
+"use client";
+
+import { useI18n } from "@/app/i18n";
+
 const Content = () => {
+  const { t } = useI18n();
   return (
     <>
       <div className="text-gray-900 min-h-screen">
         <div className="max-w-7xl mx-auto px-6 py-12">
           <div className="text-center mb-12">
             <h1 className="text-7xl font-bold text-lime-900 pt-10 mb-4">
-              Privacy Policy
+              {t("privacy.title0")}
             </h1>
           </div>
 
           <section className="space-y-8 text-2xl border-solid pt-15 border-stone-700 border-t">
             <p>
-              <strong>Organic Reach Rewards</strong> values the privacy of its
-              users and is committed to protecting the personal information you
-              provide to us. This Privacy Policy explains how we collect, use,
-              disclose, and process your personal data when using our website
-              and services, as well as when you interact with our systems, such
-              as in the case of promotions and rewards.
+              {t("privacy.text0")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              1. Collection of Personal Data
+              {t("privacy.title1")}
             </h2>
-            <p>We collect the following categories of personal data:</p>
+            <p>{t("privacy.text1")}</p>
 
             <ul className="list-disc list-inside space-y-2 mt-4">
               <li>
-                <strong>Personal Data provided directly:</strong> Identity,
-                contact, payment information, and inputs/outputs from the
-                service.
+                {t("privacy.list1.1")}
               </li>
               <li>
-                <strong>Automatically collected data:</strong> Device
-                information, usage, logs, cookies, and similar technologies.
+                {t("privacy.list1.2")}
               </li>
             </ul>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              2. Use of Personal Data
+              {t("privacy.title2")}
             </h2>
-            <p>We use your personal data for the following purposes:</p>
+            <p>{t("privacy.text2")}</p>
             <ul className="list-disc list-inside space-y-2 mt-4">
               <li>
-                To provide, maintain, and improve services related to the
-                rewards program.
+                {t("privacy.list2.1")}
               </li>
-              <li>To communicate with you about promotions and updates.</li>
               <li>
-                To facilitate payments for products or services purchased.
+                {t("privacy.list2.2")}
               </li>
-              <li>To prevent fraud, abuse, and protect our rights.</li>
+              <li>
+                {t("privacy.list2.3")}
+              </li>
+              <li>
+                {t("privacy.list2.4")}
+              </li>
             </ul>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              3. How We Share Your Personal Data
+              {t("privacy.title3")}
             </h2>
             <p>
-              We may disclose your personal data in the following situations:
+              {t("privacy.text3")}
             </p>
             <ul className="list-disc list-inside space-y-2 mt-4">
-              <li>To comply with legal or regulatory requirements.</li>
+              <li>
+                {t("privacy.list3.1")}
+              </li>
             </ul>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              4. Your Rights and Choices
+              {t("privacy.title4")}
             </h2>
             <p>
-              Depending on your location, you may have certain rights regarding
-              your personal data, including:
+              {t("privacy.text4")}
             </p>
             <ul className="list-disc list-inside space-y-2 mt-4">
-              <li>Access to and correction of data.</li>
-              <li>Deletion of personal data.</li>
-              <li>Withdrawal of consent, when applicable.</li>
+              <li>
+                {t("privacy.list4.1")}
+              </li>
+              <li>
+                {t("privacy.list4.2")}
+              </li>
+              <li>
+                {t("privacy.list4.3")}
+              </li>
             </ul>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              5. International Data Transfers
+              {t("privacy.title5")}
             </h2>
             <p>
-              Your data may be transferred to servers outside your country. We
-              ensure that these transfers are carried out with an adequate level
-              of protection.
+              {t("privacy.text5")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              6. Data Retention
+              {t("privacy.title6")}
             </h2>
             <p>
-              We retain your personal data only for as long as necessary to
-              fulfill the purposes described in this policy.
+              {t("privacy.text6")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              7. Data Security
+              {t("privacy.title7")}
             </h2>
             <p>
-              We implement security measures to protect your personal data from
-              loss, misuse, and unauthorized access.
+              {t("privacy.text7")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              8. Changes to the Privacy Policy
+              {t("privacy.title8")}
             </h2>
             <p>
-              We may update this Privacy Policy periodically. We will notify you
-              of significant changes and update the effective date at the top of
-              this page.
+              {t("privacy.text8")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              9. Contact
+              {t("privacy.title9")}
             </h2>
             <p>
-              If you have any questions or need to exercise your rights
-              regarding your personal data, please contact us:
+              {t("privacy.text9")}
             </p>
             <ul className="list-inside mt-4">
               <li>
-                Email: <strong>legal@organicreachrewards.com</strong>
+                {t("privacy.text9.1")} <strong>{t("privacy.text9.2")}</strong>
               </li>
             </ul>
           </section>

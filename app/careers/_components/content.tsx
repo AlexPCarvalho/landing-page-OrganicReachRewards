@@ -1,5 +1,6 @@
 "use client";
 
+import { useI18n } from "@/app/i18n";
 import { Poppins } from "next/font/google";
 import Link from "next/link";
 
@@ -10,28 +11,24 @@ const poppins = Poppins({
 });
 
 const Content = () => {
+
+  const {t} = useI18n()
+
   return (
     <div className="container mx-auto px-4 py-16">
       <div
         className={`${poppins.className} sm:text-6xl md:text-[100px] text-5xl sm:tracking-[-6] tracking-[-3] text-lime-900 font-bold pt-40 sm:pt-40 sm:pl-20`}
       >
-        <p className="pl-0  sm:pl-20 text-center sm:text-left">Join the team</p>
+        <p className="pl-0  sm:pl-20 text-center sm:text-left">
+          {t("careers.content.title1")}
+        </p>
         <p className="pl-0 pt-5 sm:pl-20 text-center sm:text-center">
-          be a protagonist of innovation
+          {t("careers.content.title2")}
         </p>
       </div>
       <div>
         <p className="text-gray-600 pt-10 text-xl text-center sm:text-2xl px-4 sm:px-20">
-          If you are passionate about innovation, growth and real impact, we
-          have a place for you! We are constantly looking for creative,
-          ambitious people who are committed to transforming the way companies
-          connect with their customers. At Organic Reach Rewards, you will have
-          the chance to work on projects that make a difference in the daily
-          lives of people and companies. If you feel motivated to contribute to
-          innovative solutions and want to grow alongside a united and focused
-          team, come be part of this journey with us. Here, you will find a
-          dynamic and challenging environment, where your opinion will be heard
-          and your impact will be recognized.
+{t("careers.content.text")}
         </p>
       </div>
 
@@ -40,7 +37,7 @@ const Content = () => {
           href="/jobs"
           className="font-bold text-center bg-lime-700 px-10 py-4 rounded-2xl text-[20px] text-white w-full  sm:w-auto"
         >
-          See open roles
+          {t("careers.content.button")}
         </Link>
       </div>
     </div>

@@ -29,22 +29,30 @@ interface I18nProviderProps {
   children: ReactNode;
 }
 
+// ✅ Importação antecipada (evita delays)
+import en from "./locales/en-US.json";
+import pt from "./locales/pt-BR.json";
+
 export function I18nProvider({ children }: I18nProviderProps) {
   const [language, setLanguage] = useState<Language>("en-US");
-  const [translations, setTranslations] = useState<Record<string, string>>({});
+  const translationsMap = {
+    "en-US": en,
+    "pt-BR": pt,
+  };
+
+  const [translations, setTranslations] = useState<Record<string, string>>(en);
 
   useEffect(() => {
     try {
       const savedLanguage = localStorage.getItem("language") as Language;
-      if (
-        savedLanguage &&
-        (savedLanguage === "pt-BR" || savedLanguage === "en-US")
-      ) {
+      if (savedLanguage === "pt-BR" || savedLanguage === "en-US") {
         setLanguage(savedLanguage);
+        setTranslations(translationsMap[savedLanguage]);
       } else {
         const browserLanguage = navigator.language;
         if (browserLanguage.startsWith("pt")) {
           setLanguage("pt-BR");
+          setTranslations(translationsMap["pt-BR"]);
         }
       }
     } catch (error) {
@@ -52,25 +60,12 @@ export function I18nProvider({ children }: I18nProviderProps) {
     }
   }, []);
 
-  useEffect(() => {
-    const loadTranslations = async () => {
-      try {
-        const translationData = await import(`./locales/${language}.json`);
-        setTranslations(translationData.default || translationData);
-      } catch (error) {
-        console.error(`Translation file for ${language} not found:`, error);
-        setTranslations({});
-      }
-    };
-
-    loadTranslations();
-  }, [language]);
-
   const changeLanguage = useCallback((lang: Language) => {
     if (lang !== "pt-BR" && lang !== "en-US") return;
 
     try {
       setLanguage(lang);
+      setTranslations(translationsMap[lang]);
       localStorage.setItem("language", lang);
     } catch (error) {
       console.error("Error changing language:", error);
@@ -78,8 +73,8 @@ export function I18nProvider({ children }: I18nProviderProps) {
   }, []);
 
   const t = useCallback(
-    (key: string): string => {
-      return translations[key] || key;
+    (key: keyof typeof en): string => {
+      return translations[key] || en[key] || key;
     },
     [translations]
   );
@@ -91,7 +86,9 @@ export function I18nProvider({ children }: I18nProviderProps) {
   };
 
   return (
-    <I18nContext.Provider value={contextValue}>{children}</I18nContext.Provider>
+    <I18nContext.Provider value={contextValue as I18nContextType}>
+      {children}
+    </I18nContext.Provider>
   );
 }
 

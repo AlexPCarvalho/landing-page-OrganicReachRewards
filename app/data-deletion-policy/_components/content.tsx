@@ -2,6 +2,7 @@
 
 import React from "react";
 import { Anton } from "next/font/google";
+import { useI18n } from "@/app/i18n";
 
 const anton = Anton({
   subsets: ["latin"],
@@ -10,6 +11,7 @@ const anton = Anton({
 });
 
 const DataDeletionPolicy = () => {
+  const { t } = useI18n();
   return (
     <div className="text-gray-900 min-h-screen">
       <div className="max-w-7xl mx-auto px-6 py-12">
@@ -17,131 +19,106 @@ const DataDeletionPolicy = () => {
           <h1
             className={`${anton.className} text-7xl font-bold text-lime-900 pt-10 mb-4`}
           >
-            Data Deletion Policy
+            {t("deletion.title0")}
           </h1>
         </div>
 
         <section className="space-y-8 text-2xl border-solid pt-15 border-stone-700 border-t">
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Introduction
+            {t("deletion.title1")}
           </h2>
           <p>
-            This data deletion policy outlines the procedures and guidelines for
-            the safe and timely deletion of customer data in accordance with the
-            General Data Protection Regulation (GDPR). The policy ensures that
-            data is retained only for the necessary period and promptly deleted
-            when no longer needed for the purposes for which it was collected.
-          </p>
-
-          <h2 className="text-5xl font-semibold text-lime-900 mt-8">Scope</h2>
-          <p>
-            This policy applies to all employees, contractors, and external
-            suppliers who have access to customer data within Identum AS.
+            {t("deletion.text1")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Definitions
+            {t("deletion.title2")}
+          </h2>
+          <p>
+            {t("deletion.text2")}
+          </p>
+
+          <h2 className="text-5xl font-semibold text-lime-900 mt-8">
+            {t("deletion.title3")}
           </h2>
           <ul className="list-disc list-inside space-y-2 mt-4 text-xl">
             <li>
-              <strong>Personal data:</strong> Any information relating to an
-              identified or identifiable natural person.
+             {t("deletion.text3")}
             </li>
             <li>
-              <strong>Data subject:</strong> An identifiable individual whom the
-              personal data is about.
+             {t("deletion.text3.1")}
             </li>
           </ul>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Data Classification
+            {t("deletion.title4")}
           </h2>
           <p>
-            Customer data is classified based on their sensitivity, with
-            specific attention to personal data under the GDPR.
+            {t("deletion.text4")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Data Retention Periods
+            {t("deletion.title5")}
           </h2>
           <p>
-            Customer data will be retained for a period of three months after
-            the formal conclusion of the contract between the customer and
-            Identum AS.
+            {t("deletion.text5")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Data Deletion Procedures
+            {t("deletion.title6")}
           </h2>
           <p>
-            Customer data will be securely and permanently deleted from all
-            systems (including production, test, and staging environments) and
-            databases within three months after the formal conclusion of the
-            contract. Data deletion will be performed using industry-standard
-            methods to ensure irreversibility.
+            {t("deletion.text6")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Rights of the Data Subject
+            {t("deletion.title7")}
           </h2>
           <p>
-            Data subjects have the right to request the deletion of their
-            personal data. Furthermore:
+            {t("deletion.text7")}
           </p>
           <ul className="list-disc list-inside space-y-2 mt-4 text-xl">
             <li>
-              Upon request, Identum AS is obliged to provide data subjects with
-              an export of their data in a commonly used and machine-readable
-              format, to facilitate compliance with other legislation.
+              {t("deletion.list7.1")}
             </li>
             <li>
-              If providing a data export is not feasible, Identum AS may offer a
-              lookup license for a certain time to allow the data subject access
-              to their data. In such cases, a customer contract and a data
-              processing agreement must be signed to formalize the ongoing
-              processing of data during the specified period.
+              {t("deletion.list7.2")}
             </li>
           </ul>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Review and Audit
+            {t("deletion.title8")}
           </h2>
           <p>
-            Regular reviews and audits will be conducted to ensure compliance
-            with this data deletion policy. The data protection officer is
-            responsible for overseeing these activities.
+            {t("deletion.text8")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Employee Training
+            {t("deletion.title9")}
           </h2>
           <p>
-            Employees will receive training on data deletion procedures and the
-            importance of GDPR compliance.
+            {t("deletion.text9")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Legal and Regulatory Compliance
+            {t("deletion.title10")}
           </h2>
           <p>
-            This policy is designed to meet the GDPR and other relevant data
-            protection laws.
+            {t("deletion.text10")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Communication
+            {t("deletion.title11")}
           </h2>
           <p>
-            This policy will be communicated to all relevant stakeholders, and
-            any updates will be quickly shared.
+            {t("deletion.text11")}
           </p>
 
           <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-            Updates and Revisions
+            {t("deletion.title12")}
           </h2>
           <p>
-            This policy will be periodically reviewed and updated as necessary
-            to ensure continued compliance with applicable laws and regulations.
+            {t("deletion.text12")}
           </p>
 
           

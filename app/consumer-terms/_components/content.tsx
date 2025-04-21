@@ -1,160 +1,130 @@
+"use client";
+
+import { useI18n } from "@/app/i18n";
+
+
+
 const Content = () => {
+  const {t} = useI18n()
+
+
   return (
     <>
       <div className="text-gray-900 min-h-screen">
         <div className="max-w-7xl mx-auto px-6 py-12">
           <div className="text-center mb-12">
             <h1 className="text-7xl font-bold text-lime-900 pt-10 mb-4">
-              Terms of Service
+              {t("terms.title0")}
             </h1>
           </div>
 
           <section className="space-y-8 text-2xl border-solid pt-15 border-stone-700 border-t">
             <p>
-              Welcome to <strong>Organic Reach Rewards</strong>! Before you
-              access our services, please read these Terms of Service.
+              {t("terms.text0")}
             </p>
             <p>
-              These Terms of Service (“Terms”) govern your use of Organic Reach
-              Rewards, and other products and services that we may offer for
-              individuals, along with any associated apps, software, and
-              websites (together, our “Services”). These Terms are a contract
-              between you and Organic Reach Rewards ("Organic Reach Rewards")
-              (and not our Providers), and they include our Acceptable Use
-              Policy. By accessing our Services, you agree to these Terms.
+              {t("terms.text0.1")}
             </p>
             <p>
-              Please read our Privacy Policy, which describes how we collect and
-              use personal information.
+              {t("terms.text0.2")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              1. Who We Are
+              {t("terms.title1")}
             </h2>
             <p>
-              Organic Reach Rewards is a platform that offers individuals the
-              opportunity to earn rewards by engaging with businesses on social
-              media.
+              {t("terms.text1")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              2. Account Creation and Access
+              {t("terms.title2")}
             </h2>
             <p>
-              Minimum age. You must be at least 18 years old or the minimum age
-              required to consent to use the Services in your location,
-              whichever is higher.
+              {t("terms.text2")}
             </p>
 
             <p>
-              Your Organic Reach Rewards Account. To access our Services, we may
-              ask you to create an Account. You agree to provide correct,
-              current, and complete Account information and allow us to use it
-              to communicate with you about our Services.
+              {t("terms.text2.1")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              3. Use of Our Services
+              {t("terms.title3")}
             </h2>
             <p>
-              You may access and use our Services only in compliance with our
-              Terms, including our Acceptable Use Policy.
+              {t("terms.text3")}
             </p>
             <p>
-              You may not use our Services in any manner that violates any
-              applicable law or regulation.
+              {t("terms.text3.1")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              4. Inputs, Outputs, and Materials
+              {t("terms.title4")}
             </h2>
             <p>
-              By using our Services, you are responsible for all Inputs you
-              submit, and you warrant that you have the necessary rights to
-              submit those Inputs. You retain any right, title, and interest in
-              the Inputs, while we assign you rights to Outputs that result from
-              your use of our Services.
+              {t("terms.text4")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              5. Feedback
+              {t("terms.title5")}
             </h2>
             <p>
-              We appreciate feedback, including ideas and suggestions for
-              improvement. By submitting feedback, you grant us the right to use
-              it without any obligation or compensation.
+              {t("terms.text5")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              6. Subscriptions, Fees, and Payment
+              {t("terms.title6")}
             </h2>
             <p>
-              To access certain features of our Services, you may need to pay
-              applicable fees. You are responsible for providing accurate
-              billing information, and you agree to pay any fees associated with
-              the Services you use.
+              {t("terms.text6")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              7. Third-party Services and Links
+              {t("terms.title7")}
             </h2>
             <p>
-              Our Services may be used in connection with third-party content or
-              services. We are not responsible for any loss or damage that may
-              arise from your use of third-party content, services, and
-              integrations.
+              {t("terms.text7")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              8. Ownership of the Services
+                {t("terms.title8")}
             </h2>
             <p>
-              The Services are owned, operated, and provided by us and our
-              affiliates. We retain all rights, including intellectual property
-              rights, in the Services. You are granted limited access under
-              these Terms.
+              {t("terms.text8")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              9. Disclaimer of Warranties, Limitations of Liability, and
-              Indemnity
+              {t("terms.title9")}
             </h2>
             <p>
-              The Services are provided "as is" and "as available" without
-              warranties of any kind. We are not liable for any damages arising
-              from the use of our Services.
+              {t("terms.text9")}
             </p>
             <p>
-              You agree to indemnify us from any liabilities, claims, or damages
-              arising from your use of the Services.
+              {t("terms.text9.1")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              10. Governing Law and Jurisdiction
+              {t("terms.title10")}
             </h2>
             <p>
-              These Terms are governed by the laws of the State of{" "}
-              <strong>São Paulo, Brazil</strong>. Any disputes arising from
-              these Terms will be resolved in the appropriate courts of{" "}
-              <strong>São Paulo</strong>.
+              {t("terms.text10")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              11. General Terms
+              {t("terms.title11")}
             </h2>
             <p>
-              We may modify or discontinue our Services at any time. We reserve
-              the right to change these Terms, and any changes will be posted on
-              this page.
+              {t("terms.text11")}
             </p>
 
             <h2 className="text-5xl font-semibold text-lime-900 mt-8">
-              12. Contact Information
+              {t("terms.title12")}
             </h2>
-            <p>If you have any questions or concerns, please contact us:</p>
+            <p>
+              {t("terms.text12")}
+            </p>
             <ul className="list-inside mt-4">
               <li>
-                Email: <strong>legal@organicreachrewards.com</strong>
+                {t("terms.text12.1")} <strong>{t("terms.text12.2")}</strong>
               </li>
             </ul>
           </section>

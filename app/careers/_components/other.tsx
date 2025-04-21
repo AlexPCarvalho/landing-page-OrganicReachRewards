@@ -1,4 +1,10 @@
+"use client";
+
+import { useI18n } from "@/app/i18n";
+
 const other = () => {
+
+  const { t } = useI18n();
   return (
     <>
       <div className="container border-solid pt-20 pb-10 border-stone-700 border-t mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
@@ -6,7 +12,7 @@ const other = () => {
           {/* Left Column: Title */}
           <div className="lg:col-span-2">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight text-gray-800">
-            Other Things
+            {t("careers.other.title")}
             </h1>
           </div>
 
@@ -18,37 +24,37 @@ const other = () => {
                 <div>
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl ">
-              Multidisciplinary Work and Innovation
+              {t("careers.other.title1")}
               </h3>
               <p>
-              At Organic Reach Rewards, engineers and product developers work side by side, and everyone has the opportunity to explore different areas of innovation and development. We believe that the lines between engineering and research are becoming increasingly blurred as we explore new ways to drive organic engagement and optimize user experiences. Our team is made up of professionals with diverse backgrounds and experiences, and our interview structure is designed to value this diversity.
+              {t("careers.other.text1")}
               </p>
               <ul className="list-disc text-xl pl-10 pt-5 text-gray-500">
               <li className="pb-3">
-              If you have an engineering background, apply for engineering roles. You will do much better in interviews and, once you join the team, you will have as much impact on the decisions and direction of Organic Reach Rewards as any other team member.
+              {t("careers.other.1list1")}
               </li>
               <li className="pb-3">
-              As evidence, all of our projects have significant input from engineers, often with engineers as the primary drivers of deliverables and solutions.
+              {t("careers.other.1list2")}
               </li>
               
             </ul>
             </div>
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Multidisciplinary Work and Innovation
+              {t("careers.other.title2")}
               </h3>
               <p>
-              The Organic Reach Rewards team works primarily remotely, with the flexibility to meet when needed. Some team members have regular in-person meetings, but we understand that the transition to remote work can be important for many. If necessary, you can start by working fully remotely during the adjustment period.
+              {t("careers.other.text2")}
               </p>
 
             </div>
                
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Internships
+              {t("careers.other.title3")}
               </h3>
               <p>
-              We currently do not offer internship positions.
+              {t("careers.other.text3")}
               </p>
 
             </div>
@@ -59,26 +65,26 @@ const other = () => {
                 <div>
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl">
-              We value direct evidence of skill
+              {t("careers.other.tile4")}
               </h3>
               <p>
-              If you’ve done interesting independent research, written an insightful blog post, or made substantial contributions to open-source software, put that at the top of your resume! We want to see the impact you’ve made and how you can contribute to our mission of improving organic engagement.
+              {t("careers.other.text4")}
               </p>
             </div>
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Feedback
+              {t("careers.other.tile5")}
               </h3>
               <p>
-              Unfortunately, we don’t provide feedback on resumes or interviews, but we’re always open to discussing your experience and what we can do to improve in the future.
+              {t("careers.other.text5")}
               </p>
             </div>
             <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Remote Work
+              {t("careers.other.tile6")}
               </h3>
               <p>
-              At Organic Reach Rewards, engineers and product developers work side by side, and everyone has the opportunity to explore different areas of innovation and development. We believe that the lines between engineering and research are becoming increasingly blurred as we explore new ways to drive organic engagement and optimize user experiences. Our team is made up of professionals with diverse backgrounds and experiences, and our interview structure is designed to value this diversity.
+              {t("careers.other.text6")}
               </p>
 
             </div>
@@ -88,26 +94,26 @@ const other = () => {
 
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Remote Interviews
+              {t("careers.other.tile7")}
               </h3>
               <p>
-              We conduct all interviews remotely, using platforms such as Google Meet. We prefer office hours in the Brasilia time zone, but we are flexible if this is a challenge for you.
+              {t("careers.other.text7")}
               </p>
             </div>
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Re-applications
+              {t("careers.other.tile8")}
               </h3>
               <p>
-              If you are unsuccessful this time, you can re-apply after 12 months, or sooner if something material changes in your experience or skills.
+              {t("careers.other.text8")}
               </p>
             </div>
                 <div>
               <h3 className="font-semibold  text-gray-800 mb-2 text-3xl pt-8">
-              Time to decide on the offer
+              {t("careers.other.tile9")}
               </h3>
               <p>
-              If we receive your acceptance for an offer, we will be happy to give you time to consider and finalize other selection processes.
+              {t("careers.other.text9")}
               </p>
             </div>
 
