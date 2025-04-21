@@ -15,7 +15,7 @@ const Steps = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveSlide((prev) => (prev + 1) % totalSlides);
-    }, 10000);
+    }, 21000);
     return () => clearInterval(interval);
   }, []);
 
@@ -59,7 +59,7 @@ const Steps = () => {
     touchEndXRef.current = 0;
   };
 
-  const { t } = useI18n()
+  const { t } = useI18n();
 
   return (
     <div className="relative bg-white px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
@@ -127,7 +127,6 @@ const Steps = () => {
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
                         {t("steps.1.1title")}
                       </p>
-
                     </li>
                   </ul>
 
@@ -137,9 +136,8 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
-                      {t("steps.1.2title")}
+                        {t("steps.1.2title")}
                       </p>
-
                     </li>
                   </ul>
 
@@ -149,25 +147,32 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="text-2xl md:text-4xl xl:text-[45px]">
-                      {t("steps.1.3title")}
+                        {t("steps.1.3title")}
                       </p>
                     </li>
                   </ul>
 
                   <p className="max-w-full xl:max-w-[512px]  text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
-                  {t("steps.1.text")}
+                    {t("steps.1.text")}
                   </p>
                 </div>
               </div>
 
               <div>
-                <Image
-                  src="/steps1.png"
-                  alt="steps"
-                  width={450}
-                  height={643}
-                  className="sm:h-full"
-                />
+                <div className="overflow-hidden">
+                  {activeSlide === 0 ? (
+                    <Image
+                      src="/steps1.gif"
+                      alt="steps"
+                      width={450}
+                      height={643}
+                      className="sm:h-full border-none outline-none"
+                      style={{ display: "block", marginBottom: "-1px" }}
+                    />
+                  ) : (
+                          <div className="w-[450px] h-[643px]"></div>
+                  )}
+                </div>
               </div>
             </div>
           </div>
@@ -187,9 +192,8 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
-                      {t("steps.2.1title")}
+                        {t("steps.2.1title")}
                       </p>
-
                     </li>
                   </ul>
 
@@ -199,7 +203,7 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
-                      {t("steps.2.2title")}
+                        {t("steps.2.2title")}
                       </p>
                     </li>
                   </ul>
@@ -210,26 +214,32 @@ const Steps = () => {
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
                       <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
-                      {t("steps.2.3title")}
+                        {t("steps.2.3title")}
                       </p>
-
                     </li>
                   </ul>
 
                   <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
-                  {t("steps.2.text")}
+                    {t("steps.2.text")}
                   </p>
                 </div>
               </div>
 
               <div className="">
-                <Image
-                  src="/steps2.png"
-                  alt="steps"
-                  width={380}
-                  height={643}
-                  className="h-auto xl:h-full"
-                />
+                <div className="overflow-hidden">
+                  {activeSlide === 1 ? (
+                    <Image
+                      src="/steps2.gif"
+                      alt="steps"
+                      width={450}
+                      height={643}
+                      className="sm:h-full border-none outline-none"
+                      style={{ display: "block", marginBottom: "-1px" }}
+                    />
+                  ) : (
+                    <div className="w-[450px] h-[643px]"></div>
+                  )}
+                </div>
               </div>
             </div>
           </div>
