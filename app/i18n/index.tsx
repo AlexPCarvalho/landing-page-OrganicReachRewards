@@ -58,19 +58,22 @@ export function I18nProvider({ children }: I18nProviderProps) {
     } catch (error) {
       console.error("Error loading language preference:", error);
     }
-  }, []);
+  }, [translationsMap]);
 
-  const changeLanguage = useCallback((lang: Language) => {
-    if (lang !== "pt-BR" && lang !== "en-US") return;
+  const changeLanguage = useCallback(
+    (lang: Language) => {
+      if (lang !== "pt-BR" && lang !== "en-US") return;
 
-    try {
-      setLanguage(lang);
-      setTranslations(translationsMap[lang]);
-      localStorage.setItem("language", lang);
-    } catch (error) {
-      console.error("Error changing language:", error);
-    }
-  }, []);
+      try {
+        setLanguage(lang);
+        setTranslations(translationsMap[lang]);
+        localStorage.setItem("language", lang);
+      } catch (error) {
+        console.error("Error changing language:", error);
+      }
+    },
+    [translationsMap]
+  );
 
   const t = useCallback(
     (key: keyof typeof en): string => {
