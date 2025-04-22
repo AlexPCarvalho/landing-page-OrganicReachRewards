@@ -87,9 +87,9 @@ const LineCharts = () => {
   };
 
   return (
-    <div className="flex flex-col w-full lg:flex-row gap-4">
+    <div className="flex  xl:w-[840px] 2xl:w-full flex-col w-full lg:flex-row gap-4">
       {/* Line Chart Card */}
-      <div className="bg-[#689E54] w-full lg:w-[590px] p-4 md:p-6 text-[#FBFFF6]">
+      <div className="bg-[#689E54] w-full 4lg:w-[590px] xl:w-[3000px] 2xl:w-[590px] p-4 md:p-6 text-[#FBFFF6]">
         <div className="space-y-8">
           {chartConfig.map((chart, chartIndex) => (
             <div key={chartIndex}>

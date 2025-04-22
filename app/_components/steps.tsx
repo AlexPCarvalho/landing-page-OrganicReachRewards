@@ -112,7 +112,7 @@ const Steps = () => {
         >
           {/* Slide 1 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out absolute w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[100px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] ${
+            className={`transition-opacity duration-1000 ease-in-out absolute w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[220px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] ${
               activeSlide === 0 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
@@ -124,7 +124,7 @@ const Steps = () => {
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.1.1title")}
                       </p>
                     </li>
@@ -135,7 +135,7 @@ const Steps = () => {
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[-15px]">
                         {t("steps.1.2title")}
                       </p>
                     </li>
@@ -146,13 +146,13 @@ const Steps = () => {
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="text-2xl md:text-4xl xl:text-[45px]">
+                      <p className="text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px]">
                         {t("steps.1.3title")}
                       </p>
                     </li>
                   </ul>
 
-                  <p className="max-w-full xl:max-w-[512px]  text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
+                  <p className="max-w-full xl:max-w-[512px]  text-base md:text-lg xl:text-[18px] 2xl:text-[20px]  pb-6 md:pb-8 text-[#689E54]">
                     {t("steps.1.text")}
                   </p>
                 </div>
@@ -179,7 +179,7 @@ const Steps = () => {
 
           {/* Slide 2 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out absolute w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[100px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] ${
+            className={`transition-opacity duration-1000 ease-in-out absolute w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[220px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] ${
               activeSlide === 1 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
@@ -191,7 +191,7 @@ const Steps = () => {
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.2.1title")}
                       </p>
                     </li>
@@ -202,7 +202,7 @@ const Steps = () => {
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[-15px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[-15px]">
                         {t("steps.2.2title")}
                       </p>
                     </li>
@@ -213,13 +213,13 @@ const Steps = () => {
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[45px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.2.3title")}
                       </p>
                     </li>
                   </ul>
 
-                  <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
+                  <p className="max-w-full xl:max-w-[512px] text-base md:text-lg xl:text-[18px] 2xl:text-[20px] pb-6 md:pb-8 text-[#689E54]">
                     {t("steps.2.text")}
                   </p>
                 </div>

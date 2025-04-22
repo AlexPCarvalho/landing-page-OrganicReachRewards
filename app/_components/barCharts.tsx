@@ -69,7 +69,7 @@ const BarCharts = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col w-[full] xl:w-[600] 2xl:w-full gap-4">
       {/* Bar Chart Card */}
       <div className="bg-[#689E54] p-4 md:p-6 text-[#FBFFF6]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
