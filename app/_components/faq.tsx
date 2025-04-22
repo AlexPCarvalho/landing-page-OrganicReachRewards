@@ -65,7 +65,7 @@ const FaqItems = () => {
             <div key={index} className="py-2 md:py-4">
               <button
                 onClick={() => toggleFaq(index)}
-                className="flex bg-[#99CE85] px-2 md:px-4 xl:px-8 py-2 md:py-4 xl:py-6 justify-between items-center w-full text-left font-bold text-base md:text-lg xl:text-xl text-[#30503A]"
+                className="flex bg-[#99CE85] px-2 xl:px-8 2xl:px-8 py-2 xl:py-4 2xl:py-6 justify-between items-center w-full text-left font-bold text-base 2xl:text-xl xl:text-[16px] text-[#30503A]"
               >
                 {faq.question}
                 <div className="flex-1 border-t px-2 md:px-4 xl:px-6 border-[#30503A] mx-2"></div>
@@ -84,7 +84,7 @@ const FaqItems = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="pr-2 text-white bg-[#30503A] px-2 md:px-4 xl:px-8 py-2 md:py-4 xl:py-6 font-light text-sm md:text-lg xl:text-xl">
+                <p className="pr-2 text-white bg-[#30503A] px-2 md:px-4 xl:px-8 py-2 md:py-4 xl:py-6 font-light text-sm 2xl:text-xl xl:text-[16px]">
                   {faq.answer}
                 </p>
               </div>

@@ -99,8 +99,9 @@ const PieCharts = () => {
         fill={isLight ? "#000" : "#FBFFF6"}
         textAnchor="middle"
         dominantBaseline="central"
-        fontSize={25}
+        fontSize={20}
         fontWeight="bold"
+        className="xl:text-[18px] 2xl:text-[25px] text-[20px] 2xl:leading-[30px] leading-[20px]"
       >
         {(percent * 100).toFixed(0)}%
       </text>
@@ -115,19 +116,19 @@ const PieCharts = () => {
       ].map((item, idx) => (
         <div
           key={idx}
-          className="py-[44.07px] px-[2px] bg-[#689E54] text-[#FBFFF6] w-full lg:w-1/2"
+          className="py-[44.07px]  px-[2px] bg-[#689E54] text-[#FBFFF6] w-full lg:w-1/2"
         >
           <div>
             <div className="flex 2xl:pb-[45px] xl:pb-[75px] gap-[44px] flex-col md:flex-row">
-              <h2 className="text-[25px] pl-[10px] xl:text-[20px] 2xl:text-[25px] leading-tight whitespace-pre-line">
+              <h2 className="text-[25px] pl-[10px] xl:text-[16px] 2xl:text-[25px] leading-tight whitespace-pre-line">
                 {item.title}
               </h2>
 
               <div className="grid pr-[10] gap-1">
                 {item.data.map((data, i) => (
-                  <div key={i} className="flex items-center">
+                  <div key={i} className="flex text-[15px] items-center">
                     <div
-                      className="w-3 h-3  mr-1"
+                      className="w-3 h-3 xl:w-2 xl:h-2 2xl:w-3 2xl:h-3  mr-1"
                       style={{ backgroundColor: COLORS[i % COLORS.length] }}
                     ></div>
                     {data.name}
@@ -152,6 +153,7 @@ const PieCharts = () => {
                       <Cell
                         key={`cell-${index}`}
                         fill={COLORS[index % COLORS.length]}
+                        className=""
                       />
                     ))}
                   </Pie>

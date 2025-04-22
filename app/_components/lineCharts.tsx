@@ -93,7 +93,7 @@ const LineCharts = () => {
         <div className="space-y-8">
           {chartConfig.map((chart, chartIndex) => (
             <div key={chartIndex}>
-              <h2 className="text-lg md:text-xl mb-2">{chart.name}</h2>
+              <h2 className="text-lg xl:text-[16px] 2xl:text-lg md:text-xl mb-2">{chart.name}</h2>
               <div className="h-48">
                 <ResponsiveContainer width="100%" height="100%">
                   <LineChart data={DateLine}>

@@ -75,7 +75,7 @@ const BarCharts = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Chart by Days */}
           <div>
-            <h2 className="text-lg md:text-xl mb-2">{t("chart.bar.day")}</h2>
+            <h2 className="text-lg xl:text-[16px] 2xl:text-[20px] mb-2">{t("chart.bar.day")}</h2>
             <div className="h-48">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={barrasDiasData}>
@@ -104,7 +104,7 @@ const BarCharts = () => {
 
           {/* Chart by Hours */}
           <div>
-            <h2 className="text-lg md:text-xl mb-2">{t("chart.bar.hour")}</h2>
+            <h2 className="text-lg xl:text-[16px] 2xl:text-[20px] mb-2">{t("chart.bar.hour")}</h2>
             <div className="h-48">
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart data={barrasHorasData}>
