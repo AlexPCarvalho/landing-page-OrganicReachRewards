@@ -19,10 +19,9 @@ import {
 import PieCharts from "./pieCharts";
 import { useI18n } from "../i18n";
 
-
 const BarCharts = () => {
   const { t } = useI18n();
-  
+
   const barrasDiasData = [
     { name: t("chart.bar.date1"), value: 100 },
     { name: t("chart.bar.date2"), value: 450 },
@@ -32,7 +31,7 @@ const BarCharts = () => {
     { name: t("chart.bar.date6"), value: 400 },
     { name: t("chart.bar.date7"), value: 300 },
   ];
-  
+
   const barrasHorasData = [
     { name: "07h", value: 150 },
     { name: "08h", value: 250 },
@@ -48,7 +47,7 @@ const BarCharts = () => {
     { name: "18h", value: 600 },
     { name: "19h", value: 350 },
   ];
-  
+
   const CustomTooltip = ({
     active,
     payload,
@@ -68,13 +67,6 @@ const BarCharts = () => {
     }
     return null;
   };
-  
-  
-
-
-
-
-
 
   return (
     <div className="flex flex-col gap-4">
@@ -100,7 +92,11 @@ const BarCharts = () => {
                     }
                   />
                   <Legend />
-                  <Bar name={t("chart.bar.name")} dataKey="value" fill="#FBFFF6" />
+                  <Bar
+                    name={t("chart.bar.name")}
+                    dataKey="value"
+                    fill="#FBFFF6"
+                  />
                 </BarChart>
               </ResponsiveContainer>
             </div>
@@ -129,7 +125,11 @@ const BarCharts = () => {
                     }
                   />
                   <Legend />
-                  <Bar name={t("chart.bar.name")} dataKey="value" fill="#FBFFF6" />
+                  <Bar
+                    name={t("chart.bar.name")}
+                    dataKey="value"
+                    fill="#FBFFF6"
+                  />
                 </BarChart>
               </ResponsiveContainer>
             </div>

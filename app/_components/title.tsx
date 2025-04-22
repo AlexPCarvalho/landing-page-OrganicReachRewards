@@ -3,7 +3,6 @@
 import { Della_Respira } from "next/font/google";
 import { useI18n } from "../i18n";
 
-
 const dellaRespira = Della_Respira({
   subsets: ["latin"],
   weight: ["400"],
@@ -15,19 +14,17 @@ const Title = () => {
 
   return (
     <div className="flex justify-center w-full bg-[#30503A]">
-      <div className="w-full px-4 md:px-10">
+      <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px]">
         <div
-          className={`${dellaRespira.className} text-center w-full max-w-screen-xl mx-auto py-6 md:py-10 lg:py-12 xl:py-14 2xl:py-16 text-white`}
+          className={`${dellaRespira.className} text-center py-10 md:py-14 lg:py-20 text-white`}
         >
-          <div>
-            <p className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl pb-4 md:pb-6 lg:pb-8 xl:pb-10 2xl:pb-12 leading-tight">
-              {t("home.title")}
-            </p>
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl font-normal leading-tight">
+            {t("home.title")}
+          </p>
 
-            <p className="text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl leading-relaxed">
-              {t("home.subtitle")}
-            </p>
-          </div>
+          <p className="mt-6 text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl leading-relaxed">
+            {t("home.subtitle")}
+          </p>
         </div>
       </div>
     </div>

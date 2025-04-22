@@ -87,7 +87,7 @@ const LineCharts = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row gap-4">
+    <div className="flex flex-col w-full lg:flex-row gap-4">
       {/* Line Chart Card */}
       <div className="bg-[#689E54] w-full lg:w-[590px] p-4 md:p-6 text-[#FBFFF6]">
         <div className="space-y-8">

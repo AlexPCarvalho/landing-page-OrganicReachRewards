@@ -11,7 +11,7 @@ const Dashboard = () => {
   return (
     <div className="flex justify-center items-center bg-[#99CE85] min-h-screen w-full">
       <div className="px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
-        <div className="max-w-screen-xl mx-auto">
+        <div className="max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] mx-auto">
           <div className="flex flex-col lg:flex-row gap-4 mb-4">
             {/* Card de porcentagem */}
             <div className="bg-[#689E54] flex-1 w-full p-4 sm:p-6 text-[#FBFFF6] flex flex-col">
@@ -64,7 +64,7 @@ const Dashboard = () => {
                   {/* 4th Place */}
                   <div className="w-1/6">
                     <div className="flex flex-col items-center mb-2">
-                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-20 2xl:h-20 overflow-hidden rounded-full mb-2">
+                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 overflow-hidden rounded-full mb-2">
                         <Image
                           src="/user1.png"
                           alt="User avatar"
@@ -83,7 +83,7 @@ const Dashboard = () => {
                   {/* 2nd Place */}
                   <div className="w-1/6">
                     <div className="flex flex-col items-center mb-2">
-                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-20 2xl:h-20 overflow-hidden rounded-full mb-2">
+                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 overflow-hidden rounded-full mb-2">
                         <Image
                           src="/user2.png"
                           alt="User avatar"
@@ -102,7 +102,7 @@ const Dashboard = () => {
                   {/* 1st Place */}
                   <div className="w-1/6">
                     <div className="flex flex-col items-center mb-2">
-                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-20 2xl:h-20 overflow-hidden rounded-full mb-2">
+                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 overflow-hidden rounded-full mb-2">
                         <Image
                           src="/user3.png"
                           alt="User avatar"
@@ -121,7 +121,7 @@ const Dashboard = () => {
                   {/* 3rd Place */}
                   <div className="w-1/6">
                     <div className="flex flex-col items-center mb-2">
-                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-20 2xl:h-20 overflow-hidden rounded-full mb-2">
+                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 overflow-hidden rounded-full mb-2">
                         <Image
                           src="/user4.png"
                           alt="User avatar"
@@ -140,7 +140,7 @@ const Dashboard = () => {
                   {/* 5th Place */}
                   <div className="w-1/6">
                     <div className="flex flex-col items-center mb-2">
-                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-20 2xl:h-20 overflow-hidden rounded-full mb-2">
+                      <div className="relative w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 xl:w-16 xl:h-16 2xl:w-16 2xl:h-16 overflow-hidden rounded-full mb-2">
                         <Image
                           src="/user5.png"
                           alt="User avatar"

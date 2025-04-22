@@ -29,7 +29,7 @@ const Navbar = () => {
             width={56}
             height={54}
             alt="OrganicReach Rewards"
-            className="w-14 h-14 md:w-[76px] md:h-[70px] lg:w-[84px] lg:h-[82px] xl:w-[84px] xl:h-[82px]"
+            className="w-14 h-14 md:w-[56px] md:h-[52px] lg:w-[64px] lg:h-[62px] xl:w-[64px] xl:h-[62px]"
           />
         </div>
       </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
               alt="Português"
               width={32}
               height={32}
-              className="w-8 h-8 rounded-full"
+              className="w-6 h-6 rounded-full"
             />
           </button>
           <button
@@ -70,14 +70,14 @@ const Navbar = () => {
               alt="English"
               width={32}
               height={32}
-              className="w-8 h-8 rounded-full"
+              className="w-6 h-6 rounded-full"
             />
           </button>
         </div>
 
         <Link
           href="https://app.organicreachrewards.com/"
-          className="bg-white px-[26px] py-[16px] md:px-[26px] md:py-[16px] rounded-lg text-[#63783F] text-[24px] w-full md:w-auto text-center"
+          className="bg-white px-[16px] py-[12px] md:px-[16px] md:py-[12px] rounded-lg text-[#63783F] text-[22px] w-full md:w-auto text-center"
         >
           {t("nav.signIn")}
         </Link>

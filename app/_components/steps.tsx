@@ -15,7 +15,7 @@ const Steps = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveSlide((prev) => (prev + 1) % totalSlides);
-    }, 21000);
+    }, 22000);
     return () => clearInterval(interval);
   }, []);
 
@@ -112,7 +112,7 @@ const Steps = () => {
         >
           {/* Slide 1 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out absolute w-full ${
+            className={`transition-opacity duration-1000 ease-in-out absolute w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] ${
               activeSlide === 0 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >
@@ -179,7 +179,7 @@ const Steps = () => {
 
           {/* Slide 2 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out absolute w-full ${
+            className={`transition-opacity duration-1000 ease-in-out absolute w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] ${
               activeSlide === 1 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >

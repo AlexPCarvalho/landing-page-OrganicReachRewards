@@ -15,7 +15,7 @@ const Footer = () => {
               width={40}
               height={40}
               alt="Logo OrganicReach Rewards"
-              className="w-10 h-10 md:w-[60px] md:h-[60px] lg:w-[80px] lg:h-[80px] xl:w-[94px] xl:h-[92px]"
+              className="w-14 h-14 md:w-[56px] md:h-[52px] lg:w-[64px] lg:h-[62px] xl:w-[74px] xl:h-[72px]"
             />
             <h1 className="max-w-full xl:max-w-[600px] text-center xl:text-start text-sm md:text-base xl:text-lg font-semibold">
               {t("footer.text")}
