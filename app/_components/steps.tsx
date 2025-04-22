@@ -112,7 +112,7 @@ const Steps = () => {
         >
           {/* Slide 1 */}
           <div
-            className={`transition-opacity duration-1000 ease-in-out absolute w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] ${
+            className={`transition-opacity duration-1000 ease-in-out absolute w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] ${
               activeSlide === 0 ? "opacity-100 z-10" : "opacity-0 z-0"
             }`}
           >

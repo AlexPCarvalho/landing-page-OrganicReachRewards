@@ -7,7 +7,7 @@ const Cards = () => {
   return (
 
     <div className="bg-[#30503A] text-center px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
-      <div className="max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
+      <div className="max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
         {[
           {
             img: "/selling.png",

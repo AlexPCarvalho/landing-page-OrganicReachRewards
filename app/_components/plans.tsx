@@ -71,7 +71,7 @@ const Plans = () => {
 
   return (
     <div className="bg-[#fff] px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
-      <div className="max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] mx-auto">
+      <div className="max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto">
         <h2 className="text-center text-3xl sm:text-2xl 2xl:text-[70px] md:text-5xl xl:text-[80px] font-bold pb-10 md:pb-[60px] text-[#63783F]">
           {t("plans.title")}
         </h2>
