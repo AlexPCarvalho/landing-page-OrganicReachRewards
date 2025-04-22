@@ -89,13 +89,13 @@ const Plans = () => {
               onMouseLeave={handleMouseLeave}
             >
               <div>
-                <h3 className="text-2xl md:text-3xl xl:text-[35px] pb-6 md:pb-[20px] font-bold text-white">
+                <h3 className="text-2xl md:text-3xl xl:text-[30px] 2xl:text-[35px] pb-6 md:pb-[20px] font-bold text-white">
                   {plan.name}
                 </h3>
-                <p className="text-base md:text-lg xl:text-[20px] pb-10 md:pb-[95px] font-semibold text-white">
+                <p className="text-base md:text-lg xl:text-[15px] 2xl:text-[20px] pb-10 md:pb-[95px] xl:pb-[40px] 2xl:pb-[85px] font-semibold text-white">
                   {plan.description}
                 </p>
-                <ul className="text-white text-base md:text-lg xl:text-[20px]">
+                <ul className="text-white text-base md:text-lg xl:text-[15px] 2xl:text-[20px]">
                   {plan.features.map((feature: string, i: number) => (
                     <li
                       key={i}
@@ -106,22 +106,22 @@ const Plans = () => {
                         alt="Ícone do plano"
                         width={20}
                         height={20}
-                        className="w-5 md:w-auto"
+                        className="sm:w-5 xl:w-[15]  2xl:w-[20]  md:w-auto"
                       />
                       {feature}
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-[95px] text-white text-4xl md:text-5xl xl:text-[60px] font-bold">
+              <div className="mt-10 md:mt-[95px] text-white text-4xl md:text-5xl xl:text-[40px] 2xl:text-[60px] font-bold">
                 {plan.price === t("plans.enterprise.price") ? (
-                  <span className="font-bold bg-[#FBFFF6] py-2 md:py-[12px] px-4 md:px-[24px] text-base md:text-[24px] text-[#30503A]">
+                  <span className="font-bold bg-[#FBFFF6] py-2 md:py-[12px] px-4 md:px-[24px] text-base md:text-[24px] xl:text-[14px] 2xl:text-[24px] text-[#30503A]">
                     {plan.price}
                   </span>
                 ) : (
                   <>
                     {plan.price}
-                    <p className="text-white font-light text-sm md:text-[16px]">
+                    <p className="text-white font-light text-sm md:text-[16px] xl:text-[14px] 2xl:text-[16px]">
                       {t("plans.perMonth")}
                     </p>
                   </>

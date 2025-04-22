@@ -15,14 +15,14 @@ const Footer = () => {
               width={40}
               height={40}
               alt="Logo OrganicReach Rewards"
-              className="w-14 h-14 md:w-[56px] md:h-[52px] lg:w-[64px] lg:h-[62px] xl:w-[74px] xl:h-[72px]"
+              className="w-14 h-14 md:w-[56px] md:h-[52px] 2xl:w-[64px] 2xl:h-[62px] xl:w-[54px] xl:h-[52px]"
             />
-            <h1 className="max-w-full xl:max-w-[600px] text-center xl:text-start text-sm md:text-base xl:text-lg font-semibold">
+            <h1 className="max-w-full xl:max-w-[600px] text-center xl:text-start text-sm md:text-base xl:text-[16px] 2xl:text-lg font-semibold">
               {t("footer.text")}
             </h1>
           </div>
 
-          <div className="flex flex-col justify-center text-sm md:text-base xl:text-lg font-semibold items-center gap-4">
+          <div className="flex flex-col justify-center text-sm md:text-base 2xl:text-lg xl:text-[16px] font-semibold items-center gap-4">
             <div className="flex flex-wrap justify-center items-center gap-4">
               <Link href="/careers">{t("footer.careers")}</Link>
               <Link href="/consumer-terms">{t("footer.terms")}</Link>
@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="text-center text-sm md:text-base xl:text-lg font-semibold pt-6 md:pt-10 xl:pt-12">
+        <div className="text-center text-sm md:text-base xl:text-[16px] 2xl:text-lg font-semibold pt-6 md:pt-10 xl:pt-12">
           <h1>{t("footer.copy")}</h1>
         </div>
       </div>
