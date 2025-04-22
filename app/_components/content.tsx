@@ -13,7 +13,7 @@ const Content = () => {
   const { t } = useI18n();
   return (
     <div className="bg-[#30503A] text-center px-4 md:px-10">
-      <div className="max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto">
+      <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[100px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto">
         <div className={`${dellaRespira.className} py-6 md:py-10 xl:py-12`}>
           <p className="text-2xl md:text-4xl xl:text-[85px] text-white leading-tight">
             {t("content.title")}

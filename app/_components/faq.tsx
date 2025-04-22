@@ -48,7 +48,7 @@ const FaqItems = () => {
 
   return (
     <div className="px-4 md:px-10 xl:px-[300px] pt-6 md:pt-10 xl:pt-12 2xl:pt-14 pb-6 md:pb-10 xl:pb-12 2xl:pb-14">
-      <div className="max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto">
+      <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[100px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto">
         <div className="pb-4 md:pb-6">
           <h1 className="text-2xl md:text-3xl xl:text-[70px] mb-0 font-bold text-[#63783F] text-center">
             {t("faq.title")}

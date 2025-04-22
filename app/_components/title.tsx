@@ -14,7 +14,7 @@ const Title = () => {
 
   return (
     <div className="flex justify-center w-full bg-[#30503A]">
-      <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px]">
+      <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[100px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px]">
         <div
           className={`${dellaRespira.className} text-center py-10 md:py-14 lg:py-20 text-white`}
         >
