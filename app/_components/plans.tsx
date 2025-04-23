@@ -72,10 +72,10 @@ const Plans = () => {
   return (
     <div className="bg-[#fff] px-4 md:px-10 py-6 md:py-10 xl:py-12 2xl:py-14">
       <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[220px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto">
-        <h2 className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl font-bold pb-10 md:pb-[60px] text-[#63783F]">
+        <h2 className="text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-5xl 2xl:text-7xl font-bold pb-10 md:pb-[60px] text-[#63783F]">
           {t("plans.title")}
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-[20px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-[15px]">
           {plans.map((plan, index) => (
             <Link
               key={index}
@@ -89,31 +89,31 @@ const Plans = () => {
               onMouseLeave={handleMouseLeave}
             >
               <div>
-                <h3 className="text-2xl md:text-3xl xl:text-[30px] 2xl:text-[35px] pb-6 md:pb-[20px] font-bold text-white">
+                <h3 className="text-2xl md:text-3xl xl:text-[30px] 2xl:text-[35px] pb-6 md:pb-[15px] font-bold text-white">
                   {plan.name}
                 </h3>
-                <p className="text-base md:text-lg xl:text-[15px] 2xl:text-[20px] pb-10 md:pb-[95px] xl:pb-[40px] 2xl:pb-[85px] font-semibold text-white">
+                <p className="text-base md:text-lg xl:text-[13px] 2xl:text-[20px] pb-10 md:pb-[95px] xl:pb-[35px] 2xl:pb-[85px] font-semibold text-white">
                   {plan.description}
                 </p>
-                <ul className="text-white text-base md:text-lg xl:text-[15px] 2xl:text-[20px]">
+                <ul className="text-white text-base md:text-lg xl:text-[13px] 2xl:text-[20px]">
                   {plan.features.map((feature: string, i: number) => (
                     <li
                       key={i}
-                      className="flex gap-4 md:gap-[20px] pb-4 md:pb-[18px]"
+                      className="flex gap-4 md:gap-[20px] pb-4 md:pb-[12px]"
                     >
                       <Image
                         src="/plans.svg"
                         alt="Ícone do plano"
                         width={20}
                         height={20}
-                        className="sm:w-5 xl:w-[15]  2xl:w-[20]  md:w-auto"
+                        className="w-5 xl:w-[15px]  2xl:w-[20px]  md:w-auto"
                       />
                       {feature}
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="mt-10 md:mt-[95px] text-white text-4xl md:text-5xl xl:text-[40px] 2xl:text-[60px] font-bold">
+              <div className="mt-10 md:mt-[75px] text-white text-4xl md:text-5xl xl:text-[40px] 2xl:text-[60px] font-bold">
                 {plan.price === t("plans.enterprise.price") ? (
                   <span className="font-bold bg-[#FBFFF6] py-2 md:py-[12px] px-4 md:px-[24px] text-base md:text-[24px] xl:text-[14px] 2xl:text-[24px] text-[#30503A]">
                     {plan.price}

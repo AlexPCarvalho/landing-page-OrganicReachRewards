@@ -120,33 +120,33 @@ const Steps = () => {
               <div>
                 <div>
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg  md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px]  xl:w-[35px] xl:h-[35px] 2xl:w-[44px]  2xl:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base xl:text-[20px] 2xl:text-[30px] font-bold shrink-0">
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[35px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.1.1title")}
                       </p>
                     </li>
                   </ul>
 
-                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                  <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg  md:text-2xl xl:text-3xl flex items-center">
+                    <div className="w-[40px] h-[40px]  xl:w-[35px] xl:h-[35px] 2xl:w-[44px]  2xl:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base xl:text-[20px] 2xl:text-[30px] font-bold shrink-0">
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[-15px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[35px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.1.2title")}
                       </p>
                     </li>
                   </ul>
 
                   <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px]  xl:w-[35px] xl:h-[35px] 2xl:w-[44px]  2xl:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base xl:text-[20px] 2xl:text-[30px] font-bold shrink-0">
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[35px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.1.3title")}
                       </p>
                     </li>
@@ -170,7 +170,7 @@ const Steps = () => {
                       style={{ display: "block", marginBottom: "-1px" }}
                     />
                   ) : (
-                          <div className="w-[450px] h-[643px]"></div>
+                    <div className="w-[450px] h-[643px]"></div>
                   )}
                 </div>
               </div>
@@ -187,33 +187,33 @@ const Steps = () => {
               <div>
                 <div>
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px]  xl:w-[35px] xl:h-[35px] 2xl:w-[44px]  2xl:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base xl:text-[20px] 2xl:text-[30px] font-bold shrink-0">
                       1
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[35px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.2.1title")}
                       </p>
                     </li>
                   </ul>
 
                   <ul className="text-[#30503A] pb-6 md:pb-8 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px]  xl:w-[35px] xl:h-[35px] 2xl:w-[44px]  2xl:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base xl:text-[20px] 2xl:text-[30px] font-bold shrink-0">
                       2
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[-15px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[35px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.2.2title")}
                       </p>
                     </li>
                   </ul>
 
                   <ul className="text-[#30503A] pb-4 md:pb-6 gap-2 md:gap-4 font-bold text-lg md:text-2xl xl:text-3xl flex items-center">
-                    <div className="w-[40px] h-[40px] md:w-[44px] md:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base md:text-[30px] font-bold shrink-0">
+                    <div className="w-[40px] h-[40px]  xl:w-[35px] xl:h-[35px] 2xl:w-[44px]  2xl:h-[44px] flex items-center justify-center bg-[#30503A] text-[#fff] rounded-full text-base xl:text-[20px] 2xl:text-[30px] font-bold shrink-0">
                       3
                     </div>
                     <li className="max-w-full xl:max-w-[598px]">
-                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[40px] 2xl:text-[45px] md:mb-[0px]">
+                      <p className="mb-[-10px] text-2xl md:text-4xl xl:text-[35px] 2xl:text-[45px] md:mb-[0px]">
                         {t("steps.2.3title")}
                       </p>
                     </li>

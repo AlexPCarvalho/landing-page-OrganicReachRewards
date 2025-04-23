@@ -27,7 +27,7 @@
   "plans.starter.price": "$ 10",
 
   "plans.pro.name": "Pro",
-  "plans.pro.description": "For medium/large businesses that want to grow organically",
+  "plans.pro.description": "For medium businesses that want to grow organically",
   "plans.pro.features.0": "Everything in Starter, plus",
   "plans.pro.features.1": "Up to 500 interactions/month",
   "plans.pro.features.2": "Anti-fraud system",
@@ -45,8 +45,8 @@
   "plans.enterprise.features.4": "Connects with API to generate rewards in your loyalty program",
   "plans.enterprise.price": "Contact us",
 
-  "faq.title": "Frequently",
-  "faq.title2": "Asked Questions",
+  "faq.title": "Frequently Asked Questions",
+  
   "faq.subtitle": "We have answered the most popular questions below.",
 
   "faq.questions0": "What is Organic Reach Rewards?",

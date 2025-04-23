@@ -27,7 +27,7 @@
   "plans.starter.price": "R$ 50",
 
   "plans.pro.name": "Pro",
-  "plans.pro.description": "Para médias/grandes empresas que querem crescer organicamente",
+  "plans.pro.description": "Para médias empresas que querem crescer organicamente",
   "plans.pro.features.0": "Tudo do Iniciante, mais",
   "plans.pro.features.1": "Até 500 interações/mês",
   "plans.pro.features.2": "Sistema anti-fraude",
@@ -45,8 +45,8 @@
   "plans.enterprise.features.4": "Conecta-se com API para gerar recompensas em seu programa de fidelidade",
   "plans.enterprise.price": "Fale conosco",
 
-  "faq.title": "Perguntas",
-  "faq.title2": "Frequentes",
+  "faq.title": "Perguntas Frequentes",
+  
   "faq.subtitle": "Respondemos às perguntas mais populares abaixo.",
 
   "faq.questions0": "O que é o Organic Reach Rewards?",
@@ -432,9 +432,4 @@
 
   "deletion.title12": "Atualizações e Revisões",
   "deletion.text12": "Esta política será revisada periodicamente e atualizada conforme necessário para garantir a conformidade contínua com as leis e regulamentações aplicáveis."
-
-
-
-
-
 }

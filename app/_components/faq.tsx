@@ -50,12 +50,10 @@ const FaqItems = () => {
     <div className="px-4 md:px-10  pt-6 md:pt-10 xl:pt-12 2xl:pt-14 pb-6 md:pb-10 xl:pb-12 2xl:pb-14">
       <div className="w-full max-w-screen-xl px-4 sm:px-6 md:px-10 lg:px-[100px] xl:px-[220px] 2xl:px-[100px] 3xl:px-[500px] 4xl:px-[600px] mx-auto">
         <div className="pb-4 md:pb-6">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl mb-0 font-bold text-[#63783F] text-center">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-5xl 2xl:text-7xl mb-0 font-bold text-[#63783F] text-center">
             {t("faq.title")}
           </h1>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl font-bold text-[#63783F] text-center">
-            {t("faq.title2")}
-          </h1>
+
         </div>
         <p className="text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl  text-[#688F59] pb-6 md:pb-10 mx-auto max-w-2xl">
           {t("faq.subtitle")}
