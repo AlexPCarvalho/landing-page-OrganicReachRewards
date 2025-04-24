@@ -126,9 +126,9 @@ const PieCharts = () => {
 
               <div className="grid pr-[10] gap-1">
                 {item.data.map((data, i) => (
-                  <div key={i} className="flex text-[15px] items-center">
+                  <div key={i} className="flex text-[15px]  items-center">
                     <div
-                      className="w-3 h-3 xl:w-2 xl:h-2 2xl:w-3 2xl:h-3  mr-1"
+                      className="w-3 h-3 xl:w-2 xl:h-2 2xl:w-3 2xl:h-3  mx-2"
                       style={{ backgroundColor: COLORS[i % COLORS.length] }}
                     ></div>
                     {data.name}
@@ -137,7 +137,7 @@ const PieCharts = () => {
               </div>
             </div>
 
-            <div className="2xl:h-[305.98px] 2xl:w-[305.98px] xl:h-[230] xl:w-[230] rounded-full mx-auto">
+            <div className="h-[305.98px] w-[305.98px] 2xl:h-[305.98px] 2xl:w-[305.98px] xl:h-[230] xl:w-[230] rounded-full mx-auto">
               <ResponsiveContainer>
                 <PieChart>
                   <Tooltip content={<PieCustomTooltip />} />
